@@ -1,10 +1,154 @@
 {
-  "generatedAt": "2026-09-07T16:45:38.099153Z",
+  "generatedAt": "2026-09-07T16:57:40.776386Z",
   "toleranceC": 0.5,
   "matchWindowMinutes": 30,
   "hitRateThreshold": 0.8,
-  "stationCount": 1,
+  "stationCount": 15,
   "stations": [
+    {
+      "stationId": "EPWA",
+      "cityName": "Warsaw",
+      "sourceKind": "wrh",
+      "pairCount": 2,
+      "dominantForecastSource": "api.open-meteo.com",
+      "maeAt6h": null,
+      "maeAt24h": null,
+      "maeAt48h": null,
+      "hitAt6h": null,
+      "hitAt24h": null,
+      "hitAt48h": null,
+      "timeToSkillHours": null,
+      "overallMae": 0.8000000000000007,
+      "overallHitRate": 0.0
+    },
+    {
+      "stationId": "HKO",
+      "cityName": "Hong Kong",
+      "sourceKind": "hko",
+      "pairCount": 2,
+      "dominantForecastSource": "maps.weather.gov.hk/ocf",
+      "maeAt6h": null,
+      "maeAt24h": null,
+      "maeAt48h": null,
+      "hitAt6h": null,
+      "hitAt24h": null,
+      "hitAt48h": null,
+      "timeToSkillHours": null,
+      "overallMae": 0.09999999999999787,
+      "overallHitRate": 1.0
+    },
+    {
+      "stationId": "LEMD",
+      "cityName": "Madrid",
+      "sourceKind": "wrh",
+      "pairCount": 2,
+      "dominantForecastSource": "api.open-meteo.com",
+      "maeAt6h": null,
+      "maeAt24h": null,
+      "maeAt48h": null,
+      "hitAt6h": null,
+      "hitAt24h": null,
+      "hitAt48h": null,
+      "timeToSkillHours": null,
+      "overallMae": 0.8999999999999986,
+      "overallHitRate": 0.0
+    },
+    {
+      "stationId": "LFPB",
+      "cityName": "Paris",
+      "sourceKind": "wrh",
+      "pairCount": 2,
+      "dominantForecastSource": "api.open-meteo.com",
+      "maeAt6h": null,
+      "maeAt24h": null,
+      "maeAt48h": null,
+      "hitAt6h": null,
+      "hitAt24h": null,
+      "hitAt48h": null,
+      "timeToSkillHours": null,
+      "overallMae": 0.34999999999999964,
+      "overallHitRate": 1.0
+    },
+    {
+      "stationId": "NZWN",
+      "cityName": "Wellington",
+      "sourceKind": "wrh",
+      "pairCount": 2,
+      "dominantForecastSource": "api.open-meteo.com",
+      "maeAt6h": null,
+      "maeAt24h": null,
+      "maeAt48h": null,
+      "hitAt6h": null,
+      "hitAt24h": null,
+      "hitAt48h": null,
+      "timeToSkillHours": null,
+      "overallMae": 2.5,
+      "overallHitRate": 0.0
+    },
+    {
+      "stationId": "OPKC",
+      "cityName": "Karachi",
+      "sourceKind": "wrh",
+      "pairCount": 2,
+      "dominantForecastSource": "api.open-meteo.com",
+      "maeAt6h": null,
+      "maeAt24h": null,
+      "maeAt48h": null,
+      "hitAt6h": null,
+      "hitAt24h": null,
+      "hitAt48h": null,
+      "timeToSkillHours": null,
+      "overallMae": 1.5,
+      "overallHitRate": 0.0
+    },
+    {
+      "stationId": "RJTT",
+      "cityName": "Tokyo",
+      "sourceKind": "wrh",
+      "pairCount": 2,
+      "dominantForecastSource": "api.open-meteo.com",
+      "maeAt6h": null,
+      "maeAt24h": null,
+      "maeAt48h": null,
+      "hitAt6h": null,
+      "hitAt24h": null,
+      "hitAt48h": null,
+      "timeToSkillHours": null,
+      "overallMae": 0.1999999999999993,
+      "overallHitRate": 1.0
+    },
+    {
+      "stationId": "RKSI",
+      "cityName": "Seoul (Incheon)",
+      "sourceKind": "wrh",
+      "pairCount": 2,
+      "dominantForecastSource": "api.open-meteo.com",
+      "maeAt6h": null,
+      "maeAt24h": null,
+      "maeAt48h": null,
+      "hitAt6h": null,
+      "hitAt24h": null,
+      "hitAt48h": null,
+      "timeToSkillHours": null,
+      "overallMae": 0.3000000000000007,
+      "overallHitRate": 1.0
+    },
+    {
+      "stationId": "UUWW",
+      "cityName": "Moscow",
+      "sourceKind": "wrh",
+      "pairCount": 2,
+      "dominantForecastSource": "api.open-meteo.com",
+      "maeAt6h": null,
+      "maeAt24h": null,
+      "maeAt48h": null,
+      "hitAt6h": null,
+      "hitAt24h": null,
+      "hitAt48h": null,
+      "timeToSkillHours": null,
+      "overallMae": 0.40000000000000036,
+      "overallHitRate": 1.0
+    },
     {
       "stationId": "VILK",
       "cityName": "Lucknow",
@@ -18,11 +162,406 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 2.3000000000000007,
+      "overallMae": 1.3000000000000007,
       "overallHitRate": 0.0
+    },
+    {
+      "stationId": "WMKK",
+      "cityName": "Kuala Lumpur",
+      "sourceKind": "wrh",
+      "pairCount": 2,
+      "dominantForecastSource": "api.open-meteo.com",
+      "maeAt6h": null,
+      "maeAt24h": null,
+      "maeAt48h": null,
+      "hitAt6h": null,
+      "hitAt24h": null,
+      "hitAt48h": null,
+      "timeToSkillHours": null,
+      "overallMae": 1.6000000000000014,
+      "overallHitRate": 0.0
+    },
+    {
+      "stationId": "WSSS",
+      "cityName": "Singapore",
+      "sourceKind": "wrh",
+      "pairCount": 2,
+      "dominantForecastSource": "api.open-meteo.com",
+      "maeAt6h": null,
+      "maeAt24h": null,
+      "maeAt48h": null,
+      "hitAt6h": null,
+      "hitAt24h": null,
+      "hitAt48h": null,
+      "timeToSkillHours": null,
+      "overallMae": 1.0,
+      "overallHitRate": 0.0
+    },
+    {
+      "stationId": "ZBAA",
+      "cityName": "Beijing",
+      "sourceKind": "wrh",
+      "pairCount": 2,
+      "dominantForecastSource": "api.open-meteo.com",
+      "maeAt6h": null,
+      "maeAt24h": null,
+      "maeAt48h": null,
+      "hitAt6h": null,
+      "hitAt24h": null,
+      "hitAt48h": null,
+      "timeToSkillHours": null,
+      "overallMae": 0.6999999999999993,
+      "overallHitRate": 0.0
+    },
+    {
+      "stationId": "ZGGG",
+      "cityName": "Guangzhou",
+      "sourceKind": "wrh",
+      "pairCount": 2,
+      "dominantForecastSource": "api.open-meteo.com",
+      "maeAt6h": null,
+      "maeAt24h": null,
+      "maeAt48h": null,
+      "hitAt6h": null,
+      "hitAt24h": null,
+      "hitAt48h": null,
+      "timeToSkillHours": null,
+      "overallMae": 2.8999999999999986,
+      "overallHitRate": 0.0
+    },
+    {
+      "stationId": "ZSPD",
+      "cityName": "Shanghai",
+      "sourceKind": "wrh",
+      "pairCount": 2,
+      "dominantForecastSource": "api.open-meteo.com",
+      "maeAt6h": null,
+      "maeAt24h": null,
+      "maeAt48h": null,
+      "hitAt6h": null,
+      "hitAt24h": null,
+      "hitAt48h": null,
+      "timeToSkillHours": null,
+      "overallMae": 0.10000000000000142,
+      "overallHitRate": 1.0
     }
   ],
   "byStation": {
+    "EPWA": {
+      "stationId": "EPWA",
+      "cityName": "Warsaw",
+      "skillByLead": [
+        {
+          "leadHours": 0,
+          "n": 2,
+          "mae": 0.8000000000000007,
+          "rmse": 0.8000000000000007,
+          "bias": 0.8000000000000007,
+          "hitRate": 0.0
+        }
+      ],
+      "timeToSkillHours": null,
+      "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T19:00:00",
+          "obsC": 19.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:13.365243Z",
+              "forecastC": 19.8,
+              "leadHours": 0.68,
+              "errorC": 0.8000000000000007
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:35.382233Z",
+              "forecastC": 19.8,
+              "leadHours": 0.03,
+              "errorC": 0.8000000000000007
+            }
+          ]
+        }
+      ]
+    },
+    "HKO": {
+      "stationId": "HKO",
+      "cityName": "Hong Kong",
+      "skillByLead": [
+        {
+          "leadHours": 0,
+          "n": 2,
+          "mae": 0.09999999999999787,
+          "rmse": 0.09999999999999787,
+          "bias": -0.09999999999999787,
+          "hitRate": 1.0
+        }
+      ],
+      "timeToSkillHours": null,
+      "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T01:00:00",
+          "obsC": 28.4,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:15.293726Z",
+              "forecastC": 28.3,
+              "leadHours": 0.68,
+              "errorC": -0.09999999999999787
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.163525Z",
+              "forecastC": 28.3,
+              "leadHours": 0.03,
+              "errorC": -0.09999999999999787
+            }
+          ]
+        }
+      ]
+    },
+    "LEMD": {
+      "stationId": "LEMD",
+      "cityName": "Madrid",
+      "skillByLead": [
+        {
+          "leadHours": 0,
+          "n": 2,
+          "mae": 0.8999999999999986,
+          "rmse": 0.8999999999999986,
+          "bias": -0.8999999999999986,
+          "hitRate": 0.0
+        }
+      ],
+      "timeToSkillHours": null,
+      "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T19:00:00",
+          "obsC": 37.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:17.248582Z",
+              "forecastC": 36.1,
+              "leadHours": 0.68,
+              "errorC": -0.8999999999999986
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.395932Z",
+              "forecastC": 36.1,
+              "leadHours": 0.03,
+              "errorC": -0.8999999999999986
+            }
+          ]
+        }
+      ]
+    },
+    "LFPB": {
+      "stationId": "LFPB",
+      "cityName": "Paris",
+      "skillByLead": [
+        {
+          "leadHours": 0,
+          "n": 2,
+          "mae": 0.34999999999999964,
+          "rmse": 0.35355339059327323,
+          "bias": 0.34999999999999964,
+          "hitRate": 1.0
+        }
+      ],
+      "timeToSkillHours": null,
+      "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T19:00:00",
+          "obsC": 27.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:17.289694Z",
+              "forecastC": 27.3,
+              "leadHours": 0.68,
+              "errorC": 0.3000000000000007
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.413948Z",
+              "forecastC": 27.4,
+              "leadHours": 0.03,
+              "errorC": 0.3999999999999986
+            }
+          ]
+        }
+      ]
+    },
+    "NZWN": {
+      "stationId": "NZWN",
+      "cityName": "Wellington",
+      "skillByLead": [
+        {
+          "leadHours": 0,
+          "n": 2,
+          "mae": 2.5,
+          "rmse": 2.5,
+          "bias": 2.5,
+          "hitRate": 0.0
+        }
+      ],
+      "timeToSkillHours": null,
+      "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T05:00:00",
+          "obsC": 5.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:19.567508Z",
+              "forecastC": 7.5,
+              "leadHours": 0.68,
+              "errorC": 2.5
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.966853Z",
+              "forecastC": 7.5,
+              "leadHours": 0.03,
+              "errorC": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    "OPKC": {
+      "stationId": "OPKC",
+      "cityName": "Karachi",
+      "skillByLead": [
+        {
+          "leadHours": 0,
+          "n": 2,
+          "mae": 1.5,
+          "rmse": 1.5,
+          "bias": -1.5,
+          "hitRate": 0.0
+        }
+      ],
+      "timeToSkillHours": null,
+      "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T22:00:00",
+          "obsC": 28.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:21.116070Z",
+              "forecastC": 26.5,
+              "leadHours": 0.68,
+              "errorC": -1.5
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:37.037501Z",
+              "forecastC": 26.5,
+              "leadHours": 0.03,
+              "errorC": -1.5
+            }
+          ]
+        }
+      ]
+    },
+    "RJTT": {
+      "stationId": "RJTT",
+      "cityName": "Tokyo",
+      "skillByLead": [
+        {
+          "leadHours": 0,
+          "n": 2,
+          "mae": 0.1999999999999993,
+          "rmse": 0.1999999999999993,
+          "bias": -0.1999999999999993,
+          "hitRate": 1.0
+        }
+      ],
+      "timeToSkillHours": null,
+      "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T02:00:00",
+          "obsC": 23.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:22.141427Z",
+              "forecastC": 22.8,
+              "leadHours": 0.68,
+              "errorC": -0.1999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:37.132409Z",
+              "forecastC": 22.8,
+              "leadHours": 0.03,
+              "errorC": -0.1999999999999993
+            }
+          ]
+        }
+      ]
+    },
+    "RKSI": {
+      "stationId": "RKSI",
+      "cityName": "Seoul (Incheon)",
+      "skillByLead": [
+        {
+          "leadHours": 0,
+          "n": 2,
+          "mae": 0.3000000000000007,
+          "rmse": 0.3000000000000007,
+          "bias": -0.3000000000000007,
+          "hitRate": 1.0
+        }
+      ],
+      "timeToSkillHours": null,
+      "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T02:00:00",
+          "obsC": 23.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:24.387278Z",
+              "forecastC": 22.7,
+              "leadHours": 0.68,
+              "errorC": -0.3000000000000007
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:37.286644Z",
+              "forecastC": 22.7,
+              "leadHours": 0.03,
+              "errorC": -0.3000000000000007
+            }
+          ]
+        }
+      ]
+    },
+    "UUWW": {
+      "stationId": "UUWW",
+      "cityName": "Moscow",
+      "skillByLead": [
+        {
+          "leadHours": 0,
+          "n": 2,
+          "mae": 0.40000000000000036,
+          "rmse": 0.40000000000000036,
+          "bias": -0.40000000000000036,
+          "hitRate": 1.0
+        }
+      ],
+      "timeToSkillHours": null,
+      "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T20:00:00",
+          "obsC": 9.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:27.312811Z",
+              "forecastC": 8.6,
+              "leadHours": 0.68,
+              "errorC": -0.40000000000000036
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:37.513890Z",
+              "forecastC": 8.6,
+              "leadHours": 0.03,
+              "errorC": -0.40000000000000036
+            }
+          ]
+        }
+      ]
+    },
     "VILK": {
       "stationId": "VILK",
       "cityName": "Lucknow",
@@ -30,14 +569,189 @@
         {
           "leadHours": 0,
           "n": 1,
-          "mae": 2.3000000000000007,
-          "rmse": 2.3000000000000007,
-          "bias": -2.3000000000000007,
+          "mae": 1.3000000000000007,
+          "rmse": 1.3000000000000007,
+          "bias": -1.3000000000000007,
           "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": []
+    },
+    "WMKK": {
+      "stationId": "WMKK",
+      "cityName": "Kuala Lumpur",
+      "skillByLead": [
+        {
+          "leadHours": 0,
+          "n": 2,
+          "mae": 1.6000000000000014,
+          "rmse": 1.6000000000000014,
+          "bias": -1.6000000000000014,
+          "hitRate": 0.0
+        }
+      ],
+      "timeToSkillHours": null,
+      "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T01:00:00",
+          "obsC": 28.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:28.301500Z",
+              "forecastC": 26.4,
+              "leadHours": 0.68,
+              "errorC": -1.6000000000000014
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:37.604788Z",
+              "forecastC": 26.4,
+              "leadHours": 0.03,
+              "errorC": -1.6000000000000014
+            }
+          ]
+        }
+      ]
+    },
+    "WSSS": {
+      "stationId": "WSSS",
+      "cityName": "Singapore",
+      "skillByLead": [
+        {
+          "leadHours": 0,
+          "n": 2,
+          "mae": 1.0,
+          "rmse": 1.0,
+          "bias": -1.0,
+          "hitRate": 0.0
+        }
+      ],
+      "timeToSkillHours": null,
+      "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T01:00:00",
+          "obsC": 29.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:28.302770Z",
+              "forecastC": 28.0,
+              "leadHours": 0.68,
+              "errorC": -1.0
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:37.683619Z",
+              "forecastC": 28.0,
+              "leadHours": 0.03,
+              "errorC": -1.0
+            }
+          ]
+        }
+      ]
+    },
+    "ZBAA": {
+      "stationId": "ZBAA",
+      "cityName": "Beijing",
+      "skillByLead": [
+        {
+          "leadHours": 0,
+          "n": 2,
+          "mae": 0.6999999999999993,
+          "rmse": 0.6999999999999993,
+          "bias": 0.6999999999999993,
+          "hitRate": 0.0
+        }
+      ],
+      "timeToSkillHours": null,
+      "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T01:00:00",
+          "obsC": 17.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:28.564465Z",
+              "forecastC": 17.7,
+              "leadHours": 0.68,
+              "errorC": 0.6999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:37.684017Z",
+              "forecastC": 17.7,
+              "leadHours": 0.03,
+              "errorC": 0.6999999999999993
+            }
+          ]
+        }
+      ]
+    },
+    "ZGGG": {
+      "stationId": "ZGGG",
+      "cityName": "Guangzhou",
+      "skillByLead": [
+        {
+          "leadHours": 0,
+          "n": 2,
+          "mae": 2.8999999999999986,
+          "rmse": 2.8999999999999986,
+          "bias": -2.8999999999999986,
+          "hitRate": 0.0
+        }
+      ],
+      "timeToSkillHours": null,
+      "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T01:00:00",
+          "obsC": 29.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:29.306305Z",
+              "forecastC": 26.1,
+              "leadHours": 0.68,
+              "errorC": -2.8999999999999986
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:37.779594Z",
+              "forecastC": 26.1,
+              "leadHours": 0.03,
+              "errorC": -2.8999999999999986
+            }
+          ]
+        }
+      ]
+    },
+    "ZSPD": {
+      "stationId": "ZSPD",
+      "cityName": "Shanghai",
+      "skillByLead": [
+        {
+          "leadHours": 0,
+          "n": 2,
+          "mae": 0.10000000000000142,
+          "rmse": 0.10000000000000142,
+          "bias": -0.10000000000000142,
+          "hitRate": 1.0
+        }
+      ],
+      "timeToSkillHours": null,
+      "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T01:00:00",
+          "obsC": 25.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:30.298777Z",
+              "forecastC": 24.9,
+              "leadHours": 0.68,
+              "errorC": -0.10000000000000142
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:38.021831Z",
+              "forecastC": 24.9,
+              "leadHours": 0.03,
+              "errorC": -0.10000000000000142
+            }
+          ]
+        }
+      ]
     }
   }
 }
