@@ -1,15 +1,19 @@
 (function () {
   const DATA_BASE = 'data';
+  const TOL = 0.4;
   const stationEl = document.getElementById('station');
   const targetEl = document.getElementById('target');
   const statusEl = document.getElementById('status');
   const statsEl = document.getElementById('stats');
   const summaryBody = document.getElementById('summaryBody');
   const evoCaption = document.getElementById('evoCaption');
+  const timingCaption = document.getElementById('timingCaption');
 
   let skillDoc = null;
   let skillChart = null;
   let evoChart = null;
+  let extremeChart = null;
+  let timingChart = null;
 
   function pct(x) {
     if (x == null || Number.isNaN(x)) return '—';
@@ -23,6 +27,9 @@
     if (l == null) return '<span class="pill warn">n/a</span>';
     const cls = l <= 12 ? 'good' : l <= 24 ? 'warn' : 'bad';
     return '<span class="pill ' + cls + '">' + l + 'h</span>';
+  }
+  function tol() {
+    return skillDoc && skillDoc.toleranceC != null ? skillDoc.toleranceC : TOL;
   }
 
   function renderSummary() {
@@ -42,25 +49,31 @@
         (s.pairCount || 0) +
         '</td>' +
         '<td class="mono">' +
-        num(s.maeAt6h, 2) +
-        '</td>' +
-        '<td class="mono">' +
-        num(s.maeAt24h, 2) +
-        '</td>' +
-        '<td class="mono">' +
-        num(s.maeAt48h, 2) +
-        '</td>' +
-        '<td class="mono">' +
         pct(s.hitAt6h) +
-        '</td>' +
-        '<td class="mono">' +
-        pct(s.hitAt24h) +
-        '</td>' +
-        '<td class="mono">' +
-        pct(s.hitAt48h) +
         '</td>' +
         '<td>' +
         skillPill(s.timeToSkillHours) +
+        '</td>' +
+        '<td>' +
+        skillPill(s.timeToSkillMinHours) +
+        '</td>' +
+        '<td>' +
+        skillPill(s.timeToSkillMaxHours) +
+        '</td>' +
+        '<td class="mono">' +
+        pct(s.minExtremeHitRate) +
+        '</td>' +
+        '<td class="mono">' +
+        pct(s.maxExtremeHitRate) +
+        '</td>' +
+        '<td class="mono">' +
+        (s.minBefore6amDays != null ? s.minBefore6amDays : '—') +
+        '</td>' +
+        '<td class="mono">' +
+        (s.minAfter6pmDays != null ? s.minAfter6pmDays : '—') +
+        '</td>' +
+        '<td class="mono">' +
+        pct(s.maxAfternoonShare) +
         '</td>' +
         '<td class="mono">' +
         (s.dominantForecastSource || '—') +
@@ -107,17 +120,29 @@
       '<div class="stat"><div class="k">Pairs</div><div class="v">' +
       (s.pairCount || 0) +
       '</div></div>' +
-      '<div class="stat"><div class="k">Overall MAE</div><div class="v">' +
-      num(s.overallMae, 2) +
-      '°</div></div>' +
-      '<div class="stat"><div class="k">Hit @0.5°C</div><div class="v">' +
+      '<div class="stat"><div class="k">Hit @' +
+      tol() +
+      '°C</div><div class="v">' +
       pct(s.overallHitRate) +
       '</div></div>' +
-      '<div class="stat"><div class="k">Time-to-skill L</div><div class="v">' +
+      '<div class="stat"><div class="k">L hourly</div><div class="v">' +
       (s.timeToSkillHours == null ? '—' : s.timeToSkillHours + 'h') +
       '</div></div>' +
-      '<div class="stat"><div class="k">Source</div><div class="v" style="font-size:0.85rem">' +
-      (s.dominantForecastSource || '—') +
+      '<div class="stat"><div class="k">L<sub>min</sub></div><div class="v">' +
+      (s.timeToSkillMinHours == null ? '—' : s.timeToSkillMinHours + 'h') +
+      '</div></div>' +
+      '<div class="stat"><div class="k">L<sub>max</sub></div><div class="v">' +
+      (s.timeToSkillMaxHours == null ? '—' : s.timeToSkillMaxHours + 'h') +
+      '</div></div>' +
+      '<div class="stat"><div class="k">Min &lt;6am / &gt;6pm</div><div class="v" style="font-size:1rem">' +
+      (s.minBefore6amDays != null ? s.minBefore6amDays : '—') +
+      ' / ' +
+      (s.minAfter6pmDays != null ? s.minAfter6pmDays : '—') +
+      '</div></div>' +
+      '<div class="stat"><div class="k">Bucket hit min/max</div><div class="v" style="font-size:1rem">' +
+      pct(s.minBucketHitRate) +
+      ' / ' +
+      pct(s.maxBucketHitRate) +
       '</div></div>';
   }
 
@@ -130,8 +155,7 @@
     const L = sk && sk.timeToSkillHours;
 
     if (skillChart) skillChart.destroy();
-    const ctx = document.getElementById('skillChart');
-    skillChart = new Chart(ctx, {
+    skillChart = new Chart(document.getElementById('skillChart'), {
       type: 'line',
       data: {
         labels,
@@ -140,15 +164,13 @@
             label: 'MAE (°C)',
             data: mae,
             borderColor: '#0b6bcb',
-            backgroundColor: 'rgba(11,107,203,0.12)',
             yAxisID: 'y',
             tension: 0.2,
           },
           {
-            label: 'Hit rate @0.5°C (%)',
+            label: 'Hit @' + tol() + '°C (%)',
             data: hit,
             borderColor: '#1b7f4e',
-            backgroundColor: 'rgba(27,127,78,0.08)',
             yAxisID: 'y1',
             tension: 0.2,
           },
@@ -158,16 +180,10 @@
         responsive: true,
         maintainAspectRatio: false,
         interaction: { mode: 'index', intersect: false },
-        plugins: {
-          legend: { position: 'bottom' },
-          annotation: undefined,
-        },
+        plugins: { legend: { position: 'bottom' } },
         scales: {
           x: { title: { display: true, text: 'Lead hours before valid time' } },
-          y: {
-            title: { display: true, text: 'MAE °C' },
-            suggestedMin: 0,
-          },
+          y: { title: { display: true, text: 'MAE °C' }, suggestedMin: 0 },
           y1: {
             position: 'right',
             min: 0,
@@ -206,6 +222,149 @@
     });
   }
 
+  function renderExtremeChart() {
+    const sk = currentSkill();
+    const minRows = (sk && sk.extremeSkillByLeadMin) || [];
+    const maxRows = (sk && sk.extremeSkillByLeadMax) || [];
+    const leadSet = new Set([
+      ...minRows.map((r) => r.leadHours),
+      ...maxRows.map((r) => r.leadHours),
+    ]);
+    const labels = [...leadSet].sort((a, b) => a - b);
+    const minMap = Object.fromEntries(minRows.map((r) => [r.leadHours, r]));
+    const maxMap = Object.fromEntries(maxRows.map((r) => [r.leadHours, r]));
+
+    if (extremeChart) extremeChart.destroy();
+    extremeChart = new Chart(document.getElementById('extremeChart'), {
+      type: 'line',
+      data: {
+        labels,
+        datasets: [
+          {
+            label: 'Min hit %',
+            data: labels.map((h) =>
+              minMap[h] ? (minMap[h].hitRate || 0) * 100 : null
+            ),
+            borderColor: '#0b6bcb',
+            tension: 0.2,
+            yAxisID: 'y',
+          },
+          {
+            label: 'Max hit %',
+            data: labels.map((h) =>
+              maxMap[h] ? (maxMap[h].hitRate || 0) * 100 : null
+            ),
+            borderColor: '#b42318',
+            tension: 0.2,
+            yAxisID: 'y',
+          },
+          {
+            label: 'Min MAE',
+            data: labels.map((h) => (minMap[h] ? minMap[h].mae : null)),
+            borderColor: '#5b6570',
+            borderDash: [4, 4],
+            tension: 0.2,
+            yAxisID: 'y1',
+          },
+          {
+            label: 'Max MAE',
+            data: labels.map((h) => (maxMap[h] ? maxMap[h].mae : null)),
+            borderColor: '#b86e00',
+            borderDash: [4, 4],
+            tension: 0.2,
+            yAxisID: 'y1',
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: { legend: { position: 'bottom' } },
+        scales: {
+          x: { title: { display: true, text: 'Lead hours before local EOD' } },
+          y: { min: 0, max: 100, title: { display: true, text: 'Hit %' } },
+          y1: {
+            position: 'right',
+            suggestedMin: 0,
+            grid: { drawOnChartArea: false },
+            title: { display: true, text: 'MAE °C' },
+          },
+        },
+      },
+    });
+  }
+
+  function renderTimingChart() {
+    const sk = currentSkill();
+    const t = (sk && sk.timing) || {};
+    const minFirst = t.minFirstHourHist || Array(24).fill(0);
+    const minLock = t.minLockHourHist || Array(24).fill(0);
+    const maxFirst = t.maxFirstHourHist || Array(24).fill(0);
+    const maxLock = t.maxLockHourHist || Array(24).fill(0);
+    const labels = Array.from({ length: 24 }, (_, i) => i + 'h');
+
+    timingCaption.textContent =
+      (t.daysAnalyzed || 0) +
+      ' days · min before 6am: ' +
+      (t.minBefore6amDays ?? '—') +
+      ', after 6pm: ' +
+      (t.minAfter6pmDays ?? '—') +
+      ', mid: ' +
+      (t.minMidDayDays ?? '—') +
+      ' · mode min ' +
+      (t.minModeHour != null ? t.minModeHour + 'h' : '—') +
+      ' lock ' +
+      (t.minLockModeHour != null ? t.minLockModeHour + 'h' : '—') +
+      ' · mode max ' +
+      (t.maxModeHour != null ? t.maxModeHour + 'h' : '—') +
+      ' lock ' +
+      (t.maxLockModeHour != null ? t.maxLockModeHour + 'h' : '—');
+
+    if (timingChart) timingChart.destroy();
+    timingChart = new Chart(document.getElementById('timingChart'), {
+      type: 'bar',
+      data: {
+        labels,
+        datasets: [
+          {
+            label: 'Min first hour',
+            data: minFirst,
+            backgroundColor: 'rgba(11,107,203,0.55)',
+          },
+          {
+            label: 'Min lock hour',
+            data: minLock,
+            backgroundColor: 'rgba(11,107,203,0.25)',
+          },
+          {
+            label: 'Max first hour',
+            data: maxFirst,
+            backgroundColor: 'rgba(180,35,24,0.55)',
+          },
+          {
+            label: 'Max lock hour',
+            data: maxLock,
+            backgroundColor: 'rgba(180,35,24,0.25)',
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { position: 'bottom' } },
+        scales: {
+          x: { title: { display: true, text: 'Local hour' } },
+          y: {
+            beginAtZero: true,
+            ticks: { stepSize: 1 },
+            title: { display: true, text: 'Days' },
+          },
+        },
+      },
+    });
+  }
+
   function fillTargets() {
     const sk = currentSkill();
     targetEl.innerHTML = '';
@@ -233,17 +392,22 @@
       evoCaption.textContent = 'Need more forecast+observed overlap.';
       return;
     }
+    const band = tol();
     evoCaption.textContent =
       'Valid ' +
       t.validLocal +
       ' · observed ' +
       num(t.obsC, 2) +
-      '°C · ±0.5°C band shaded';
-    const labels = t.points.map((p) => p.issuedAtUtc.replace('T', ' ').slice(0, 16));
+      '°C · ±' +
+      band +
+      '°C band shaded';
+    const labels = t.points.map((p) =>
+      p.issuedAtUtc.replace('T', ' ').slice(0, 16)
+    );
     const fc = t.points.map((p) => p.forecastC);
     const obs = t.points.map(() => t.obsC);
-    const hi = t.points.map(() => t.obsC + 0.5);
-    const lo = t.points.map(() => t.obsC - 0.5);
+    const hi = t.points.map(() => t.obsC + band);
+    const lo = t.points.map(() => t.obsC - band);
 
     evoChart = new Chart(document.getElementById('evoChart'), {
       type: 'line',
@@ -264,14 +428,14 @@
             pointRadius: 0,
           },
           {
-            label: '+0.5°C',
+            label: '+' + band + '°C',
             data: hi,
             borderColor: 'rgba(27,127,78,0.35)',
             pointRadius: 0,
             borderDash: [2, 2],
           },
           {
-            label: '−0.5°C',
+            label: '−' + band + '°C',
             data: lo,
             borderColor: 'rgba(27,127,78,0.35)',
             pointRadius: 0,
@@ -296,6 +460,8 @@
   function onStationChange() {
     renderStats();
     renderSkillChart();
+    renderExtremeChart();
+    renderTimingChart();
     fillTargets();
     renderEvolution();
   }
@@ -312,10 +478,12 @@
         '<p class="muted">Generated ' +
         (skillDoc.generatedAt || '') +
         ' · tolerance ' +
-        (skillDoc.toleranceC || 0.5) +
+        tol() +
         '°C · match ±' +
         (skillDoc.matchWindowMinutes || 30) +
-        'm</p>';
+        'm · timing lookback ' +
+        (skillDoc.timingLookbackDays || 14) +
+        'd</p>';
       fillStations();
       renderSummary();
       onStationChange();

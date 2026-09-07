@@ -26,7 +26,7 @@ Gamma tags: Lowest `104597` + Highest `104596`.
 After deploy:
 
 - **[Files](https://drowldev.github.io/app17_data/)** — station file browser with download links
-- **[Forecast skill](https://drowldev.github.io/app17_data/skill.html)** — MAE / hit rate @ 0.5°C vs lead time, time-to-skill \(L\), target-time evolution, all-station summary
+- **[Forecast skill](https://drowldev.github.io/app17_data/skill.html)** — Polymarket-oriented skill: hit @ 0.4°C, \(L\) / \(L_{min}\) / \(L_{max}\), daily extreme skill vs lead, 14-day min/max timing histograms
 
 Static UI lives in [`site/`](site/). Data is published from `data/stations` + `data/analysis`.
 
@@ -76,15 +76,21 @@ Manual: [Deploy Archive Pages](.github/workflows/deploy-pages.yml) also on `main
 
 ---
 
-## Forecast skill (how we measure “good”)
+## Forecast skill (Polymarket edge @ 0.4°C)
+
+Markets settle on resolution-source **daily min (Low)** or **daily max (High)**. Earlier accurate extreme forecasts usually mean better entry prices.
 
 **Pairing:** nearest observation within **±30 minutes** of each forecast `valid_local_time`.
 
-**Hit:** \|forecast − observed\| ≤ **0.5°C**.
+**Hit:** \|forecast − observed\| ≤ **0.4°C** (hourly and daily extremes).
 
-**Time-to-skill \(L\):** smallest lead hour such that forecasts with lead ≤ \(L\) meet hit rate ≥ 80% **or** MAE ≤ 0.5°C (bins with enough samples).
+**Time-to-skill \(L\):** smallest lead hour such that forecasts with lead ≤ \(L\) meet hit rate ≥ 80% **or** MAE ≤ 0.4°C (bins with enough samples). \(L_{min}\) / \(L_{max}\) use the same rule on forecast day min/max vs observed extremes (lead = hours before local EOD).
 
-UI panels: skill vs lead (with \(L\) marker), evolution of forecasts for one valid time vs truth ±0.5°C band, summary table (MAE/hit @ 6/24/48h).
+**Bucket hit:** integer °C of forecast extreme equals integer °C of observed extreme (closer to Polymarket outcomes).
+
+**14-day timing:** from observed only — share of days with min before 6am vs after 6pm, plus occurrence / lock-hour histograms for min and max.
+
+UI: hourly skill + evolution (±0.4°C), extreme hit/MAE vs lead, timing histograms, summary with \(L_{min}\)/\(L_{max}\) and morning/afternoon shares. Tip: HKO Absolute Daily Extract can differ from the live hkoc chart curve.
 
 ---
 

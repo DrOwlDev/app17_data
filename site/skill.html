@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Temperature Archive — Forecast skill</title>
+  <title>Temperature Archive — Polymarket forecast skill</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -26,12 +26,15 @@
     </nav>
   </header>
   <main>
-    <h1>How good is the forecast source?</h1>
+    <h1>Polymarket edge: how early is the forecast good?</h1>
     <p class="lede">
-      Forecasts are paired to the nearest observation within ±30 minutes of each valid local hour.
-      <strong>Hit</strong> means |forecast − observed| ≤ 0.5°C.
-      <strong>Time-to-skill L</strong> is how many hours before the event the forecast becomes good enough
-      (hit rate ≥ 80% or MAE ≤ 0.5°C for leads ≤ L).
+      Markets settle on resolution-source <strong>daily min (Low)</strong> or <strong>daily max (High)</strong>.
+      Hourly forecasts are paired within ±30 minutes.
+      <strong>Hit</strong> = |forecast − observed| ≤ <strong>0.4°C</strong>.
+      <strong>L / L<sub>min</sub> / L<sub>max</sub></strong> = hours-before where forecasts stay good enough
+      (hit ≥ 80% or MAE ≤ 0.4°C) — smaller is better for earlier Polymarket entries.
+      Also: 14-day extrema timing (min before 6am vs after 6pm) and lock-hour histograms.
+      Tip: HKO settlement Absolute can differ from the live hkoc curve — don’t treat chart as settlement for HK.
     </p>
 
     <div class="controls">
@@ -48,13 +51,26 @@
 
     <div class="grid two">
       <section class="card">
-        <h2>Skill vs lead time</h2>
+        <h2>Hourly skill vs lead time</h2>
         <div class="chart-wrap"><canvas id="skillChart"></canvas></div>
       </section>
       <section class="card">
         <h2>Target-time forecast evolution</h2>
         <p id="evoCaption" class="muted"></p>
         <div class="chart-wrap"><canvas id="evoChart"></canvas></div>
+      </section>
+    </div>
+
+    <div class="grid two" style="margin-top:1rem">
+      <section class="card">
+        <h2>Daily extreme skill vs lead (before EOD)</h2>
+        <p class="muted">Forecast day min/max from each snapshot vs observed day extremes.</p>
+        <div class="chart-wrap"><canvas id="extremeChart"></canvas></div>
+      </section>
+      <section class="card">
+        <h2>14-day extrema timing (local hour)</h2>
+        <p id="timingCaption" class="muted"></p>
+        <div class="chart-wrap"><canvas id="timingChart"></canvas></div>
       </section>
     </div>
 
@@ -67,13 +83,15 @@
               <th>Station</th>
               <th>City</th>
               <th>Pairs</th>
-              <th>MAE@6h</th>
-              <th>MAE@24h</th>
-              <th>MAE@48h</th>
               <th>Hit@6h</th>
-              <th>Hit@24h</th>
-              <th>Hit@48h</th>
-              <th>Time-to-skill L</th>
+              <th>L</th>
+              <th>L<sub>min</sub></th>
+              <th>L<sub>max</sub></th>
+              <th>Min hit</th>
+              <th>Max hit</th>
+              <th>Min&lt;6am</th>
+              <th>Min&gt;6pm</th>
+              <th>Max PM share</th>
               <th>Source</th>
             </tr>
           </thead>
