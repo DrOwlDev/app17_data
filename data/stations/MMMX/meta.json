@@ -1,0 +1,7 @@
+{
+  "stationId": "MMMX",
+  "cityName": "Mexico City",
+  "timeZone": "America/Mexico_City",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=mmmx",
+  "sourceKind": "wrh"
+}

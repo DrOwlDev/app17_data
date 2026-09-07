@@ -1,0 +1,7 @@
+{
+  "stationId": "FACT",
+  "cityName": "Cape Town",
+  "timeZone": "Africa/Johannesburg",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=fact",
+  "sourceKind": "wrh"
+}

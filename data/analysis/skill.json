@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-09-07T16:45:38.099153Z",
+  "toleranceC": 0.5,
+  "matchWindowMinutes": 30,
+  "hitRateThreshold": 0.8,
+  "stationCount": 1,
+  "stations": [
+    {
+      "stationId": "VILK",
+      "cityName": "Lucknow",
+      "sourceKind": "wrh",
+      "pairCount": 1,
+      "dominantForecastSource": "api.open-meteo.com",
+      "maeAt6h": null,
+      "maeAt24h": null,
+      "maeAt48h": null,
+      "hitAt6h": null,
+      "hitAt24h": null,
+      "hitAt48h": null,
+      "timeToSkillHours": null,
+      "overallMae": 2.3000000000000007,
+      "overallHitRate": 0.0
+    }
+  ],
+  "byStation": {
+    "VILK": {
+      "stationId": "VILK",
+      "cityName": "Lucknow",
+      "skillByLead": [
+        {
+          "leadHours": 0,
+          "n": 1,
+          "mae": 2.3000000000000007,
+          "rmse": 2.3000000000000007,
+          "bias": -2.3000000000000007,
+          "hitRate": 0.0
+        }
+      ],
+      "timeToSkillHours": null,
+      "evolutionTargets": []
+    }
+  }
+}

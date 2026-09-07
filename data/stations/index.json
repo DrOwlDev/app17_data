@@ -1,0 +1,365 @@
+{
+  "updatedAt": "2026-09-07T16:17:56.113621Z",
+  "stationCount": 51,
+  "stations": [
+    {
+      "stationId": "CYYZ",
+      "cityName": "Toronto",
+      "timeZone": "America/Toronto",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=cyyz",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "EDDM",
+      "cityName": "Munich",
+      "timeZone": "Europe/Berlin",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=eddm",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "EFHK",
+      "cityName": "Helsinki",
+      "timeZone": "Europe/Helsinki",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=efhk",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "EGLC",
+      "cityName": "London",
+      "timeZone": "Europe/London",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=eglc",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "EHAM",
+      "cityName": "Amsterdam",
+      "timeZone": "Europe/Amsterdam",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=eham",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "EPWA",
+      "cityName": "Warsaw",
+      "timeZone": "Europe/Warsaw",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=epwa",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "FACT",
+      "cityName": "Cape Town",
+      "timeZone": "Africa/Johannesburg",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=fact",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "HKO",
+      "cityName": "Hong Kong",
+      "timeZone": "Asia/Hong_Kong",
+      "resolutionUrl": "https://www.weather.gov.hk/en/cis/climat.htm",
+      "sourceKind": "hko"
+    },
+    {
+      "stationId": "KATL",
+      "cityName": "Atlanta",
+      "timeZone": "America/New_York",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=katl",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "KAUS",
+      "cityName": "Austin",
+      "timeZone": "America/Chicago",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=kaus",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "KBKF",
+      "cityName": "Denver",
+      "timeZone": "America/Denver",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=kbkf",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "KDAL",
+      "cityName": "Dallas",
+      "timeZone": "America/Chicago",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=kdal",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "KHOU",
+      "cityName": "Houston",
+      "timeZone": "America/Chicago",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=khou",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "KLAX",
+      "cityName": "Los Angeles",
+      "timeZone": "America/Los_Angeles",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=klax",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "KLGA",
+      "cityName": "NYC",
+      "timeZone": "America/New_York",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=klga",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "KMIA",
+      "cityName": "Miami",
+      "timeZone": "America/New_York",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=kmia",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "KORD",
+      "cityName": "Chicago",
+      "timeZone": "America/Chicago",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=kord",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "KSEA",
+      "cityName": "Seattle",
+      "timeZone": "America/Los_Angeles",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=ksea",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "KSFO",
+      "cityName": "San Francisco",
+      "timeZone": "America/Los_Angeles",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=ksfo",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "LEMD",
+      "cityName": "Madrid",
+      "timeZone": "Europe/Madrid",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=lemd",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "LFPB",
+      "cityName": "Paris",
+      "timeZone": "Europe/Paris",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=lfpb",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "LIMC",
+      "cityName": "Milan",
+      "timeZone": "Europe/Rome",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=limc",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "LLBG",
+      "cityName": "Tel Aviv",
+      "timeZone": "Asia/Jerusalem",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=LLBG",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "LTAC",
+      "cityName": "Ankara",
+      "timeZone": "Europe/Istanbul",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=ltac",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "LTFM",
+      "cityName": "Istanbul",
+      "timeZone": "Europe/Istanbul",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=LTFM",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "MMMX",
+      "cityName": "Mexico City",
+      "timeZone": "America/Mexico_City",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=mmmx",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "MPMG",
+      "cityName": "Panama City",
+      "timeZone": "America/Panama",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=mpmg",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "NZWN",
+      "cityName": "Wellington",
+      "timeZone": "Pacific/Auckland",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=nzwn",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "OEJN",
+      "cityName": "Jeddah",
+      "timeZone": "Asia/Riyadh",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=oejn",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "OPKC",
+      "cityName": "Karachi",
+      "timeZone": "Asia/Karachi",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=opkc",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "RCSS",
+      "cityName": "Taipei",
+      "timeZone": "Asia/Taipei",
+      "resolutionUrl": "https://www.wunderground.com/history/daily/tw/taipei/RCSS",
+      "sourceKind": "wu",
+      "countryCode": "TW"
+    },
+    {
+      "stationId": "RJTT",
+      "cityName": "Tokyo",
+      "timeZone": "Asia/Tokyo",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=rjtt",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "RKPK",
+      "cityName": "Busan",
+      "timeZone": "Asia/Seoul",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=rkpk",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "RKSI",
+      "cityName": "Seoul (Incheon)",
+      "timeZone": "Asia/Seoul",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=rksi",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "RPLL",
+      "cityName": "Manila",
+      "timeZone": "Asia/Manila",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=rpll",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "SAEZ",
+      "cityName": "Buenos Aires",
+      "timeZone": "America/Argentina/Buenos_Aires",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=saez",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "SBGR",
+      "cityName": "Sao Paulo",
+      "timeZone": "America/Sao_Paulo",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=sbgr",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "UUWW",
+      "cityName": "Moscow",
+      "timeZone": "Europe/Moscow",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=UUWW",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "VILK",
+      "cityName": "Lucknow",
+      "timeZone": "Asia/Kolkata",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=vilk",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "WMKK",
+      "cityName": "Kuala Lumpur",
+      "timeZone": "Asia/Kuala_Lumpur",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=wmkk",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "WSSS",
+      "cityName": "Singapore",
+      "timeZone": "Asia/Singapore",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=wsss",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "ZBAA",
+      "cityName": "Beijing",
+      "timeZone": "Asia/Shanghai",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=zbaa",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "ZGGG",
+      "cityName": "Guangzhou",
+      "timeZone": "Asia/Shanghai",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=zggg",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "ZGSZ",
+      "cityName": "Shenzhen",
+      "timeZone": "Asia/Shanghai",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=zgsz",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "ZHCC",
+      "cityName": "Zhengzhou",
+      "timeZone": "Asia/Shanghai",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=zhcc",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "ZHHH",
+      "cityName": "Wuhan",
+      "timeZone": "Asia/Shanghai",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=zhhh",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "ZSJN",
+      "cityName": "Jinan",
+      "timeZone": "Asia/Shanghai",
+      "resolutionUrl": "https://www.wunderground.com/history/daily/cn/jinan/ZSJN",
+      "sourceKind": "wu",
+      "countryCode": "CN"
+    },
+    {
+      "stationId": "ZSPD",
+      "cityName": "Shanghai",
+      "timeZone": "Asia/Shanghai",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=zspd",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "ZSQD",
+      "cityName": "Qingdao",
+      "timeZone": "Asia/Shanghai",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=zsqd",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "ZUCK",
+      "cityName": "Chongqing",
+      "timeZone": "Asia/Shanghai",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=zuck",
+      "sourceKind": "wrh"
+    },
+    {
+      "stationId": "ZUUU",
+      "cityName": "Chengdu",
+      "timeZone": "Asia/Shanghai",
+      "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=zuuu",
+      "sourceKind": "wrh"
+    }
+  ]
+}

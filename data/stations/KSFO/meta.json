@@ -1,0 +1,7 @@
+{
+  "stationId": "KSFO",
+  "cityName": "San Francisco",
+  "timeZone": "America/Los_Angeles",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=ksfo",
+  "sourceKind": "wrh"
+}

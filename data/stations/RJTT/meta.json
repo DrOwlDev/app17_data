@@ -1,0 +1,7 @@
+{
+  "stationId": "RJTT",
+  "cityName": "Tokyo",
+  "timeZone": "Asia/Tokyo",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=rjtt",
+  "sourceKind": "wrh"
+}

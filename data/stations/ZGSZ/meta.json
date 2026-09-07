@@ -1,0 +1,7 @@
+{
+  "stationId": "ZGSZ",
+  "cityName": "Shenzhen",
+  "timeZone": "Asia/Shanghai",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=zgsz",
+  "sourceKind": "wrh"
+}

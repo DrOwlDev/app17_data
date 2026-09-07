@@ -1,0 +1,7 @@
+{
+  "stationId": "LLBG",
+  "cityName": "Tel Aviv",
+  "timeZone": "Asia/Jerusalem",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=LLBG",
+  "sourceKind": "wrh"
+}

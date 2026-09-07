@@ -1,0 +1,51 @@
+name: Deploy Archive Pages
+
+# Manual redeploy of the static archive browser + skill UI (also runs after each collect).
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - 'data/**'
+      - 'tool/build_pages.dart'
+      - 'tool/build_skill_stats.dart'
+      - '.github/workflows/deploy-pages.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Build skill stats + file manifest
+        run: dart run tool/build_skill_stats.dart
+
+      - name: Build Pages bundle
+        run: dart run tool/build_pages.dart
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build/pages
+          force_orphan: true

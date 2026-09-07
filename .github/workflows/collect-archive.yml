@@ -1,0 +1,87 @@
+name: Collect Temperature Archive
+
+on:
+  schedule:
+    # Observed + 72h forecast snapshots every ~30 minutes (GitHub cron is best-effort).
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+    inputs:
+      job:
+        description: 'Which collector to run'
+        required: true
+        default: 'both'
+        type: choice
+        options:
+          - both
+          - observed
+          - forecasts
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: temperature-archive
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Discover stations
+        run: dart run tool/collect_stations.dart
+
+      - name: Collect observations
+        if: >-
+          github.event_name == 'schedule' ||
+          github.event.inputs.job == 'both' ||
+          github.event.inputs.job == 'observed'
+        run: dart run tool/collect_observed.dart
+
+      - name: Collect 72h forecasts
+        if: >-
+          github.event_name == 'schedule' ||
+          github.event.inputs.job == 'both' ||
+          github.event.inputs.job == 'forecasts'
+        run: dart run tool/collect_forecasts.dart
+
+      - name: Prune files older than 3 months
+        run: dart run tool/prune_archive.dart 90
+
+      - name: Build skill stats + file manifest
+        run: dart run tool/build_skill_stats.dart
+
+      - name: Commit archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No data changes"
+            exit 0
+          fi
+          git commit -m "Archive temps $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+
+      - name: Build Pages bundle
+        run: dart run tool/build_pages.dart
+
+      - name: Deploy GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build/pages
+          force_orphan: true

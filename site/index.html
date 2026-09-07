@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Temperature Archive — Files</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">app17_data · Temperature Archive</div>
+    <nav class="nav">
+      <a class="active" href="index.html">Files</a>
+      <a href="skill.html">Forecast skill</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Archive files</h1>
+    <p class="lede">
+      Browse observed and forecast CSVs for each Polymarket temperature-market station.
+      All listed files are downloadable. Retention: files older than 3 months are pruned by the collector.
+    </p>
+    <div class="controls">
+      <label>Search station
+        <input id="q" type="search" placeholder="HKO, Taipei, ZGGG…" />
+      </label>
+      <label>Kind
+        <select id="kind">
+          <option value="all">All</option>
+          <option value="observed">Observed</option>
+          <option value="forecast">Forecast</option>
+          <option value="daily_extremes">Daily extremes</option>
+          <option value="meta">Meta</option>
+        </select>
+      </label>
+    </div>
+    <p id="meta" class="muted"></p>
+    <div id="status"></div>
+    <div id="list"></div>
+  </main>
+  <script src="js/browse.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "stationId": "UUWW",
+  "cityName": "Moscow",
+  "timeZone": "Europe/Moscow",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=UUWW",
+  "sourceKind": "wrh"
+}

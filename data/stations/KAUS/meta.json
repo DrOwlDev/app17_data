@@ -1,0 +1,7 @@
+{
+  "stationId": "KAUS",
+  "cityName": "Austin",
+  "timeZone": "America/Chicago",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=kaus",
+  "sourceKind": "wrh"
+}

@@ -1,0 +1,2083 @@
+{
+  "generatedAt": "2026-09-07T16:45:38.175125Z",
+  "stationCount": 51,
+  "fileCount": 278,
+  "stations": [
+    {
+      "stationId": "CYYZ",
+      "cityName": "Toronto",
+      "sourceKind": "wrh",
+      "timeZone": "America/Toronto",
+      "files": [
+        {
+          "path": "stations/CYYZ/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 157
+        },
+        {
+          "path": "stations/CYYZ/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 6170
+        },
+        {
+          "path": "stations/CYYZ/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 177
+        },
+        {
+          "path": "stations/CYYZ/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2393
+        },
+        {
+          "path": "stations/CYYZ/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 1373
+        }
+      ]
+    },
+    {
+      "stationId": "EDDM",
+      "cityName": "Munich",
+      "sourceKind": "wrh",
+      "timeZone": "Europe/Berlin",
+      "files": [
+        {
+          "path": "stations/EDDM/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 155
+        },
+        {
+          "path": "stations/EDDM/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5734
+        },
+        {
+          "path": "stations/EDDM/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 174
+        },
+        {
+          "path": "stations/EDDM/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 3615
+        },
+        {
+          "path": "stations/EDDM/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 3810
+        }
+      ]
+    },
+    {
+      "stationId": "EFHK",
+      "cityName": "Helsinki",
+      "sourceKind": "wrh",
+      "timeZone": "Europe/Helsinki",
+      "files": [
+        {
+          "path": "stations/EFHK/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 155
+        },
+        {
+          "path": "stations/EFHK/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5738
+        },
+        {
+          "path": "stations/EFHK/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 178
+        },
+        {
+          "path": "stations/EFHK/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 3407
+        },
+        {
+          "path": "stations/EFHK/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 4004
+        }
+      ]
+    },
+    {
+      "stationId": "EGLC",
+      "cityName": "London",
+      "sourceKind": "wrh",
+      "timeZone": "Europe/London",
+      "files": [
+        {
+          "path": "stations/EGLC/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 157
+        },
+        {
+          "path": "stations/EGLC/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5735
+        },
+        {
+          "path": "stations/EGLC/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 174
+        },
+        {
+          "path": "stations/EGLC/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 3821
+        },
+        {
+          "path": "stations/EGLC/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 3617
+        }
+      ]
+    },
+    {
+      "stationId": "EHAM",
+      "cityName": "Amsterdam",
+      "sourceKind": "wrh",
+      "timeZone": "Europe/Amsterdam",
+      "files": [
+        {
+          "path": "stations/EHAM/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 157
+        },
+        {
+          "path": "stations/EHAM/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5736
+        },
+        {
+          "path": "stations/EHAM/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 180
+        },
+        {
+          "path": "stations/EHAM/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 3617
+        },
+        {
+          "path": "stations/EHAM/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 3821
+        }
+      ]
+    },
+    {
+      "stationId": "EPWA",
+      "cityName": "Warsaw",
+      "sourceKind": "wrh",
+      "timeZone": "Europe/Warsaw",
+      "files": [
+        {
+          "path": "stations/EPWA/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 156
+        },
+        {
+          "path": "stations/EPWA/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5738
+        },
+        {
+          "path": "stations/EPWA/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 174
+        },
+        {
+          "path": "stations/EPWA/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 3617
+        },
+        {
+          "path": "stations/EPWA/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 3813
+        }
+      ]
+    },
+    {
+      "stationId": "FACT",
+      "cityName": "Cape Town",
+      "sourceKind": "wrh",
+      "timeZone": "Africa/Johannesburg",
+      "files": [
+        {
+          "path": "stations/FACT/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 157
+        },
+        {
+          "path": "stations/FACT/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5734
+        },
+        {
+          "path": "stations/FACT/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 183
+        },
+        {
+          "path": "stations/FACT/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2087
+        },
+        {
+          "path": "stations/FACT/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 2393
+        }
+      ]
+    },
+    {
+      "stationId": "HKO",
+      "cityName": "Hong Kong",
+      "sourceKind": "hko",
+      "timeZone": "Asia/Hong_Kong",
+      "files": [
+        {
+          "path": "stations/HKO/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 161
+        },
+        {
+          "path": "stations/HKO/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 6093
+        },
+        {
+          "path": "stations/HKO/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 173
+        },
+        {
+          "path": "stations/HKO/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 142499
+        },
+        {
+          "path": "stations/HKO/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 146
+        }
+      ]
+    },
+    {
+      "stationId": "KATL",
+      "cityName": "Atlanta",
+      "sourceKind": "wrh",
+      "timeZone": "America/New_York",
+      "files": [
+        {
+          "path": "stations/KATL/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 161
+        },
+        {
+          "path": "stations/KATL/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5522
+        },
+        {
+          "path": "stations/KATL/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 178
+        },
+        {
+          "path": "stations/KATL/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2415
+        },
+        {
+          "path": "stations/KATL/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 1798
+        }
+      ]
+    },
+    {
+      "stationId": "KAUS",
+      "cityName": "Austin",
+      "sourceKind": "wrh",
+      "timeZone": "America/Chicago",
+      "files": [
+        {
+          "path": "stations/KAUS/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 160
+        },
+        {
+          "path": "stations/KAUS/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5519
+        },
+        {
+          "path": "stations/KAUS/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 176
+        },
+        {
+          "path": "stations/KAUS/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2826
+        },
+        {
+          "path": "stations/KAUS/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 1282
+        }
+      ]
+    },
+    {
+      "stationId": "KBKF",
+      "cityName": "Denver",
+      "sourceKind": "wrh",
+      "timeZone": "America/Denver",
+      "files": [
+        {
+          "path": "stations/KBKF/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 212
+        },
+        {
+          "path": "stations/KBKF/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5522
+        },
+        {
+          "path": "stations/KBKF/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 175
+        },
+        {
+          "path": "stations/KBKF/observed/2026-09-05.csv",
+          "name": "2026-09-05.csv",
+          "kind": "observed",
+          "bytes": 251
+        },
+        {
+          "path": "stations/KBKF/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2925
+        },
+        {
+          "path": "stations/KBKF/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 1178
+        }
+      ]
+    },
+    {
+      "stationId": "KDAL",
+      "cityName": "Dallas",
+      "sourceKind": "wrh",
+      "timeZone": "America/Chicago",
+      "files": [
+        {
+          "path": "stations/KDAL/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 161
+        },
+        {
+          "path": "stations/KDAL/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5521
+        },
+        {
+          "path": "stations/KDAL/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 176
+        },
+        {
+          "path": "stations/KDAL/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2515
+        },
+        {
+          "path": "stations/KDAL/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 1282
+        }
+      ]
+    },
+    {
+      "stationId": "KHOU",
+      "cityName": "Houston",
+      "sourceKind": "wrh",
+      "timeZone": "America/Chicago",
+      "files": [
+        {
+          "path": "stations/KHOU/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 161
+        },
+        {
+          "path": "stations/KHOU/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5523
+        },
+        {
+          "path": "stations/KHOU/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 177
+        },
+        {
+          "path": "stations/KHOU/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2621
+        },
+        {
+          "path": "stations/KHOU/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 1283
+        }
+      ]
+    },
+    {
+      "stationId": "KLAX",
+      "cityName": "Los Angeles",
+      "sourceKind": "wrh",
+      "timeZone": "America/Los_Angeles",
+      "files": [
+        {
+          "path": "stations/KLAX/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 213
+        },
+        {
+          "path": "stations/KLAX/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5524
+        },
+        {
+          "path": "stations/KLAX/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 185
+        },
+        {
+          "path": "stations/KLAX/observed/2026-09-05.csv",
+          "name": "2026-09-05.csv",
+          "kind": "observed",
+          "bytes": 253
+        },
+        {
+          "path": "stations/KLAX/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 3029
+        },
+        {
+          "path": "stations/KLAX/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 1076
+        }
+      ]
+    },
+    {
+      "stationId": "KLGA",
+      "cityName": "NYC",
+      "sourceKind": "wrh",
+      "timeZone": "America/New_York",
+      "files": [
+        {
+          "path": "stations/KLGA/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 161
+        },
+        {
+          "path": "stations/KLGA/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5516
+        },
+        {
+          "path": "stations/KLGA/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 174
+        },
+        {
+          "path": "stations/KLGA/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2619
+        },
+        {
+          "path": "stations/KLGA/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 1385
+        }
+      ]
+    },
+    {
+      "stationId": "KMIA",
+      "cityName": "Miami",
+      "sourceKind": "wrh",
+      "timeZone": "America/New_York",
+      "files": [
+        {
+          "path": "stations/KMIA/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 160
+        },
+        {
+          "path": "stations/KMIA/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5524
+        },
+        {
+          "path": "stations/KMIA/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 176
+        },
+        {
+          "path": "stations/KMIA/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2718
+        },
+        {
+          "path": "stations/KMIA/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 1487
+        }
+      ]
+    },
+    {
+      "stationId": "KORD",
+      "cityName": "Chicago",
+      "sourceKind": "wrh",
+      "timeZone": "America/Chicago",
+      "files": [
+        {
+          "path": "stations/KORD/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 160
+        },
+        {
+          "path": "stations/KORD/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5516
+        },
+        {
+          "path": "stations/KORD/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 177
+        },
+        {
+          "path": "stations/KORD/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2518
+        },
+        {
+          "path": "stations/KORD/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 1281
+        }
+      ]
+    },
+    {
+      "stationId": "KSEA",
+      "cityName": "Seattle",
+      "sourceKind": "wrh",
+      "timeZone": "America/Los_Angeles",
+      "files": [
+        {
+          "path": "stations/KSEA/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 213
+        },
+        {
+          "path": "stations/KSEA/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5521
+        },
+        {
+          "path": "stations/KSEA/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 181
+        },
+        {
+          "path": "stations/KSEA/observed/2026-09-05.csv",
+          "name": "2026-09-05.csv",
+          "kind": "observed",
+          "bytes": 253
+        },
+        {
+          "path": "stations/KSEA/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2516
+        },
+        {
+          "path": "stations/KSEA/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 1176
+        }
+      ]
+    },
+    {
+      "stationId": "KSFO",
+      "cityName": "San Francisco",
+      "sourceKind": "wrh",
+      "timeZone": "America/Los_Angeles",
+      "files": [
+        {
+          "path": "stations/KSFO/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 214
+        },
+        {
+          "path": "stations/KSFO/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5520
+        },
+        {
+          "path": "stations/KSFO/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 187
+        },
+        {
+          "path": "stations/KSFO/observed/2026-09-05.csv",
+          "name": "2026-09-05.csv",
+          "kind": "observed",
+          "bytes": 253
+        },
+        {
+          "path": "stations/KSFO/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2826
+        },
+        {
+          "path": "stations/KSFO/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 1075
+        }
+      ]
+    },
+    {
+      "stationId": "LEMD",
+      "cityName": "Madrid",
+      "sourceKind": "wrh",
+      "timeZone": "Europe/Madrid",
+      "files": [
+        {
+          "path": "stations/LEMD/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 157
+        },
+        {
+          "path": "stations/LEMD/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5736
+        },
+        {
+          "path": "stations/LEMD/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 174
+        },
+        {
+          "path": "stations/LEMD/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 3617
+        },
+        {
+          "path": "stations/LEMD/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 3821
+        }
+      ]
+    },
+    {
+      "stationId": "LFPB",
+      "cityName": "Paris",
+      "sourceKind": "wrh",
+      "timeZone": "Europe/Paris",
+      "files": [
+        {
+          "path": "stations/LFPB/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 157
+        },
+        {
+          "path": "stations/LFPB/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5737
+        },
+        {
+          "path": "stations/LFPB/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 172
+        },
+        {
+          "path": "stations/LFPB/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 3617
+        },
+        {
+          "path": "stations/LFPB/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 3821
+        }
+      ]
+    },
+    {
+      "stationId": "LIMC",
+      "cityName": "Milan",
+      "sourceKind": "wrh",
+      "timeZone": "Europe/Rome",
+      "files": [
+        {
+          "path": "stations/LIMC/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 157
+        },
+        {
+          "path": "stations/LIMC/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5734
+        },
+        {
+          "path": "stations/LIMC/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 171
+        },
+        {
+          "path": "stations/LIMC/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 3617
+        },
+        {
+          "path": "stations/LIMC/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 3821
+        }
+      ]
+    },
+    {
+      "stationId": "LLBG",
+      "cityName": "Tel Aviv",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Jerusalem",
+      "files": [
+        {
+          "path": "stations/LLBG/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 157
+        },
+        {
+          "path": "stations/LLBG/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5740
+        },
+        {
+          "path": "stations/LLBG/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 177
+        },
+        {
+          "path": "stations/LLBG/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 3413
+        },
+        {
+          "path": "stations/LLBG/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 4025
+        }
+      ]
+    },
+    {
+      "stationId": "LTAC",
+      "cityName": "Ankara",
+      "sourceKind": "wrh",
+      "timeZone": "Europe/Istanbul",
+      "files": [
+        {
+          "path": "stations/LTAC/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 157
+        },
+        {
+          "path": "stations/LTAC/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5728
+        },
+        {
+          "path": "stations/LTAC/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 176
+        },
+        {
+          "path": "stations/LTAC/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 3413
+        },
+        {
+          "path": "stations/LTAC/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 4025
+        }
+      ]
+    },
+    {
+      "stationId": "LTFM",
+      "cityName": "Istanbul",
+      "sourceKind": "wrh",
+      "timeZone": "Europe/Istanbul",
+      "files": [
+        {
+          "path": "stations/LTFM/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 157
+        },
+        {
+          "path": "stations/LTFM/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5733
+        },
+        {
+          "path": "stations/LTFM/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 178
+        },
+        {
+          "path": "stations/LTFM/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 3413
+        },
+        {
+          "path": "stations/LTFM/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 4025
+        }
+      ]
+    },
+    {
+      "stationId": "MMMX",
+      "cityName": "Mexico City",
+      "sourceKind": "wrh",
+      "timeZone": "America/Mexico_City",
+      "files": [
+        {
+          "path": "stations/MMMX/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 208
+        },
+        {
+          "path": "stations/MMMX/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5735
+        },
+        {
+          "path": "stations/MMMX/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 185
+        },
+        {
+          "path": "stations/MMMX/observed/2026-09-05.csv",
+          "name": "2026-09-05.csv",
+          "kind": "observed",
+          "bytes": 353
+        },
+        {
+          "path": "stations/MMMX/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 4637
+        },
+        {
+          "path": "stations/MMMX/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 1271
+        }
+      ]
+    },
+    {
+      "stationId": "MPMG",
+      "cityName": "Panama City",
+      "sourceKind": "wrh",
+      "timeZone": "America/Panama",
+      "files": [
+        {
+          "path": "stations/MPMG/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 157
+        },
+        {
+          "path": "stations/MPMG/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5734
+        },
+        {
+          "path": "stations/MPMG/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 180
+        },
+        {
+          "path": "stations/MPMG/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2699
+        },
+        {
+          "path": "stations/MPMG/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 1271
+        }
+      ]
+    },
+    {
+      "stationId": "NZWN",
+      "cityName": "Wellington",
+      "sourceKind": "wrh",
+      "timeZone": "Pacific/Auckland",
+      "files": [
+        {
+          "path": "stations/NZWN/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 206
+        },
+        {
+          "path": "stations/NZWN/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5701
+        },
+        {
+          "path": "stations/NZWN/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 181
+        },
+        {
+          "path": "stations/NZWN/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 1577
+        },
+        {
+          "path": "stations/NZWN/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 4916
+        },
+        {
+          "path": "stations/NZWN/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 957
+        }
+      ]
+    },
+    {
+      "stationId": "OEJN",
+      "cityName": "Jeddah",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Riyadh",
+      "files": [
+        {
+          "path": "stations/OEJN/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 157
+        },
+        {
+          "path": "stations/OEJN/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5736
+        },
+        {
+          "path": "stations/OEJN/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 172
+        },
+        {
+          "path": "stations/OEJN/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 1679
+        },
+        {
+          "path": "stations/OEJN/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 2087
+        }
+      ]
+    },
+    {
+      "stationId": "OPKC",
+      "cityName": "Karachi",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Karachi",
+      "files": [
+        {
+          "path": "stations/OPKC/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 157
+        },
+        {
+          "path": "stations/OPKC/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5734
+        },
+        {
+          "path": "stations/OPKC/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 174
+        },
+        {
+          "path": "stations/OPKC/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 3005
+        },
+        {
+          "path": "stations/OPKC/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 4433
+        }
+      ]
+    },
+    {
+      "stationId": "RCSS",
+      "cityName": "Taipei",
+      "sourceKind": "wu",
+      "timeZone": "Asia/Taipei",
+      "files": [
+        {
+          "path": "stations/RCSS/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 208
+        },
+        {
+          "path": "stations/RCSS/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5739
+        },
+        {
+          "path": "stations/RCSS/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 203
+        },
+        {
+          "path": "stations/RCSS/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 3821
+        },
+        {
+          "path": "stations/RCSS/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 5042
+        },
+        {
+          "path": "stations/RCSS/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 158
+        }
+      ]
+    },
+    {
+      "stationId": "RJTT",
+      "cityName": "Tokyo",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Tokyo",
+      "files": [
+        {
+          "path": "stations/RJTT/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 208
+        },
+        {
+          "path": "stations/RJTT/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5734
+        },
+        {
+          "path": "stations/RJTT/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 170
+        },
+        {
+          "path": "stations/RJTT/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2189
+        },
+        {
+          "path": "stations/RJTT/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 4943
+        },
+        {
+          "path": "stations/RJTT/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 353
+        }
+      ]
+    },
+    {
+      "stationId": "RKPK",
+      "cityName": "Busan",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Seoul",
+      "files": [
+        {
+          "path": "stations/RKPK/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 208
+        },
+        {
+          "path": "stations/RKPK/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5733
+        },
+        {
+          "path": "stations/RKPK/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 170
+        },
+        {
+          "path": "stations/RKPK/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 1067
+        },
+        {
+          "path": "stations/RKPK/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 1679
+        },
+        {
+          "path": "stations/RKPK/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 251
+        }
+      ]
+    },
+    {
+      "stationId": "RKSI",
+      "cityName": "Seoul (Incheon)",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Seoul",
+      "files": [
+        {
+          "path": "stations/RKSI/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 208
+        },
+        {
+          "path": "stations/RKSI/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5735
+        },
+        {
+          "path": "stations/RKSI/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 180
+        },
+        {
+          "path": "stations/RKSI/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2189
+        },
+        {
+          "path": "stations/RKSI/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 4943
+        },
+        {
+          "path": "stations/RKSI/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 353
+        }
+      ]
+    },
+    {
+      "stationId": "RPLL",
+      "cityName": "Manila",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Manila",
+      "files": [
+        {
+          "path": "stations/RPLL/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 208
+        },
+        {
+          "path": "stations/RPLL/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5736
+        },
+        {
+          "path": "stations/RPLL/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 172
+        },
+        {
+          "path": "stations/RPLL/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 1169
+        },
+        {
+          "path": "stations/RPLL/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 2495
+        },
+        {
+          "path": "stations/RPLL/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 149
+        }
+      ]
+    },
+    {
+      "stationId": "SAEZ",
+      "cityName": "Buenos Aires",
+      "sourceKind": "wrh",
+      "timeZone": "America/Argentina/Buenos_Aires",
+      "files": [
+        {
+          "path": "stations/SAEZ/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 155
+        },
+        {
+          "path": "stations/SAEZ/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5705
+        },
+        {
+          "path": "stations/SAEZ/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 197
+        },
+        {
+          "path": "stations/SAEZ/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2274
+        },
+        {
+          "path": "stations/SAEZ/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 1464
+        }
+      ]
+    },
+    {
+      "stationId": "SBGR",
+      "cityName": "Sao Paulo",
+      "sourceKind": "wrh",
+      "timeZone": "America/Sao_Paulo",
+      "files": [
+        {
+          "path": "stations/SBGR/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 157
+        },
+        {
+          "path": "stations/SBGR/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5735
+        },
+        {
+          "path": "stations/SBGR/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 181
+        },
+        {
+          "path": "stations/SBGR/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2597
+        },
+        {
+          "path": "stations/SBGR/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 1475
+        }
+      ]
+    },
+    {
+      "stationId": "UUWW",
+      "cityName": "Moscow",
+      "sourceKind": "wrh",
+      "timeZone": "Europe/Moscow",
+      "files": [
+        {
+          "path": "stations/UUWW/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 156
+        },
+        {
+          "path": "stations/UUWW/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5709
+        },
+        {
+          "path": "stations/UUWW/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 174
+        },
+        {
+          "path": "stations/UUWW/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 3923
+        },
+        {
+          "path": "stations/UUWW/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 4631
+        }
+      ]
+    },
+    {
+      "stationId": "VILK",
+      "cityName": "Lucknow",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Kolkata",
+      "files": [
+        {
+          "path": "stations/VILK/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 157
+        },
+        {
+          "path": "stations/VILK/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5732
+        },
+        {
+          "path": "stations/VILK/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 174
+        },
+        {
+          "path": "stations/VILK/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2903
+        },
+        {
+          "path": "stations/VILK/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 4535
+        }
+      ]
+    },
+    {
+      "stationId": "WMKK",
+      "cityName": "Kuala Lumpur",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Kuala_Lumpur",
+      "files": [
+        {
+          "path": "stations/WMKK/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 208
+        },
+        {
+          "path": "stations/WMKK/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5735
+        },
+        {
+          "path": "stations/WMKK/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 184
+        },
+        {
+          "path": "stations/WMKK/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2393
+        },
+        {
+          "path": "stations/WMKK/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 4943
+        },
+        {
+          "path": "stations/WMKK/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 149
+        }
+      ]
+    },
+    {
+      "stationId": "WSSS",
+      "cityName": "Singapore",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Singapore",
+      "files": [
+        {
+          "path": "stations/WSSS/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 208
+        },
+        {
+          "path": "stations/WSSS/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5738
+        },
+        {
+          "path": "stations/WSSS/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 178
+        },
+        {
+          "path": "stations/WSSS/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2393
+        },
+        {
+          "path": "stations/WSSS/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 4943
+        },
+        {
+          "path": "stations/WSSS/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 149
+        }
+      ]
+    },
+    {
+      "stationId": "ZBAA",
+      "cityName": "Beijing",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Shanghai",
+      "files": [
+        {
+          "path": "stations/ZBAA/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 208
+        },
+        {
+          "path": "stations/ZBAA/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5736
+        },
+        {
+          "path": "stations/ZBAA/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 175
+        },
+        {
+          "path": "stations/ZBAA/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2393
+        },
+        {
+          "path": "stations/ZBAA/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 4943
+        },
+        {
+          "path": "stations/ZBAA/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 149
+        }
+      ]
+    },
+    {
+      "stationId": "ZGGG",
+      "cityName": "Guangzhou",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Shanghai",
+      "files": [
+        {
+          "path": "stations/ZGGG/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 208
+        },
+        {
+          "path": "stations/ZGGG/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5734
+        },
+        {
+          "path": "stations/ZGGG/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 177
+        },
+        {
+          "path": "stations/ZGGG/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2699
+        },
+        {
+          "path": "stations/ZGGG/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 4943
+        },
+        {
+          "path": "stations/ZGGG/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 149
+        }
+      ]
+    },
+    {
+      "stationId": "ZGSZ",
+      "cityName": "Shenzhen",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Shanghai",
+      "files": [
+        {
+          "path": "stations/ZGSZ/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 208
+        },
+        {
+          "path": "stations/ZGSZ/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5735
+        },
+        {
+          "path": "stations/ZGSZ/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 176
+        },
+        {
+          "path": "stations/ZGSZ/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 1169
+        },
+        {
+          "path": "stations/ZGSZ/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 2495
+        },
+        {
+          "path": "stations/ZGSZ/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 149
+        }
+      ]
+    },
+    {
+      "stationId": "ZHCC",
+      "cityName": "Zhengzhou",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Shanghai",
+      "files": [
+        {
+          "path": "stations/ZHCC/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 208
+        },
+        {
+          "path": "stations/ZHCC/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5734
+        },
+        {
+          "path": "stations/ZHCC/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 177
+        },
+        {
+          "path": "stations/ZHCC/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 1169
+        },
+        {
+          "path": "stations/ZHCC/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 2495
+        },
+        {
+          "path": "stations/ZHCC/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 149
+        }
+      ]
+    },
+    {
+      "stationId": "ZHHH",
+      "cityName": "Wuhan",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Shanghai",
+      "files": [
+        {
+          "path": "stations/ZHHH/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 208
+        },
+        {
+          "path": "stations/ZHHH/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5737
+        },
+        {
+          "path": "stations/ZHHH/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 173
+        },
+        {
+          "path": "stations/ZHHH/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 1169
+        },
+        {
+          "path": "stations/ZHHH/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 2495
+        },
+        {
+          "path": "stations/ZHHH/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 149
+        }
+      ]
+    },
+    {
+      "stationId": "ZSJN",
+      "cityName": "Jinan",
+      "sourceKind": "wu",
+      "timeZone": "Asia/Shanghai",
+      "files": [
+        {
+          "path": "stations/ZSJN/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 208
+        },
+        {
+          "path": "stations/ZSJN/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5734
+        },
+        {
+          "path": "stations/ZSJN/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 203
+        },
+        {
+          "path": "stations/ZSJN/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 1257
+        },
+        {
+          "path": "stations/ZSJN/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 2687
+        },
+        {
+          "path": "stations/ZSJN/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 157
+        }
+      ]
+    },
+    {
+      "stationId": "ZSPD",
+      "cityName": "Shanghai",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Shanghai",
+      "files": [
+        {
+          "path": "stations/ZSPD/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 208
+        },
+        {
+          "path": "stations/ZSPD/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5734
+        },
+        {
+          "path": "stations/ZSPD/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 176
+        },
+        {
+          "path": "stations/ZSPD/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 2393
+        },
+        {
+          "path": "stations/ZSPD/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 4943
+        },
+        {
+          "path": "stations/ZSPD/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 149
+        }
+      ]
+    },
+    {
+      "stationId": "ZSQD",
+      "cityName": "Qingdao",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Shanghai",
+      "files": [
+        {
+          "path": "stations/ZSQD/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 208
+        },
+        {
+          "path": "stations/ZSQD/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5736
+        },
+        {
+          "path": "stations/ZSQD/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 175
+        },
+        {
+          "path": "stations/ZSQD/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 1169
+        },
+        {
+          "path": "stations/ZSQD/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 2495
+        },
+        {
+          "path": "stations/ZSQD/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 149
+        }
+      ]
+    },
+    {
+      "stationId": "ZUCK",
+      "cityName": "Chongqing",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Shanghai",
+      "files": [
+        {
+          "path": "stations/ZUCK/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 208
+        },
+        {
+          "path": "stations/ZUCK/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5735
+        },
+        {
+          "path": "stations/ZUCK/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 177
+        },
+        {
+          "path": "stations/ZUCK/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 1169
+        },
+        {
+          "path": "stations/ZUCK/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 2495
+        },
+        {
+          "path": "stations/ZUCK/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 149
+        }
+      ]
+    },
+    {
+      "stationId": "ZUUU",
+      "cityName": "Chengdu",
+      "sourceKind": "wrh",
+      "timeZone": "Asia/Shanghai",
+      "files": [
+        {
+          "path": "stations/ZUUU/daily_extremes.csv",
+          "name": "daily_extremes.csv",
+          "kind": "daily_extremes",
+          "bytes": 208
+        },
+        {
+          "path": "stations/ZUUU/forecasts/20260907T1618Z.csv",
+          "name": "20260907T1618Z.csv",
+          "kind": "forecast",
+          "bytes": 5738
+        },
+        {
+          "path": "stations/ZUUU/meta.json",
+          "name": "meta.json",
+          "kind": "meta",
+          "bytes": 175
+        },
+        {
+          "path": "stations/ZUUU/observed/2026-09-06.csv",
+          "name": "2026-09-06.csv",
+          "kind": "observed",
+          "bytes": 1169
+        },
+        {
+          "path": "stations/ZUUU/observed/2026-09-07.csv",
+          "name": "2026-09-07.csv",
+          "kind": "observed",
+          "bytes": 2495
+        },
+        {
+          "path": "stations/ZUUU/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 149
+        }
+      ]
+    }
+  ]
+}

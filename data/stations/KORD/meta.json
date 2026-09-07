@@ -1,0 +1,7 @@
+{
+  "stationId": "KORD",
+  "cityName": "Chicago",
+  "timeZone": "America/Chicago",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=kord",
+  "sourceKind": "wrh"
+}

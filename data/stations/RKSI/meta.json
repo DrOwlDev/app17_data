@@ -1,0 +1,7 @@
+{
+  "stationId": "RKSI",
+  "cityName": "Seoul (Incheon)",
+  "timeZone": "Asia/Seoul",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=rksi",
+  "sourceKind": "wrh"
+}

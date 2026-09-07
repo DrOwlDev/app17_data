@@ -1,0 +1,7 @@
+{
+  "stationId": "HKO",
+  "cityName": "Hong Kong",
+  "timeZone": "Asia/Hong_Kong",
+  "resolutionUrl": "https://www.weather.gov.hk/en/cis/climat.htm",
+  "sourceKind": "hko"
+}

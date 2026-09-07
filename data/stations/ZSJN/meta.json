@@ -1,0 +1,8 @@
+{
+  "stationId": "ZSJN",
+  "cityName": "Jinan",
+  "timeZone": "Asia/Shanghai",
+  "resolutionUrl": "https://www.wunderground.com/history/daily/cn/jinan/ZSJN",
+  "sourceKind": "wu",
+  "countryCode": "CN"
+}

@@ -1,0 +1,7 @@
+{
+  "stationId": "KBKF",
+  "cityName": "Denver",
+  "timeZone": "America/Denver",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=kbkf",
+  "sourceKind": "wrh"
+}

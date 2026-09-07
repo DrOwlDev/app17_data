@@ -1,0 +1,7 @@
+{
+  "stationId": "WSSS",
+  "cityName": "Singapore",
+  "timeZone": "Asia/Singapore",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=wsss",
+  "sourceKind": "wrh"
+}

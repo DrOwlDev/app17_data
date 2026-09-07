@@ -1,0 +1,7 @@
+{
+  "stationId": "OEJN",
+  "cityName": "Jeddah",
+  "timeZone": "Asia/Riyadh",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=oejn",
+  "sourceKind": "wrh"
+}

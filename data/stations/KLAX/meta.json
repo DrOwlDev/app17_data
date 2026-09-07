@@ -1,0 +1,7 @@
+{
+  "stationId": "KLAX",
+  "cityName": "Los Angeles",
+  "timeZone": "America/Los_Angeles",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=klax",
+  "sourceKind": "wrh"
+}

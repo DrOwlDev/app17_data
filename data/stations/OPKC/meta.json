@@ -1,0 +1,7 @@
+{
+  "stationId": "OPKC",
+  "cityName": "Karachi",
+  "timeZone": "Asia/Karachi",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=opkc",
+  "sourceKind": "wrh"
+}

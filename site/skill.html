@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Temperature Archive — Forecast skill</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="brand">app17_data · Temperature Archive</div>
+    <nav class="nav">
+      <a href="index.html">Files</a>
+      <a class="active" href="skill.html">Forecast skill</a>
+    </nav>
+  </header>
+  <main>
+    <h1>How good is the forecast source?</h1>
+    <p class="lede">
+      Forecasts are paired to the nearest observation within ±30 minutes of each valid local hour.
+      <strong>Hit</strong> means |forecast − observed| ≤ 0.5°C.
+      <strong>Time-to-skill L</strong> is how many hours before the event the forecast becomes good enough
+      (hit rate ≥ 80% or MAE ≤ 0.5°C for leads ≤ L).
+    </p>
+
+    <div class="controls">
+      <label>Station
+        <select id="station"></select>
+      </label>
+      <label>Evolution target
+        <select id="target"></select>
+      </label>
+    </div>
+    <div id="status"></div>
+
+    <div class="stat-row" id="stats"></div>
+
+    <div class="grid two">
+      <section class="card">
+        <h2>Skill vs lead time</h2>
+        <div class="chart-wrap"><canvas id="skillChart"></canvas></div>
+      </section>
+      <section class="card">
+        <h2>Target-time forecast evolution</h2>
+        <p id="evoCaption" class="muted"></p>
+        <div class="chart-wrap"><canvas id="evoChart"></canvas></div>
+      </section>
+    </div>
+
+    <section class="card" style="margin-top:1rem">
+      <h2>All stations summary</h2>
+      <div style="overflow:auto">
+        <table>
+          <thead>
+            <tr>
+              <th>Station</th>
+              <th>City</th>
+              <th>Pairs</th>
+              <th>MAE@6h</th>
+              <th>MAE@24h</th>
+              <th>MAE@48h</th>
+              <th>Hit@6h</th>
+              <th>Hit@24h</th>
+              <th>Hit@48h</th>
+              <th>Time-to-skill L</th>
+              <th>Source</th>
+            </tr>
+          </thead>
+          <tbody id="summaryBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <script src="js/skill.js"></script>
+</body>
+</html>
