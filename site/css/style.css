@@ -45,6 +45,15 @@ a:hover { text-decoration: underline; }
   background: #eef2f6;
 }
 .nav a.active { background: var(--accent); color: #fff; }
+.nav a.btn-run {
+  background: var(--good);
+  color: #fff;
+  font-weight: 600;
+}
+.nav a.btn-run:hover {
+  filter: brightness(1.05);
+  text-decoration: none;
+}
 
 main { max-width: 1200px; margin: 0 auto; padding: 1.25rem; }
 h1 { font-size: 1.6rem; margin: 0 0 0.35rem; letter-spacing: -0.03em; }
