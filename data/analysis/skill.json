@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T18:36:47.526934Z",
+  "generatedAt": "2026-09-07T19:07:54.844028Z",
   "toleranceC": 0.4,
   "matchWindowMinutes": 30,
   "hitRateThreshold": 0.8,
@@ -42,7 +42,7 @@
       "stationId": "EDDM",
       "cityName": "Munich",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -51,8 +51,8 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.32500000000000107,
-      "overallHitRate": 0.5,
+      "overallMae": 1.350000000000001,
+      "overallHitRate": 0.25,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "minBucketHitRate": 0.0,
@@ -74,7 +74,7 @@
       "stationId": "EFHK",
       "cityName": "Helsinki",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -83,8 +83,8 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.32499999999999973,
-      "overallHitRate": 0.5,
+      "overallMae": 0.28749999999999987,
+      "overallHitRate": 0.75,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "minBucketHitRate": 0.0,
@@ -106,7 +106,7 @@
       "stationId": "EGLC",
       "cityName": "London",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -115,11 +115,11 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.375,
-      "overallHitRate": 0.75,
+      "overallMae": 0.5250000000000004,
+      "overallHitRate": 0.375,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
-      "minBucketHitRate": 0.75,
+      "minBucketHitRate": 0.6,
       "maxBucketHitRate": 0.0,
       "minExtremeHitRate": 0.0,
       "maxExtremeHitRate": 0.0,
@@ -138,7 +138,7 @@
       "stationId": "EHAM",
       "cityName": "Amsterdam",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -147,8 +147,8 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 1.1500000000000004,
-      "overallHitRate": 0.0,
+      "overallMae": 0.6125000000000007,
+      "overallHitRate": 0.5,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "minBucketHitRate": 0.0,
@@ -179,7 +179,7 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.9749999999999996,
+      "overallMae": 1.4749999999999996,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
@@ -202,7 +202,7 @@
       "stationId": "FACT",
       "cityName": "Cape Town",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -211,7 +211,7 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 2.9000000000000004,
+      "overallMae": 2.8,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
@@ -234,7 +234,7 @@
       "stationId": "HKO",
       "cityName": "Hong Kong",
       "sourceKind": "hko",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "maps.weather.gov.hk/ocf",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -243,7 +243,7 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.05000000000000071,
+      "overallMae": 0.18750000000000044,
       "overallHitRate": 1.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
@@ -256,7 +256,7 @@
       "minMidDayDays": 0,
       "minMorningShare": 1.0,
       "maxAfternoonShare": 0.0,
-      "minModeHour": 1,
+      "minModeHour": 2,
       "maxModeHour": 0,
       "minLockModeHour": 2,
       "maxLockModeHour": 0,
@@ -266,7 +266,7 @@
       "stationId": "KATL",
       "cityName": "Atlanta",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.weather.gov",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -275,8 +275,8 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.2749999999999986,
-      "overallHitRate": 0.5,
+      "overallMae": 1.2575000000000003,
+      "overallHitRate": 0.25,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "minBucketHitRate": 0.0,
@@ -298,7 +298,7 @@
       "stationId": "KAUS",
       "cityName": "Austin",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.weather.gov",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -307,23 +307,23 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.8499999999999979,
+      "overallMae": 1.2799999999999994,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "minBucketHitRate": 0.0,
-      "maxBucketHitRate": 0.0,
+      "maxBucketHitRate": 0.8,
       "minExtremeHitRate": 0.0,
-      "maxExtremeHitRate": 0.0,
+      "maxExtremeHitRate": 0.8,
       "minBefore6amDays": 0,
       "minAfter6pmDays": 0,
       "minMidDayDays": 2,
       "minMorningShare": 0.0,
       "maxAfternoonShare": 1.0,
       "minModeHour": 7,
-      "maxModeHour": 13,
+      "maxModeHour": 14,
       "minLockModeHour": 7,
-      "maxLockModeHour": 13,
+      "maxLockModeHour": 14,
       "timingDaysAnalyzed": 2
     },
     {
@@ -362,7 +362,7 @@
       "stationId": "KDAL",
       "cityName": "Dallas",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.weather.gov",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -371,8 +371,8 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.8049999999999997,
-      "overallHitRate": 0.0,
+      "overallMae": 0.4175000000000004,
+      "overallHitRate": 0.5,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "minBucketHitRate": 0.0,
@@ -385,16 +385,16 @@
       "minMorningShare": 0.0,
       "maxAfternoonShare": 1.0,
       "minModeHour": 6,
-      "maxModeHour": 13,
+      "maxModeHour": 14,
       "minLockModeHour": 8,
-      "maxLockModeHour": 13,
+      "maxLockModeHour": 14,
       "timingDaysAnalyzed": 2
     },
     {
       "stationId": "KHOU",
       "cityName": "Houston",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.weather.gov",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -403,12 +403,12 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.5425000000000004,
-      "overallHitRate": 0.25,
+      "overallMae": 0.7725000000000009,
+      "overallHitRate": 0.125,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "minBucketHitRate": 0.0,
-      "maxBucketHitRate": 0.0,
+      "maxBucketHitRate": 0.4,
       "minExtremeHitRate": 0.0,
       "maxExtremeHitRate": 0.0,
       "minBefore6amDays": 1,
@@ -417,16 +417,16 @@
       "minMorningShare": 0.5,
       "maxAfternoonShare": 1.0,
       "minModeHour": 3,
-      "maxModeHour": 12,
+      "maxModeHour": 14,
       "minLockModeHour": 7,
-      "maxLockModeHour": 13,
+      "maxLockModeHour": 14,
       "timingDaysAnalyzed": 2
     },
     {
       "stationId": "KLAX",
       "cityName": "Los Angeles",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.weather.gov",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -435,30 +435,30 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.8199999999999985,
-      "overallHitRate": 0.5,
+      "overallMae": 0.42499999999999805,
+      "overallHitRate": 0.75,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
-      "minBucketHitRate": 1.0,
-      "maxBucketHitRate": 0.0,
+      "minBucketHitRate": 0.8,
+      "maxBucketHitRate": 1.0,
       "minExtremeHitRate": 0.0,
-      "maxExtremeHitRate": 0.0,
+      "maxExtremeHitRate": 1.0,
       "minBefore6amDays": 1,
       "minAfter6pmDays": 0,
       "minMidDayDays": 1,
       "minMorningShare": 0.5,
-      "maxAfternoonShare": 0.5,
+      "maxAfternoonShare": 1.0,
       "minModeHour": 0,
-      "maxModeHour": 11,
+      "maxModeHour": 12,
       "minLockModeHour": 0,
-      "maxLockModeHour": 11,
+      "maxLockModeHour": 12,
       "timingDaysAnalyzed": 2
     },
     {
       "stationId": "KLGA",
       "cityName": "NYC",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.weather.gov",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -467,7 +467,7 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 2.2250000000000014,
+      "overallMae": 2.0637500000000006,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
@@ -481,16 +481,16 @@
       "minMorningShare": 0.0,
       "maxAfternoonShare": 1.0,
       "minModeHour": 6,
-      "maxModeHour": 13,
+      "maxModeHour": 15,
       "minLockModeHour": 7,
-      "maxLockModeHour": 14,
+      "maxLockModeHour": 15,
       "timingDaysAnalyzed": 2
     },
     {
       "stationId": "KMIA",
       "cityName": "Miami",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.weather.gov",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -499,13 +499,13 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 1.129999999999999,
+      "overallMae": 1.964999999999998,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "minBucketHitRate": 1.0,
       "maxBucketHitRate": 0.0,
-      "minExtremeHitRate": 0.0,
+      "minExtremeHitRate": 0.2,
       "maxExtremeHitRate": 0.0,
       "minBefore6amDays": 2,
       "minAfter6pmDays": 0,
@@ -522,7 +522,7 @@
       "stationId": "KORD",
       "cityName": "Chicago",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.weather.gov",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -531,14 +531,14 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.27500000000000036,
-      "overallHitRate": 0.5,
+      "overallMae": 0.15249999999999897,
+      "overallHitRate": 0.75,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "minBucketHitRate": 0.0,
       "maxBucketHitRate": 1.0,
       "minExtremeHitRate": 0.0,
-      "maxExtremeHitRate": 0.0,
+      "maxExtremeHitRate": 1.0,
       "minBefore6amDays": 1,
       "minAfter6pmDays": 0,
       "minMidDayDays": 1,
@@ -547,14 +547,14 @@
       "minModeHour": 5,
       "maxModeHour": 12,
       "minLockModeHour": 6,
-      "maxLockModeHour": 13,
+      "maxLockModeHour": 14,
       "timingDaysAnalyzed": 2
     },
     {
       "stationId": "KSEA",
       "cityName": "Seattle",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.weather.gov",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -563,30 +563,30 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.8549999999999995,
+      "overallMae": 0.6824999999999997,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
-      "minBucketHitRate": 0.5,
+      "minBucketHitRate": 0.4,
       "maxBucketHitRate": 0.0,
-      "minExtremeHitRate": 0.5,
+      "minExtremeHitRate": 0.4,
       "maxExtremeHitRate": 0.0,
       "minBefore6amDays": 2,
       "minAfter6pmDays": 0,
       "minMidDayDays": 0,
       "minMorningShare": 1.0,
-      "maxAfternoonShare": 0.5,
+      "maxAfternoonShare": 1.0,
       "minModeHour": 2,
-      "maxModeHour": 0,
+      "maxModeHour": 12,
       "minLockModeHour": 2,
-      "maxLockModeHour": 10,
+      "maxLockModeHour": 12,
       "timingDaysAnalyzed": 2
     },
     {
       "stationId": "KSFO",
       "cityName": "San Francisco",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.weather.gov",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -595,8 +595,8 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 1.1099999999999994,
-      "overallHitRate": 0.5,
+      "overallMae": 1.9199999999999982,
+      "overallHitRate": 0.25,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "minBucketHitRate": 0.0,
@@ -607,11 +607,11 @@
       "minAfter6pmDays": 0,
       "minMidDayDays": 0,
       "minMorningShare": 1.0,
-      "maxAfternoonShare": 0.5,
+      "maxAfternoonShare": 1.0,
       "minModeHour": 1,
-      "maxModeHour": 10,
+      "maxModeHour": 12,
       "minLockModeHour": 7,
-      "maxLockModeHour": 11,
+      "maxLockModeHour": 12,
       "timingDaysAnalyzed": 2
     },
     {
@@ -627,7 +627,7 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 1.924999999999999,
+      "overallMae": 1.424999999999999,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
@@ -682,7 +682,7 @@
       "stationId": "LIMC",
       "cityName": "Milan",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -691,8 +691,8 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.4249999999999998,
-      "overallHitRate": 0.5,
+      "overallMae": 0.6999999999999997,
+      "overallHitRate": 0.25,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "minBucketHitRate": 0.0,
@@ -714,7 +714,7 @@
       "stationId": "LLBG",
       "cityName": "Tel Aviv",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -723,8 +723,8 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 1.0,
-      "overallHitRate": 0.0,
+      "overallMae": 0.7250000000000005,
+      "overallHitRate": 0.25,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "minBucketHitRate": 0.0,
@@ -746,7 +746,7 @@
       "stationId": "LTAC",
       "cityName": "Ankara",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -755,11 +755,11 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 1.4000000000000004,
+      "overallMae": 1.625,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
-      "minBucketHitRate": 0.5,
+      "minBucketHitRate": 0.6,
       "maxBucketHitRate": 0.0,
       "minExtremeHitRate": 1.0,
       "maxExtremeHitRate": 0.0,
@@ -778,7 +778,7 @@
       "stationId": "LTFM",
       "cityName": "Istanbul",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -787,11 +787,11 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 1.8000000000000007,
+      "overallMae": 1.7750000000000004,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
-      "minBucketHitRate": 0.5,
+      "minBucketHitRate": 0.6,
       "maxBucketHitRate": 0.0,
       "minExtremeHitRate": 1.0,
       "maxExtremeHitRate": 0.0,
@@ -810,7 +810,7 @@
       "stationId": "MMMX",
       "cityName": "Mexico City",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -819,7 +819,7 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 1.1500000000000004,
+      "overallMae": 2.075,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
@@ -831,18 +831,18 @@
       "minAfter6pmDays": 1,
       "minMidDayDays": 0,
       "minMorningShare": 0.5,
-      "maxAfternoonShare": 0.5,
+      "maxAfternoonShare": 1.0,
       "minModeHour": 0,
-      "maxModeHour": 11,
+      "maxModeHour": 13,
       "minLockModeHour": 7,
-      "maxLockModeHour": 12,
+      "maxLockModeHour": 13,
       "timingDaysAnalyzed": 2
     },
     {
       "stationId": "MPMG",
       "cityName": "Panama City",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -851,13 +851,13 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 1.549999999999999,
+      "overallMae": 2.2249999999999988,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "minBucketHitRate": 1.0,
       "maxBucketHitRate": 0.0,
-      "minExtremeHitRate": 1.0,
+      "minExtremeHitRate": 0.8,
       "maxExtremeHitRate": 0.0,
       "minBefore6amDays": 1,
       "minAfter6pmDays": 1,
@@ -865,9 +865,9 @@
       "minMorningShare": 0.5,
       "maxAfternoonShare": 1.0,
       "minModeHour": 0,
-      "maxModeHour": 12,
+      "maxModeHour": 13,
       "minLockModeHour": 7,
-      "maxLockModeHour": 13,
+      "maxLockModeHour": 14,
       "timingDaysAnalyzed": 2
     },
     {
@@ -883,7 +883,7 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 3.45,
+      "overallMae": 2.95,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
@@ -906,7 +906,7 @@
       "stationId": "OEJN",
       "cityName": "Jeddah",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -915,7 +915,7 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 1.0999999999999996,
+      "overallMae": 1.2999999999999998,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
@@ -947,7 +947,7 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 1.9250000000000007,
+      "overallMae": 1.4250000000000007,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
@@ -1002,7 +1002,7 @@
       "stationId": "RJTT",
       "cityName": "Tokyo",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -1011,11 +1011,11 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.1999999999999993,
+      "overallMae": 0.23749999999999938,
       "overallHitRate": 1.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
-      "minBucketHitRate": 0.5,
+      "minBucketHitRate": 0.6,
       "maxBucketHitRate": 0.0,
       "minExtremeHitRate": 1.0,
       "maxExtremeHitRate": 0.0,
@@ -1026,15 +1026,15 @@
       "maxAfternoonShare": 0.3333333333333333,
       "minModeHour": 0,
       "maxModeHour": 0,
-      "minLockModeHour": 3,
-      "maxLockModeHour": 3,
+      "minLockModeHour": 4,
+      "maxLockModeHour": 4,
       "timingDaysAnalyzed": 3
     },
     {
       "stationId": "RKPK",
       "cityName": "Busan",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -1043,13 +1043,13 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.3000000000000007,
+      "overallMae": 0.3875000000000002,
       "overallHitRate": 0.5,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "minBucketHitRate": 0.0,
       "maxBucketHitRate": 0.0,
-      "minExtremeHitRate": 0.5,
+      "minExtremeHitRate": 0.6,
       "maxExtremeHitRate": 0.0,
       "minBefore6amDays": 1,
       "minAfter6pmDays": 2,
@@ -1058,7 +1058,7 @@
       "maxAfternoonShare": 0.6666666666666666,
       "minModeHour": 2,
       "maxModeHour": 0,
-      "minLockModeHour": 3,
+      "minLockModeHour": 4,
       "maxLockModeHour": 16,
       "timingDaysAnalyzed": 3
     },
@@ -1090,7 +1090,7 @@
       "maxAfternoonShare": 0.6666666666666666,
       "minModeHour": 3,
       "maxModeHour": 15,
-      "minLockModeHour": 3,
+      "minLockModeHour": 4,
       "maxLockModeHour": 17,
       "timingDaysAnalyzed": 3
     },
@@ -1098,7 +1098,7 @@
       "stationId": "RPLL",
       "cityName": "Manila",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -1111,26 +1111,26 @@
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
-      "minBucketHitRate": null,
-      "maxBucketHitRate": null,
-      "minExtremeHitRate": null,
-      "maxExtremeHitRate": null,
-      "minBefore6amDays": 1,
+      "minBucketHitRate": 1.0,
+      "maxBucketHitRate": 0.0,
+      "minExtremeHitRate": 0.2,
+      "maxExtremeHitRate": 0.0,
+      "minBefore6amDays": 2,
       "minAfter6pmDays": 1,
       "minMidDayDays": 0,
-      "minMorningShare": 0.5,
-      "maxAfternoonShare": 0.5,
-      "minModeHour": 1,
+      "minMorningShare": 0.6666666666666666,
+      "maxAfternoonShare": 0.3333333333333333,
+      "minModeHour": 0,
       "maxModeHour": 0,
       "minLockModeHour": 23,
-      "maxLockModeHour": 12,
-      "timingDaysAnalyzed": 2
+      "maxLockModeHour": 3,
+      "timingDaysAnalyzed": 3
     },
     {
       "stationId": "SAEZ",
       "cityName": "Buenos Aires",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -1139,7 +1139,7 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.7999999999999998,
+      "overallMae": 0.8500000000000001,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
@@ -1162,7 +1162,7 @@
       "stationId": "SBGR",
       "cityName": "Sao Paulo",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -1218,7 +1218,7 @@
       "maxAfternoonShare": 1.0,
       "minModeHour": 6,
       "maxModeHour": 14,
-      "minLockModeHour": 21,
+      "minLockModeHour": 22,
       "maxLockModeHour": 14,
       "timingDaysAnalyzed": 2
     },
@@ -1226,7 +1226,7 @@
       "stationId": "VILK",
       "cityName": "Lucknow",
       "sourceKind": "wrh",
-      "pairCount": 6,
+      "pairCount": 11,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -1235,7 +1235,7 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 1.450000000000001,
+      "overallMae": 1.5090909090909095,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
@@ -1258,7 +1258,7 @@
       "stationId": "WMKK",
       "cityName": "Kuala Lumpur",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -1267,7 +1267,7 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 1.4000000000000004,
+      "overallMae": 1.9500000000000002,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
@@ -1314,7 +1314,7 @@
       "maxAfternoonShare": 0.6666666666666666,
       "minModeHour": 0,
       "maxModeHour": 0,
-      "minLockModeHour": 2,
+      "minLockModeHour": 3,
       "maxLockModeHour": 1,
       "timingDaysAnalyzed": 3
     },
@@ -1378,7 +1378,7 @@
       "maxAfternoonShare": 0.6666666666666666,
       "minModeHour": 0,
       "maxModeHour": 0,
-      "minLockModeHour": 2,
+      "minLockModeHour": 3,
       "maxLockModeHour": 0,
       "timingDaysAnalyzed": 3
     },
@@ -1386,7 +1386,7 @@
       "stationId": "ZGSZ",
       "cityName": "Shenzhen",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -1395,30 +1395,30 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 1.1500000000000004,
+      "overallMae": 1.3250000000000002,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
-      "minBucketHitRate": null,
-      "maxBucketHitRate": null,
-      "minExtremeHitRate": null,
-      "maxExtremeHitRate": null,
-      "minBefore6amDays": 1,
+      "minBucketHitRate": 0.0,
+      "maxBucketHitRate": 0.0,
+      "minExtremeHitRate": 0.0,
+      "maxExtremeHitRate": 0.0,
+      "minBefore6amDays": 2,
       "minAfter6pmDays": 0,
       "minMidDayDays": 1,
-      "minMorningShare": 0.5,
-      "maxAfternoonShare": 1.0,
+      "minMorningShare": 0.6666666666666666,
+      "maxAfternoonShare": 0.6666666666666666,
       "minModeHour": 0,
       "maxModeHour": 15,
-      "minLockModeHour": 7,
-      "maxLockModeHour": 17,
-      "timingDaysAnalyzed": 2
+      "minLockModeHour": 3,
+      "maxLockModeHour": 3,
+      "timingDaysAnalyzed": 3
     },
     {
       "stationId": "ZHCC",
       "cityName": "Zhengzhou",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -1427,30 +1427,30 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.20000000000000107,
+      "overallMae": 0.2500000000000009,
       "overallHitRate": 1.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
-      "minBucketHitRate": null,
-      "maxBucketHitRate": null,
-      "minExtremeHitRate": null,
-      "maxExtremeHitRate": null,
-      "minBefore6amDays": 1,
+      "minBucketHitRate": 0.0,
+      "maxBucketHitRate": 0.8,
+      "minExtremeHitRate": 0.0,
+      "maxExtremeHitRate": 1.0,
+      "minBefore6amDays": 2,
       "minAfter6pmDays": 1,
       "minMidDayDays": 0,
-      "minMorningShare": 0.5,
-      "maxAfternoonShare": 1.0,
-      "minModeHour": 3,
-      "maxModeHour": 12,
-      "minLockModeHour": 6,
-      "maxLockModeHour": 15,
-      "timingDaysAnalyzed": 2
+      "minMorningShare": 0.6666666666666666,
+      "maxAfternoonShare": 0.6666666666666666,
+      "minModeHour": 2,
+      "maxModeHour": 0,
+      "minLockModeHour": 3,
+      "maxLockModeHour": 1,
+      "timingDaysAnalyzed": 3
     },
     {
       "stationId": "ZHHH",
       "cityName": "Wuhan",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -1459,30 +1459,30 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.5,
-      "overallHitRate": 0.5,
+      "overallMae": 0.5500000000000007,
+      "overallHitRate": 0.25,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
-      "minBucketHitRate": null,
-      "maxBucketHitRate": null,
-      "minExtremeHitRate": null,
-      "maxExtremeHitRate": null,
-      "minBefore6amDays": 1,
+      "minBucketHitRate": 0.0,
+      "maxBucketHitRate": 0.0,
+      "minExtremeHitRate": 1.0,
+      "maxExtremeHitRate": 0.0,
+      "minBefore6amDays": 2,
       "minAfter6pmDays": 1,
       "minMidDayDays": 0,
-      "minMorningShare": 0.5,
-      "maxAfternoonShare": 1.0,
-      "minModeHour": 4,
+      "minMorningShare": 0.6666666666666666,
+      "maxAfternoonShare": 0.6666666666666666,
+      "minModeHour": 0,
       "maxModeHour": 15,
-      "minLockModeHour": 6,
-      "maxLockModeHour": 16,
-      "timingDaysAnalyzed": 2
+      "minLockModeHour": 3,
+      "maxLockModeHour": 3,
+      "timingDaysAnalyzed": 3
     },
     {
       "stationId": "ZSJN",
       "cityName": "Jinan",
       "sourceKind": "wu",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -1491,24 +1491,24 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.09999999999999964,
-      "overallHitRate": 1.0,
+      "overallMae": 0.4999999999999991,
+      "overallHitRate": 0.5,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
-      "minBucketHitRate": null,
-      "maxBucketHitRate": null,
-      "minExtremeHitRate": null,
-      "maxExtremeHitRate": null,
-      "minBefore6amDays": 1,
+      "minBucketHitRate": 0.0,
+      "maxBucketHitRate": 0.2,
+      "minExtremeHitRate": 0.0,
+      "maxExtremeHitRate": 0.0,
+      "minBefore6amDays": 2,
       "minAfter6pmDays": 1,
       "minMidDayDays": 0,
-      "minMorningShare": 0.5,
-      "maxAfternoonShare": 1.0,
+      "minMorningShare": 0.6666666666666666,
+      "maxAfternoonShare": 0.6666666666666666,
       "minModeHour": 2,
-      "maxModeHour": 13,
-      "minLockModeHour": 6,
-      "maxLockModeHour": 15,
-      "timingDaysAnalyzed": 2
+      "maxModeHour": 0,
+      "minLockModeHour": 3,
+      "maxLockModeHour": 2,
+      "timingDaysAnalyzed": 3
     },
     {
       "stationId": "ZSPD",
@@ -1523,22 +1523,22 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.45000000000000107,
-      "overallHitRate": 0.25,
+      "overallMae": 0.34999999999999964,
+      "overallHitRate": 0.75,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
-      "minBucketHitRate": 0.0,
+      "minBucketHitRate": 1.0,
       "maxBucketHitRate": 0.0,
-      "minExtremeHitRate": 0.0,
+      "minExtremeHitRate": 1.0,
       "maxExtremeHitRate": 0.0,
       "minBefore6amDays": 2,
       "minAfter6pmDays": 1,
       "minMidDayDays": 0,
       "minMorningShare": 0.6666666666666666,
       "maxAfternoonShare": 0.6666666666666666,
-      "minModeHour": 0,
+      "minModeHour": 1,
       "maxModeHour": 12,
-      "minLockModeHour": 2,
+      "minLockModeHour": 3,
       "maxLockModeHour": 2,
       "timingDaysAnalyzed": 3
     },
@@ -1546,7 +1546,7 @@
       "stationId": "ZSQD",
       "cityName": "Qingdao",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -1555,30 +1555,30 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 0.1999999999999993,
+      "overallMae": 0.15000000000000036,
       "overallHitRate": 1.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
-      "minBucketHitRate": null,
-      "maxBucketHitRate": null,
-      "minExtremeHitRate": null,
-      "maxExtremeHitRate": null,
-      "minBefore6amDays": 1,
+      "minBucketHitRate": 0.0,
+      "maxBucketHitRate": 0.0,
+      "minExtremeHitRate": 1.0,
+      "maxExtremeHitRate": 0.0,
+      "minBefore6amDays": 2,
       "minAfter6pmDays": 1,
       "minMidDayDays": 0,
-      "minMorningShare": 0.5,
-      "maxAfternoonShare": 1.0,
-      "minModeHour": 5,
-      "maxModeHour": 12,
-      "minLockModeHour": 6,
+      "minMorningShare": 0.6666666666666666,
+      "maxAfternoonShare": 0.6666666666666666,
+      "minModeHour": 2,
+      "maxModeHour": 0,
+      "minLockModeHour": 3,
       "maxLockModeHour": 17,
-      "timingDaysAnalyzed": 2
+      "timingDaysAnalyzed": 3
     },
     {
       "stationId": "ZUCK",
       "cityName": "Chongqing",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -1587,30 +1587,30 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 1.25,
+      "overallMae": 1.4749999999999996,
       "overallHitRate": 0.0,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
-      "minBucketHitRate": null,
-      "maxBucketHitRate": null,
-      "minExtremeHitRate": null,
-      "maxExtremeHitRate": null,
-      "minBefore6amDays": 0,
+      "minBucketHitRate": 0.0,
+      "maxBucketHitRate": 0.0,
+      "minExtremeHitRate": 0.0,
+      "maxExtremeHitRate": 0.0,
+      "minBefore6amDays": 1,
       "minAfter6pmDays": 1,
       "minMidDayDays": 1,
-      "minMorningShare": 0.0,
-      "maxAfternoonShare": 1.0,
-      "minModeHour": 6,
-      "maxModeHour": 14,
-      "minLockModeHour": 7,
-      "maxLockModeHour": 16,
-      "timingDaysAnalyzed": 2
+      "minMorningShare": 0.3333333333333333,
+      "maxAfternoonShare": 0.6666666666666666,
+      "minModeHour": 2,
+      "maxModeHour": 0,
+      "minLockModeHour": 3,
+      "maxLockModeHour": 1,
+      "timingDaysAnalyzed": 3
     },
     {
       "stationId": "ZUUU",
       "cityName": "Chengdu",
       "sourceKind": "wrh",
-      "pairCount": 4,
+      "pairCount": 8,
       "dominantForecastSource": "api.open-meteo.com",
       "maeAt6h": null,
       "maeAt24h": null,
@@ -1619,24 +1619,24 @@
       "hitAt24h": null,
       "hitAt48h": null,
       "timeToSkillHours": null,
-      "overallMae": 1.8499999999999996,
-      "overallHitRate": 0.0,
+      "overallMae": 0.9750000000000005,
+      "overallHitRate": 0.5,
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
-      "minBucketHitRate": null,
-      "maxBucketHitRate": null,
-      "minExtremeHitRate": null,
-      "maxExtremeHitRate": null,
-      "minBefore6amDays": 1,
+      "minBucketHitRate": 0.0,
+      "maxBucketHitRate": 0.0,
+      "minExtremeHitRate": 0.0,
+      "maxExtremeHitRate": 0.2,
+      "minBefore6amDays": 2,
       "minAfter6pmDays": 1,
       "minMidDayDays": 0,
-      "minMorningShare": 0.5,
-      "maxAfternoonShare": 1.0,
-      "minModeHour": 4,
-      "maxModeHour": 16,
-      "minLockModeHour": 8,
+      "minMorningShare": 0.6666666666666666,
+      "maxAfternoonShare": 0.6666666666666666,
+      "minModeHour": 3,
+      "maxModeHour": 0,
+      "minLockModeHour": 3,
       "maxLockModeHour": 17,
-      "timingDaysAnalyzed": 2
+      "timingDaysAnalyzed": 3
     }
   ],
   "byStation": {
@@ -1702,6 +1702,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 8,
+          "n": 1,
+          "mae": 3.5,
+          "rmse": 3.5,
+          "bias": 3.5,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 9,
           "n": 2,
           "mae": 3.5,
@@ -1719,6 +1727,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 8,
+          "n": 1,
+          "mae": 0.8000000000000007,
+          "rmse": 0.8000000000000007,
+          "bias": 0.8000000000000007,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 9,
           "n": 2,
@@ -1861,11 +1877,11 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.3500000000000014,
-          "rmse": 0.4301162633521325,
-          "bias": 0.25,
-          "hitRate": 0.5
+          "n": 4,
+          "mae": 1.325000000000001,
+          "rmse": 1.6545392107774304,
+          "bias": -1.0250000000000004,
+          "hitRate": 0.25
         },
         {
           "leadHours": 1,
@@ -1874,10 +1890,48 @@
           "rmse": 0.3605551275463991,
           "bias": -0.3000000000000007,
           "hitRate": 0.5
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 2.450000000000001,
+          "rmse": 2.4545875417267164,
+          "bias": -2.450000000000001,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T21:00:00",
+          "obsC": 22.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:13.365243Z",
+              "forecastC": 19.4,
+              "leadHours": 2.68,
+              "errorC": -2.6000000000000014
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:35.381992Z",
+              "forecastC": 19.7,
+              "leadHours": 2.03,
+              "errorC": -2.3000000000000007
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:48.027542Z",
+              "forecastC": 19.7,
+              "leadHours": 0.82,
+              "errorC": -2.3000000000000007
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:41.749887Z",
+              "forecastC": 19.7,
+              "leadHours": 0.38,
+              "errorC": -2.3000000000000007
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T20:00:00",
           "obsC": 22.0,
@@ -1917,6 +1971,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 2,
+          "n": 1,
+          "mae": 9.2,
+          "rmse": 9.2,
+          "bias": 9.2,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 3,
           "n": 2,
           "mae": 9.2,
@@ -1934,6 +1996,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 2,
+          "n": 1,
+          "mae": 10.100000000000001,
+          "rmse": 10.100000000000001,
+          "bias": -10.100000000000001,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 3,
           "n": 2,
@@ -2076,10 +2146,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.04999999999999982,
-          "rmse": 0.0707106781186545,
-          "bias": -0.04999999999999982,
+          "n": 4,
+          "mae": 0.17500000000000027,
+          "rmse": 0.21794494717703414,
+          "bias": 0.12500000000000044,
           "hitRate": 1.0
         },
         {
@@ -2089,10 +2159,48 @@
           "rmse": 0.5999999999999996,
           "bias": -0.5999999999999996,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.1999999999999993,
+          "rmse": 0.1999999999999993,
+          "bias": 0.1999999999999993,
+          "hitRate": 1.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T22:00:00",
+          "obsC": 15.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:13.365243Z",
+              "forecastC": 15.2,
+              "leadHours": 2.68,
+              "errorC": 0.1999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:35.382104Z",
+              "forecastC": 15.2,
+              "leadHours": 2.03,
+              "errorC": 0.1999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:48.027702Z",
+              "forecastC": 15.3,
+              "leadHours": 0.82,
+              "errorC": 0.3000000000000007
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:41.750050Z",
+              "forecastC": 15.3,
+              "leadHours": 0.38,
+              "errorC": 0.3000000000000007
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T21:00:00",
           "obsC": 16.0,
@@ -2132,6 +2240,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 1,
+          "n": 1,
+          "mae": 13.6,
+          "rmse": 13.6,
+          "bias": 13.6,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 2,
           "n": 2,
           "mae": 13.3,
@@ -2149,6 +2265,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 1,
+          "n": 1,
+          "mae": 1.4000000000000004,
+          "rmse": 1.4000000000000004,
+          "bias": -1.4000000000000004,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 2,
           "n": 2,
@@ -2291,11 +2415,11 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.25,
-          "rmse": 0.29154759474226427,
-          "bias": 0.25,
-          "hitRate": 1.0
+          "n": 4,
+          "mae": 0.47500000000000053,
+          "rmse": 0.5408326913195989,
+          "bias": -0.22500000000000053,
+          "hitRate": 0.5
         },
         {
           "leadHours": 1,
@@ -2304,10 +2428,48 @@
           "rmse": 0.5099019513592787,
           "bias": -0.5,
           "hitRate": 0.5
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.6500000000000004,
+          "rmse": 0.6519202405202652,
+          "bias": -0.6500000000000004,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T20:00:00",
+          "obsC": 22.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:13.365243Z",
+              "forecastC": 21.4,
+              "leadHours": 2.68,
+              "errorC": -0.6000000000000014
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:35.382160Z",
+              "forecastC": 21.3,
+              "leadHours": 2.03,
+              "errorC": -0.6999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:48.027792Z",
+              "forecastC": 21.2,
+              "leadHours": 0.82,
+              "errorC": -0.8000000000000007
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:41.750121Z",
+              "forecastC": 21.4,
+              "leadHours": 0.38,
+              "errorC": -0.6000000000000014
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T19:00:00",
           "obsC": 23.0,
@@ -2347,6 +2509,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 3,
+          "n": 1,
+          "mae": 1.1000000000000014,
+          "rmse": 1.1000000000000014,
+          "bias": 1.1000000000000014,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 4,
           "n": 2,
           "mae": 1.0,
@@ -2364,6 +2534,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 3,
+          "n": 1,
+          "mae": 4.399999999999999,
+          "rmse": 4.399999999999999,
+          "bias": -4.399999999999999,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 4,
           "n": 2,
@@ -2506,11 +2684,11 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 1.6500000000000004,
-          "rmse": 1.650757401921918,
-          "bias": 1.6500000000000004,
-          "hitRate": 0.0
+          "n": 4,
+          "mae": 0.8750000000000009,
+          "rmse": 1.1694015563526503,
+          "bias": 0.7749999999999995,
+          "hitRate": 0.5
         },
         {
           "leadHours": 1,
@@ -2519,10 +2697,48 @@
           "rmse": 0.6519202405202652,
           "bias": 0.6500000000000004,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.05000000000000071,
+          "rmse": 0.07071067811865576,
+          "bias": 0.05000000000000071,
+          "hitRate": 1.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T21:00:00",
+          "obsC": 21.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:13.365243Z",
+              "forecastC": 21.0,
+              "leadHours": 2.68,
+              "errorC": 0.0
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:35.382199Z",
+              "forecastC": 21.1,
+              "leadHours": 2.03,
+              "errorC": 0.10000000000000142
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:48.027864Z",
+              "forecastC": 20.9,
+              "leadHours": 0.82,
+              "errorC": -0.10000000000000142
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:41.750163Z",
+              "forecastC": 20.9,
+              "leadHours": 0.38,
+              "errorC": -0.10000000000000142
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T20:00:00",
           "obsC": 21.0,
@@ -2562,6 +2778,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 2,
+          "n": 1,
+          "mae": 4.800000000000001,
+          "rmse": 4.800000000000001,
+          "bias": 4.800000000000001,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 3,
           "n": 2,
           "mae": 4.699999999999999,
@@ -2579,6 +2803,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 2,
+          "n": 1,
+          "mae": 5.0,
+          "rmse": 5.0,
+          "bias": -5.0,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 3,
           "n": 2,
@@ -2722,9 +2954,9 @@
         {
           "leadHours": 0,
           "n": 4,
-          "mae": 0.75,
-          "rmse": 0.7516648189186454,
-          "bias": 0.75,
+          "mae": 1.25,
+          "rmse": 1.328533025558642,
+          "bias": 1.25,
           "hitRate": 0.0
         },
         {
@@ -2738,9 +2970,9 @@
         {
           "leadHours": 2,
           "n": 2,
-          "mae": 0.6999999999999993,
-          "rmse": 0.6999999999999993,
-          "bias": 0.6999999999999993,
+          "mae": 1.6999999999999993,
+          "rmse": 1.6999999999999993,
+          "bias": 1.6999999999999993,
           "hitRate": 0.0
         }
       ],
@@ -2748,31 +2980,31 @@
       "evolutionTargets": [
         {
           "validLocal": "2026-09-07T21:00:00",
-          "obsC": 17.0,
+          "obsC": 16.0,
           "points": [
             {
               "issuedAtUtc": "2026-09-07T16:18:13.365243Z",
               "forecastC": 17.7,
               "leadHours": 2.68,
-              "errorC": 0.6999999999999993
+              "errorC": 1.6999999999999993
             },
             {
               "issuedAtUtc": "2026-09-07T16:57:35.382233Z",
               "forecastC": 17.7,
               "leadHours": 2.03,
-              "errorC": 0.6999999999999993
+              "errorC": 1.6999999999999993
             },
             {
               "issuedAtUtc": "2026-09-07T18:10:48.027931Z",
               "forecastC": 17.7,
               "leadHours": 0.82,
-              "errorC": 0.6999999999999993
+              "errorC": 1.6999999999999993
             },
             {
               "issuedAtUtc": "2026-09-07T18:36:41.750200Z",
               "forecastC": 17.7,
               "leadHours": 0.38,
-              "errorC": 0.6999999999999993
+              "errorC": 1.6999999999999993
             }
           ]
         },
@@ -2815,6 +3047,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 2,
+          "n": 1,
+          "mae": 9.7,
+          "rmse": 9.7,
+          "bias": 9.7,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 3,
           "n": 2,
           "mae": 9.7,
@@ -2832,6 +3072,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 2,
+          "n": 1,
+          "mae": 3.1999999999999993,
+          "rmse": 3.1999999999999993,
+          "bias": -3.1999999999999993,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 3,
           "n": 2,
@@ -2974,7 +3222,7 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
+          "n": 4,
           "mae": 2.6999999999999993,
           "rmse": 2.6999999999999993,
           "bias": 2.6999999999999993,
@@ -2987,10 +3235,48 @@
           "rmse": 3.1000000000000014,
           "bias": 3.1000000000000014,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 2.6999999999999993,
+          "rmse": 2.6999999999999993,
+          "bias": 2.6999999999999993,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T21:00:00",
+          "obsC": 16.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:15.080804Z",
+              "forecastC": 18.7,
+              "leadHours": 2.68,
+              "errorC": 2.6999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.082718Z",
+              "forecastC": 18.7,
+              "leadHours": 2.03,
+              "errorC": 2.6999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:48.906923Z",
+              "forecastC": 18.7,
+              "leadHours": 0.82,
+              "errorC": 2.6999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:42.697767Z",
+              "forecastC": 18.7,
+              "leadHours": 0.38,
+              "errorC": 2.6999999999999993
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T20:00:00",
           "obsC": 17.0,
@@ -3030,6 +3316,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 2,
+          "n": 1,
+          "mae": 5.699999999999999,
+          "rmse": 5.699999999999999,
+          "bias": 5.699999999999999,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 3,
           "n": 2,
           "mae": 5.199999999999999,
@@ -3047,6 +3341,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 2,
+          "n": 1,
+          "mae": 10.100000000000001,
+          "rmse": 10.100000000000001,
+          "bias": -10.100000000000001,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 3,
           "n": 2,
@@ -3189,10 +3491,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.0,
-          "rmse": 0.0,
-          "bias": 0.0,
+          "n": 4,
+          "mae": 0.17499999999999982,
+          "rmse": 0.24999999999999964,
+          "bias": -0.17499999999999982,
           "hitRate": 1.0
         },
         {
@@ -3202,10 +3504,48 @@
           "rmse": 0.10000000000000142,
           "bias": 0.10000000000000142,
           "hitRate": 1.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.3000000000000007,
+          "rmse": 0.3000000000000007,
+          "bias": -0.3000000000000007,
+          "hitRate": 1.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T03:00:00",
+          "obsC": 28.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:15.293726Z",
+              "forecastC": 27.7,
+              "leadHours": 2.68,
+              "errorC": -0.3000000000000007
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.163525Z",
+              "forecastC": 27.7,
+              "leadHours": 2.03,
+              "errorC": -0.3000000000000007
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:49.064943Z",
+              "forecastC": 27.7,
+              "leadHours": 0.82,
+              "errorC": -0.3000000000000007
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:42.797830Z",
+              "forecastC": 27.6,
+              "leadHours": 0.38,
+              "errorC": -0.3999999999999986
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-08T02:00:00",
           "obsC": 28.0,
@@ -3245,23 +3585,39 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 1.0999999999999979,
+          "rmse": 1.0999999999999979,
+          "bias": -1.0999999999999979,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 21,
           "n": 2,
-          "mae": 1.1500000000000004,
-          "rmse": 1.1510864433221342,
-          "bias": -1.1500000000000004,
+          "mae": 1.049999999999999,
+          "rmse": 1.0511898020814308,
+          "bias": -1.049999999999999,
           "hitRate": 0.0
         },
         {
           "leadHours": 23,
           "n": 2,
-          "mae": 1.1000000000000014,
-          "rmse": 1.1000000000000014,
-          "bias": -1.1000000000000014,
+          "mae": 1.0,
+          "rmse": 1.0,
+          "bias": -1.0,
           "hitRate": 0.0
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 4.600000000000001,
+          "rmse": 4.600000000000001,
+          "bias": 4.600000000000001,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 21,
           "n": 2,
@@ -3288,14 +3644,14 @@
         "minMidDayDays": 0,
         "minMorningShare": 1.0,
         "maxAfternoonShare": 0.0,
-        "minModeHour": 1,
+        "minModeHour": 2,
         "maxModeHour": 0,
         "minLockModeHour": 2,
         "maxLockModeHour": 0,
         "minFirstHourHist": [
           0,
-          1,
           0,
+          1,
           1,
           0,
           0,
@@ -3404,11 +3760,11 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.019999999999999574,
-          "rmse": 0.019999999999999574,
-          "bias": 0.019999999999999574,
-          "hitRate": 1.0
+          "n": 4,
+          "mae": 1.1300000000000008,
+          "rmse": 1.5839823231336911,
+          "bias": 1.1300000000000008,
+          "hitRate": 0.5
         },
         {
           "leadHours": 1,
@@ -3417,10 +3773,48 @@
           "rmse": 0.5299999999999976,
           "bias": 0.5299999999999976,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 2.240000000000002,
+          "rmse": 2.240000000000002,
+          "bias": 2.240000000000002,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T15:00:00",
+          "obsC": 27.2,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:15.308133Z",
+              "forecastC": 29.44,
+              "leadHours": 2.68,
+              "errorC": 2.240000000000002
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.164087Z",
+              "forecastC": 29.44,
+              "leadHours": 2.03,
+              "errorC": 2.240000000000002
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:49.074150Z",
+              "forecastC": 29.44,
+              "leadHours": 0.82,
+              "errorC": 2.240000000000002
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:42.812023Z",
+              "forecastC": 29.44,
+              "leadHours": 0.38,
+              "errorC": 2.240000000000002
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T14:00:00",
           "obsC": 27.8,
@@ -3460,6 +3854,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 8,
+          "n": 1,
+          "mae": 2.240000000000002,
+          "rmse": 2.240000000000002,
+          "bias": 2.240000000000002,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 9,
           "n": 2,
           "mae": 1.6900000000000013,
@@ -3477,6 +3879,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 8,
+          "n": 1,
+          "mae": 1.6400000000000006,
+          "rmse": 1.6400000000000006,
+          "bias": 1.6400000000000006,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 9,
           "n": 2,
@@ -3619,10 +4029,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.5799999999999983,
-          "rmse": 0.5799999999999983,
-          "bias": -0.5799999999999983,
+          "n": 4,
+          "mae": 1.1449999999999996,
+          "rmse": 1.2768124372827827,
+          "bias": -1.1449999999999996,
           "hitRate": 0.0
         },
         {
@@ -3632,10 +4042,48 @@
           "rmse": 1.1199999999999974,
           "bias": -1.1199999999999974,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 1.7100000000000009,
+          "rmse": 1.7100000000000009,
+          "bias": -1.7100000000000009,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T14:00:00",
+          "obsC": 35.6,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:15.355786Z",
+              "forecastC": 33.89,
+              "leadHours": 2.68,
+              "errorC": -1.7100000000000009
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.164713Z",
+              "forecastC": 33.89,
+              "leadHours": 2.03,
+              "errorC": -1.7100000000000009
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:49.075149Z",
+              "forecastC": 33.89,
+              "leadHours": 0.82,
+              "errorC": -1.7100000000000009
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:42.828725Z",
+              "forecastC": 33.89,
+              "leadHours": 0.38,
+              "errorC": -1.7100000000000009
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T13:00:00",
           "obsC": 33.9,
@@ -3675,6 +4123,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 9,
+          "n": 1,
+          "mae": 5.59,
+          "rmse": 5.59,
+          "bias": 5.59,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 10,
           "n": 2,
           "mae": 5.029999999999998,
@@ -3693,20 +4149,28 @@
       ],
       "extremeSkillByLeadMax": [
         {
+          "leadHours": 9,
+          "n": 1,
+          "mae": 1.0700000000000003,
+          "rmse": 1.0700000000000003,
+          "bias": 1.0700000000000003,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 10,
           "n": 2,
-          "mae": 1.6600000000000037,
-          "rmse": 1.6600000000000037,
-          "bias": 1.6600000000000037,
-          "hitRate": 0.0
+          "mae": 0.03999999999999915,
+          "rmse": 0.03999999999999915,
+          "bias": -0.03999999999999915,
+          "hitRate": 1.0
         },
         {
           "leadHours": 12,
           "n": 2,
-          "mae": 1.6600000000000037,
-          "rmse": 1.6600000000000037,
-          "bias": 1.6600000000000037,
-          "hitRate": 0.0
+          "mae": 0.03999999999999915,
+          "rmse": 0.03999999999999915,
+          "bias": -0.03999999999999915,
+          "hitRate": 1.0
         }
       ],
       "timeToSkillMinHours": null,
@@ -3719,9 +4183,9 @@
         "minMorningShare": 0.0,
         "maxAfternoonShare": 1.0,
         "minModeHour": 7,
-        "maxModeHour": 13,
+        "maxModeHour": 14,
         "minLockModeHour": 7,
-        "maxLockModeHour": 13,
+        "maxLockModeHour": 14,
         "minFirstHourHist": [
           0,
           0,
@@ -3788,8 +4252,8 @@
           0,
           0,
           0,
-          1,
           0,
+          1,
           1,
           0,
           0,
@@ -3814,8 +4278,8 @@
           0,
           0,
           0,
-          1,
           0,
+          1,
           1,
           0,
           0,
@@ -3890,6 +4354,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 10,
+          "n": 1,
+          "mae": 3.270000000000003,
+          "rmse": 3.270000000000003,
+          "bias": 3.270000000000003,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 11,
           "n": 2,
           "mae": 3.270000000000003,
@@ -3907,6 +4379,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 10,
+          "n": 1,
+          "mae": 4.98,
+          "rmse": 4.98,
+          "bias": 4.98,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 11,
           "n": 2,
@@ -4049,11 +4529,11 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.509999999999998,
-          "rmse": 0.509999999999998,
-          "bias": -0.509999999999998,
-          "hitRate": 0.0
+          "n": 4,
+          "mae": 0.2699999999999996,
+          "rmse": 0.3612478373637675,
+          "bias": -0.2699999999999996,
+          "hitRate": 0.5
         },
         {
           "leadHours": 1,
@@ -4062,10 +4542,48 @@
           "rmse": 1.1000000000000014,
           "bias": -1.1000000000000014,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.030000000000001137,
+          "rmse": 0.030000000000001137,
+          "bias": -0.030000000000001137,
+          "hitRate": 1.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T14:00:00",
+          "obsC": 36.7,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:16.010845Z",
+              "forecastC": 36.67,
+              "leadHours": 2.68,
+              "errorC": -0.030000000000001137
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.194971Z",
+              "forecastC": 36.67,
+              "leadHours": 2.03,
+              "errorC": -0.030000000000001137
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:49.089502Z",
+              "forecastC": 36.67,
+              "leadHours": 0.82,
+              "errorC": -0.030000000000001137
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:42.832438Z",
+              "forecastC": 36.67,
+              "leadHours": 0.38,
+              "errorC": -0.030000000000001137
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T13:00:00",
           "obsC": 36.1,
@@ -4105,6 +4623,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 9,
+          "n": 1,
+          "mae": 2.8099999999999987,
+          "rmse": 2.8099999999999987,
+          "bias": 2.8099999999999987,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 10,
           "n": 2,
           "mae": 2.8099999999999987,
@@ -4123,19 +4649,27 @@
       ],
       "extremeSkillByLeadMax": [
         {
+          "leadHours": 9,
+          "n": 1,
+          "mae": 1.0799999999999983,
+          "rmse": 1.0799999999999983,
+          "bias": 1.0799999999999983,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 10,
           "n": 2,
-          "mae": 1.6799999999999997,
-          "rmse": 1.6799999999999997,
-          "bias": 1.6799999999999997,
+          "mae": 1.0799999999999983,
+          "rmse": 1.0799999999999983,
+          "bias": 1.0799999999999983,
           "hitRate": 0.0
         },
         {
           "leadHours": 12,
           "n": 2,
-          "mae": 1.6799999999999997,
-          "rmse": 1.6799999999999997,
-          "bias": 1.6799999999999997,
+          "mae": 1.0799999999999983,
+          "rmse": 1.0799999999999983,
+          "bias": 1.0799999999999983,
           "hitRate": 0.0
         }
       ],
@@ -4149,9 +4683,9 @@
         "minMorningShare": 0.0,
         "maxAfternoonShare": 1.0,
         "minModeHour": 6,
-        "maxModeHour": 13,
+        "maxModeHour": 14,
         "minLockModeHour": 8,
-        "maxLockModeHour": 13,
+        "maxLockModeHour": 14,
         "minFirstHourHist": [
           0,
           0,
@@ -4218,8 +4752,8 @@
           0,
           0,
           0,
-          1,
           0,
+          1,
           1,
           0,
           0,
@@ -4244,8 +4778,8 @@
           0,
           0,
           0,
-          1,
           0,
+          1,
           0,
           0,
           0,
@@ -4264,11 +4798,11 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.2749999999999986,
-          "rmse": 0.37503333185198423,
-          "bias": 0.25500000000000256,
-          "hitRate": 0.5
+          "n": 4,
+          "mae": 0.7074999999999996,
+          "rmse": 0.8486017911835921,
+          "bias": 0.6975000000000016,
+          "hitRate": 0.25
         },
         {
           "leadHours": 1,
@@ -4277,10 +4811,48 @@
           "rmse": 0.8570297544426356,
           "bias": 0.8100000000000023,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.865000000000002,
+          "rmse": 0.9076618313006242,
+          "bias": 0.865000000000002,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T14:00:00",
+          "obsC": 33.3,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:16.011983Z",
+              "forecastC": 33.89,
+              "leadHours": 2.68,
+              "errorC": 0.5900000000000034
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.200519Z",
+              "forecastC": 34.44,
+              "leadHours": 2.03,
+              "errorC": 1.1400000000000006
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:49.118090Z",
+              "forecastC": 34.44,
+              "leadHours": 0.82,
+              "errorC": 1.1400000000000006
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:42.874207Z",
+              "forecastC": 34.44,
+              "leadHours": 0.38,
+              "errorC": 1.1400000000000006
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T13:00:00",
           "obsC": 32.8,
@@ -4320,6 +4892,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 9,
+          "n": 1,
+          "mae": 2.789999999999999,
+          "rmse": 2.789999999999999,
+          "bias": 2.789999999999999,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 10,
           "n": 2,
           "mae": 2.789999999999999,
@@ -4338,19 +4918,27 @@
       ],
       "extremeSkillByLeadMax": [
         {
+          "leadHours": 9,
+          "n": 1,
+          "mae": 0.5900000000000034,
+          "rmse": 0.5900000000000034,
+          "bias": 0.5900000000000034,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 10,
           "n": 2,
-          "mae": 1.6400000000000006,
-          "rmse": 1.6400000000000006,
-          "bias": 1.6400000000000006,
+          "mae": 1.1400000000000006,
+          "rmse": 1.1400000000000006,
+          "bias": 1.1400000000000006,
           "hitRate": 0.0
         },
         {
           "leadHours": 12,
           "n": 2,
-          "mae": 1.365000000000002,
-          "rmse": 1.3924259405799666,
-          "bias": 1.365000000000002,
+          "mae": 0.865000000000002,
+          "rmse": 0.9076618313006242,
+          "bias": 0.865000000000002,
           "hitRate": 0.0
         }
       ],
@@ -4364,9 +4952,9 @@
         "minMorningShare": 0.5,
         "maxAfternoonShare": 1.0,
         "minModeHour": 3,
-        "maxModeHour": 12,
+        "maxModeHour": 14,
         "minLockModeHour": 7,
-        "maxLockModeHour": 13,
+        "maxLockModeHour": 14,
         "minFirstHourHist": [
           0,
           0,
@@ -4432,9 +5020,9 @@
           0,
           0,
           0,
+          0,
+          0,
           1,
-          0,
-          0,
           1,
           0,
           0,
@@ -4459,8 +5047,8 @@
           0,
           0,
           0,
-          1,
           0,
+          1,
           0,
           1,
           0,
@@ -4479,10 +5067,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.00999999999999801,
-          "rmse": 0.00999999999999801,
-          "bias": 0.00999999999999801,
+          "n": 4,
+          "mae": 0.019999999999997797,
+          "rmse": 0.022360679774995833,
+          "bias": 0.019999999999997797,
           "hitRate": 1.0
         },
         {
@@ -4492,10 +5080,48 @@
           "rmse": 1.629999999999999,
           "bias": 1.629999999999999,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.029999999999997584,
+          "rmse": 0.029999999999997584,
+          "bias": 0.029999999999997584,
+          "hitRate": 1.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T12:00:00",
+          "obsC": 28.3,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:16.143665Z",
+              "forecastC": 28.33,
+              "leadHours": 2.68,
+              "errorC": 0.029999999999997584
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.296146Z",
+              "forecastC": 28.33,
+              "leadHours": 2.03,
+              "errorC": 0.029999999999997584
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:49.170145Z",
+              "forecastC": 28.33,
+              "leadHours": 0.82,
+              "errorC": 0.029999999999997584
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:42.888423Z",
+              "forecastC": 28.33,
+              "leadHours": 0.38,
+              "errorC": 0.029999999999997584
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T11:00:00",
           "obsC": 26.7,
@@ -4535,6 +5161,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 11,
+          "n": 1,
+          "mae": 1.6900000000000013,
+          "rmse": 1.6900000000000013,
+          "bias": 1.6900000000000013,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 12,
           "n": 2,
           "mae": 0.5800000000000018,
@@ -4553,20 +5187,28 @@
       ],
       "extremeSkillByLeadMax": [
         {
+          "leadHours": 11,
+          "n": 1,
+          "mae": 0.029999999999997584,
+          "rmse": 0.029999999999997584,
+          "bias": 0.029999999999997584,
+          "hitRate": 1.0
+        },
+        {
           "leadHours": 12,
           "n": 2,
-          "mae": 1.629999999999999,
-          "rmse": 1.629999999999999,
-          "bias": 1.629999999999999,
-          "hitRate": 0.0
+          "mae": 0.029999999999997584,
+          "rmse": 0.029999999999997584,
+          "bias": 0.029999999999997584,
+          "hitRate": 1.0
         },
         {
           "leadHours": 14,
           "n": 2,
-          "mae": 1.629999999999999,
-          "rmse": 1.629999999999999,
-          "bias": 1.629999999999999,
-          "hitRate": 0.0
+          "mae": 0.029999999999997584,
+          "rmse": 0.029999999999997584,
+          "bias": 0.029999999999997584,
+          "hitRate": 1.0
         }
       ],
       "timeToSkillMinHours": null,
@@ -4577,11 +5219,11 @@
         "minAfter6pmDays": 0,
         "minMidDayDays": 1,
         "minMorningShare": 0.5,
-        "maxAfternoonShare": 0.5,
+        "maxAfternoonShare": 1.0,
         "minModeHour": 0,
-        "maxModeHour": 11,
+        "maxModeHour": 12,
         "minLockModeHour": 0,
-        "maxLockModeHour": 11,
+        "maxLockModeHour": 12,
         "minFirstHourHist": [
           1,
           0,
@@ -4646,8 +5288,8 @@
           0,
           0,
           0,
-          1,
           0,
+          1,
           0,
           0,
           0,
@@ -4672,8 +5314,8 @@
           0,
           0,
           0,
-          1,
           0,
+          1,
           0,
           0,
           0,
@@ -4694,10 +5336,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 1.6700000000000017,
-          "rmse": 1.6700000000000017,
-          "bias": 1.6700000000000017,
+          "n": 4,
+          "mae": 1.6475000000000009,
+          "rmse": 1.6937458487034005,
+          "bias": 1.6475000000000009,
           "hitRate": 0.0
         },
         {
@@ -4707,10 +5349,48 @@
           "rmse": 2.780000000000001,
           "bias": 2.780000000000001,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 2.1799999999999997,
+          "rmse": 2.1799999999999997,
+          "bias": 2.1799999999999997,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T15:00:00",
+          "obsC": 25.6,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:16.195982Z",
+              "forecastC": 27.78,
+              "leadHours": 2.68,
+              "errorC": 2.1799999999999997
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.314020Z",
+              "forecastC": 27.78,
+              "leadHours": 2.03,
+              "errorC": 2.1799999999999997
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:49.179344Z",
+              "forecastC": 27.78,
+              "leadHours": 0.82,
+              "errorC": 2.1799999999999997
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:42.903577Z",
+              "forecastC": 26.67,
+              "leadHours": 0.38,
+              "errorC": 1.0700000000000003
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T14:00:00",
           "obsC": 25.0,
@@ -4750,6 +5430,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 8,
+          "n": 1,
+          "mae": 2.210000000000001,
+          "rmse": 2.210000000000001,
+          "bias": 2.210000000000001,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 9,
           "n": 2,
           "mae": 2.7650000000000006,
@@ -4768,19 +5456,27 @@
       ],
       "extremeSkillByLeadMax": [
         {
+          "leadHours": 8,
+          "n": 1,
+          "mae": 1.6199999999999974,
+          "rmse": 1.6199999999999974,
+          "bias": 1.6199999999999974,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 9,
           "n": 2,
-          "mae": 2.5,
-          "rmse": 2.5156311335328954,
-          "bias": 2.5,
+          "mae": 1.8999999999999986,
+          "rmse": 1.9205207627099468,
+          "bias": 1.8999999999999986,
           "hitRate": 0.0
         },
         {
           "leadHours": 11,
           "n": 2,
-          "mae": 2.780000000000001,
-          "rmse": 2.780000000000001,
-          "bias": 2.780000000000001,
+          "mae": 2.1799999999999997,
+          "rmse": 2.1799999999999997,
+          "bias": 2.1799999999999997,
           "hitRate": 0.0
         }
       ],
@@ -4794,9 +5490,9 @@
         "minMorningShare": 0.0,
         "maxAfternoonShare": 1.0,
         "minModeHour": 6,
-        "maxModeHour": 13,
+        "maxModeHour": 15,
         "minLockModeHour": 7,
-        "maxLockModeHour": 14,
+        "maxLockModeHour": 15,
         "minFirstHourHist": [
           0,
           0,
@@ -4863,9 +5559,9 @@
           0,
           0,
           0,
+          0,
+          0,
           1,
-          0,
-          0,
           1,
           0,
           0,
@@ -4890,8 +5586,8 @@
           0,
           0,
           0,
-          1,
           0,
+          1,
           1,
           0,
           0,
@@ -4909,10 +5605,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.5700000000000003,
-          "rmse": 0.5700000000000003,
-          "bias": 0.5700000000000003,
+          "n": 4,
+          "mae": 1.6849999999999987,
+          "rmse": 2.020507362025685,
+          "bias": -1.1149999999999984,
           "hitRate": 0.0
         },
         {
@@ -4922,10 +5618,48 @@
           "rmse": 1.6899999999999977,
           "bias": -1.6899999999999977,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 2.799999999999997,
+          "rmse": 2.799999999999997,
+          "bias": -2.799999999999997,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T15:00:00",
+          "obsC": 32.8,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:16.648766Z",
+              "forecastC": 30.0,
+              "leadHours": 2.68,
+              "errorC": -2.799999999999997
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.320774Z",
+              "forecastC": 30.0,
+              "leadHours": 2.03,
+              "errorC": -2.799999999999997
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:49.228597Z",
+              "forecastC": 30.0,
+              "leadHours": 0.82,
+              "errorC": -2.799999999999997
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:42.920416Z",
+              "forecastC": 30.0,
+              "leadHours": 0.38,
+              "errorC": -2.799999999999997
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T14:00:00",
           "obsC": 32.8,
@@ -4965,6 +5699,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 8,
+          "n": 1,
+          "mae": 0.029999999999997584,
+          "rmse": 0.029999999999997584,
+          "bias": -0.029999999999997584,
+          "hitRate": 1.0
+        },
+        {
           "leadHours": 9,
           "n": 2,
           "mae": 0.5899999999999999,
@@ -4982,6 +5724,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 8,
+          "n": 1,
+          "mae": 1.1299999999999955,
+          "rmse": 1.1299999999999955,
+          "bias": -1.1299999999999955,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 9,
           "n": 2,
@@ -5105,8 +5855,8 @@
           0,
           0,
           1,
-          1,
           0,
+          1,
           0,
           0,
           0,
@@ -5124,11 +5874,11 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.5400000000000027,
-          "rmse": 0.5400000000000027,
-          "bias": -0.5400000000000027,
-          "hitRate": 0.0
+          "n": 4,
+          "mae": 0.28500000000000014,
+          "rmse": 0.3824264635194607,
+          "bias": -0.28500000000000014,
+          "hitRate": 0.5
         },
         {
           "leadHours": 1,
@@ -5137,10 +5887,48 @@
           "rmse": 0.00999999999999801,
           "bias": 0.00999999999999801,
           "hitRate": 1.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.029999999999997584,
+          "rmse": 0.029999999999997584,
+          "bias": -0.029999999999997584,
+          "hitRate": 1.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T14:00:00",
+          "obsC": 26.7,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:16.797366Z",
+              "forecastC": 26.67,
+              "leadHours": 2.68,
+              "errorC": -0.029999999999997584
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.341528Z",
+              "forecastC": 26.67,
+              "leadHours": 2.03,
+              "errorC": -0.029999999999997584
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:49.236712Z",
+              "forecastC": 26.67,
+              "leadHours": 0.82,
+              "errorC": -0.029999999999997584
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:42.938336Z",
+              "forecastC": 26.67,
+              "leadHours": 0.38,
+              "errorC": -0.029999999999997584
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T13:00:00",
           "obsC": 26.1,
@@ -5180,6 +5968,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 9,
+          "n": 1,
+          "mae": 2.8099999999999987,
+          "rmse": 2.8099999999999987,
+          "bias": 2.8099999999999987,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 10,
           "n": 2,
           "mae": 2.8099999999999987,
@@ -5198,20 +5994,28 @@
       ],
       "extremeSkillByLeadMax": [
         {
+          "leadHours": 9,
+          "n": 1,
+          "mae": 0.029999999999997584,
+          "rmse": 0.029999999999997584,
+          "bias": -0.029999999999997584,
+          "hitRate": 1.0
+        },
+        {
           "leadHours": 10,
           "n": 2,
-          "mae": 0.5700000000000003,
-          "rmse": 0.5700000000000003,
-          "bias": 0.5700000000000003,
-          "hitRate": 0.0
+          "mae": 0.029999999999997584,
+          "rmse": 0.029999999999997584,
+          "bias": -0.029999999999997584,
+          "hitRate": 1.0
         },
         {
           "leadHours": 12,
           "n": 2,
-          "mae": 0.5700000000000003,
-          "rmse": 0.5700000000000003,
-          "bias": 0.5700000000000003,
-          "hitRate": 0.0
+          "mae": 0.029999999999997584,
+          "rmse": 0.029999999999997584,
+          "bias": -0.029999999999997584,
+          "hitRate": 1.0
         }
       ],
       "timeToSkillMinHours": null,
@@ -5226,7 +6030,7 @@
         "minModeHour": 5,
         "maxModeHour": 12,
         "minLockModeHour": 6,
-        "maxLockModeHour": 13,
+        "maxLockModeHour": 14,
         "minFirstHourHist": [
           0,
           0,
@@ -5292,9 +6096,9 @@
           0,
           0,
           0,
-          2,
+          1,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -5319,8 +6123,8 @@
           0,
           0,
           0,
-          1,
           0,
+          1,
           0,
           1,
           0,
@@ -5339,10 +6143,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 1.1099999999999994,
-          "rmse": 1.1099999999999994,
-          "bias": -1.1099999999999994,
+          "n": 4,
+          "mae": 0.8099999999999996,
+          "rmse": 0.8637708029332777,
+          "bias": -0.2999999999999998,
           "hitRate": 0.0
         },
         {
@@ -5352,10 +6156,48 @@
           "rmse": 0.5999999999999996,
           "bias": 0.5999999999999996,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.5099999999999998,
+          "rmse": 0.5099999999999998,
+          "bias": 0.5099999999999998,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T12:00:00",
+          "obsC": 15.6,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:16.803294Z",
+              "forecastC": 16.11,
+              "leadHours": 2.68,
+              "errorC": 0.5099999999999998
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.363751Z",
+              "forecastC": 16.11,
+              "leadHours": 2.03,
+              "errorC": 0.5099999999999998
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:49.262432Z",
+              "forecastC": 16.11,
+              "leadHours": 0.82,
+              "errorC": 0.5099999999999998
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:42.968416Z",
+              "forecastC": 16.11,
+              "leadHours": 0.38,
+              "errorC": 0.5099999999999998
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T11:00:00",
           "obsC": 14.4,
@@ -5395,6 +6237,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 11,
+          "n": 1,
+          "mae": 1.0999999999999996,
+          "rmse": 1.0999999999999996,
+          "bias": 1.0999999999999996,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 12,
           "n": 2,
           "mae": 0.5399999999999991,
@@ -5413,19 +6263,27 @@
       ],
       "extremeSkillByLeadMax": [
         {
+          "leadHours": 11,
+          "n": 1,
+          "mae": 4.959999999999999,
+          "rmse": 4.959999999999999,
+          "bias": 4.959999999999999,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 12,
           "n": 2,
-          "mae": 5.559999999999999,
-          "rmse": 5.559999999999999,
-          "bias": 5.559999999999999,
+          "mae": 4.959999999999999,
+          "rmse": 4.959999999999999,
+          "bias": 4.959999999999999,
           "hitRate": 0.0
         },
         {
           "leadHours": 14,
           "n": 2,
-          "mae": 5.559999999999999,
-          "rmse": 5.559999999999999,
-          "bias": 5.559999999999999,
+          "mae": 4.959999999999999,
+          "rmse": 4.959999999999999,
+          "bias": 4.959999999999999,
           "hitRate": 0.0
         }
       ],
@@ -5437,11 +6295,11 @@
         "minAfter6pmDays": 0,
         "minMidDayDays": 0,
         "minMorningShare": 1.0,
-        "maxAfternoonShare": 0.5,
+        "maxAfternoonShare": 1.0,
         "minModeHour": 2,
-        "maxModeHour": 0,
+        "maxModeHour": 12,
         "minLockModeHour": 2,
-        "maxLockModeHour": 10,
+        "maxLockModeHour": 12,
         "minFirstHourHist": [
           0,
           0,
@@ -5495,19 +6353,19 @@
           0
         ],
         "maxFirstHourHist": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
           0,
           0,
           0,
@@ -5531,9 +6389,9 @@
           0,
           0,
           0,
+          0,
+          0,
           1,
-          0,
-          0,
           0,
           0,
           0,
@@ -5554,11 +6412,11 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.00999999999999801,
-          "rmse": 0.00999999999999801,
-          "bias": -0.00999999999999801,
-          "hitRate": 1.0
+          "n": 4,
+          "mae": 1.3699999999999974,
+          "rmse": 1.930414463269479,
+          "bias": 1.3599999999999994,
+          "hitRate": 0.5
         },
         {
           "leadHours": 1,
@@ -5567,10 +6425,48 @@
           "rmse": 2.210000000000001,
           "bias": 2.210000000000001,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 2.729999999999997,
+          "rmse": 2.729999999999997,
+          "bias": 2.729999999999997,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T12:00:00",
+          "obsC": 20.6,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:16.997244Z",
+              "forecastC": 23.33,
+              "leadHours": 2.68,
+              "errorC": 2.729999999999997
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.391818Z",
+              "forecastC": 23.33,
+              "leadHours": 2.03,
+              "errorC": 2.729999999999997
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:49.284676Z",
+              "forecastC": 23.33,
+              "leadHours": 0.82,
+              "errorC": 2.729999999999997
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:42.973273Z",
+              "forecastC": 23.33,
+              "leadHours": 0.38,
+              "errorC": 2.729999999999997
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T11:00:00",
           "obsC": 18.9,
@@ -5610,6 +6506,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 11,
+          "n": 1,
+          "mae": 2.7700000000000014,
+          "rmse": 2.7700000000000014,
+          "bias": 2.7700000000000014,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 12,
           "n": 2,
           "mae": 2.7700000000000014,
@@ -5628,19 +6532,27 @@
       ],
       "extremeSkillByLeadMax": [
         {
+          "leadHours": 11,
+          "n": 1,
+          "mae": 4.959999999999997,
+          "rmse": 4.959999999999997,
+          "bias": 4.959999999999997,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 12,
           "n": 2,
-          "mae": 6.66,
-          "rmse": 6.66,
-          "bias": 6.66,
+          "mae": 4.959999999999997,
+          "rmse": 4.959999999999997,
+          "bias": 4.959999999999997,
           "hitRate": 0.0
         },
         {
           "leadHours": 14,
           "n": 2,
-          "mae": 6.66,
-          "rmse": 6.66,
-          "bias": 6.66,
+          "mae": 4.959999999999997,
+          "rmse": 4.959999999999997,
+          "bias": 4.959999999999997,
           "hitRate": 0.0
         }
       ],
@@ -5652,11 +6564,11 @@
         "minAfter6pmDays": 0,
         "minMidDayDays": 0,
         "minMorningShare": 1.0,
-        "maxAfternoonShare": 0.5,
+        "maxAfternoonShare": 1.0,
         "minModeHour": 1,
-        "maxModeHour": 10,
+        "maxModeHour": 12,
         "minLockModeHour": 7,
-        "maxLockModeHour": 11,
+        "maxLockModeHour": 12,
         "minFirstHourHist": [
           0,
           1,
@@ -5720,9 +6632,9 @@
           0,
           0,
           0,
+          0,
+          0,
           1,
-          0,
-          0,
           0,
           0,
           1,
@@ -5747,8 +6659,8 @@
           0,
           0,
           0,
-          1,
           0,
+          1,
           0,
           0,
           1,
@@ -5770,9 +6682,9 @@
         {
           "leadHours": 0,
           "n": 4,
-          "mae": 1.8999999999999986,
-          "rmse": 2.1470910553583877,
-          "bias": -1.8999999999999986,
+          "mae": 1.3999999999999986,
+          "rmse": 1.4866068747318493,
+          "bias": -1.3999999999999986,
           "hitRate": 0.0
         },
         {
@@ -5786,9 +6698,9 @@
         {
           "leadHours": 2,
           "n": 2,
-          "mae": 2.8999999999999986,
-          "rmse": 2.8999999999999986,
-          "bias": -2.8999999999999986,
+          "mae": 1.8999999999999986,
+          "rmse": 1.8999999999999986,
+          "bias": -1.8999999999999986,
           "hitRate": 0.0
         }
       ],
@@ -5796,31 +6708,31 @@
       "evolutionTargets": [
         {
           "validLocal": "2026-09-07T21:00:00",
-          "obsC": 36.0,
+          "obsC": 35.0,
           "points": [
             {
               "issuedAtUtc": "2026-09-07T16:18:17.248582Z",
               "forecastC": 33.1,
               "leadHours": 2.68,
-              "errorC": -2.8999999999999986
+              "errorC": -1.8999999999999986
             },
             {
               "issuedAtUtc": "2026-09-07T16:57:36.395932Z",
               "forecastC": 33.1,
               "leadHours": 2.03,
-              "errorC": -2.8999999999999986
+              "errorC": -1.8999999999999986
             },
             {
               "issuedAtUtc": "2026-09-07T18:10:49.310740Z",
               "forecastC": 33.1,
               "leadHours": 0.82,
-              "errorC": -2.8999999999999986
+              "errorC": -1.8999999999999986
             },
             {
               "issuedAtUtc": "2026-09-07T18:36:42.988787Z",
               "forecastC": 33.1,
               "leadHours": 0.38,
-              "errorC": -2.8999999999999986
+              "errorC": -1.8999999999999986
             }
           ]
         },
@@ -5863,6 +6775,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 2,
+          "n": 1,
+          "mae": 10.2,
+          "rmse": 10.2,
+          "bias": 10.2,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 3,
           "n": 2,
           "mae": 10.2,
@@ -5880,6 +6800,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 2,
+          "n": 1,
+          "mae": 6.5,
+          "rmse": 6.5,
+          "bias": -6.5,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 3,
           "n": 2,
@@ -6116,6 +7044,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 2,
+          "n": 1,
+          "mae": 6.800000000000001,
+          "rmse": 6.800000000000001,
+          "bias": 6.800000000000001,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 3,
           "n": 2,
           "mae": 6.800000000000001,
@@ -6133,6 +7069,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 2,
+          "n": 1,
+          "mae": 4.800000000000001,
+          "rmse": 4.800000000000001,
+          "bias": -4.800000000000001,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 3,
           "n": 2,
@@ -6275,10 +7219,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.5500000000000007,
-          "rmse": 0.5522680508593638,
-          "bias": -0.5500000000000007,
+          "n": 4,
+          "mae": 0.7750000000000004,
+          "rmse": 0.8077747210701759,
+          "bias": 0.22499999999999964,
           "hitRate": 0.0
         },
         {
@@ -6288,10 +7232,48 @@
           "rmse": 0.3162277660168368,
           "bias": -0.29999999999999893,
           "hitRate": 1.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.9499999999999993,
+          "rmse": 0.9513148795220218,
+          "bias": 0.9499999999999993,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T21:00:00",
+          "obsC": 25.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:17.457794Z",
+              "forecastC": 25.9,
+              "leadHours": 2.68,
+              "errorC": 0.8999999999999986
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.428765Z",
+              "forecastC": 26.0,
+              "leadHours": 2.03,
+              "errorC": 1.0
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:49.421950Z",
+              "forecastC": 26.0,
+              "leadHours": 0.82,
+              "errorC": 1.0
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:43.027865Z",
+              "forecastC": 26.0,
+              "leadHours": 0.38,
+              "errorC": 1.0
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T20:00:00",
           "obsC": 28.0,
@@ -6331,6 +7313,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 2,
+          "n": 1,
+          "mae": 2.8000000000000007,
+          "rmse": 2.8000000000000007,
+          "bias": 2.8000000000000007,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 3,
           "n": 2,
           "mae": 2.8000000000000007,
@@ -6348,6 +7338,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 2,
+          "n": 1,
+          "mae": 6.0,
+          "rmse": 6.0,
+          "bias": -6.0,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 3,
           "n": 2,
@@ -6490,11 +7488,11 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.8000000000000007,
-          "rmse": 0.8000000000000007,
-          "bias": -0.8000000000000007,
-          "hitRate": 0.0
+          "n": 4,
+          "mae": 0.5500000000000007,
+          "rmse": 0.6041522986797292,
+          "bias": -0.5500000000000007,
+          "hitRate": 0.5
         },
         {
           "leadHours": 1,
@@ -6503,10 +7501,48 @@
           "rmse": 1.1999999999999993,
           "bias": -1.1999999999999993,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.6000000000000014,
+          "rmse": 0.6000000000000014,
+          "bias": -0.6000000000000014,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T22:00:00",
+          "obsC": 28.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:17.463186Z",
+              "forecastC": 27.4,
+              "leadHours": 2.68,
+              "errorC": -0.6000000000000014
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.572504Z",
+              "forecastC": 27.4,
+              "leadHours": 2.03,
+              "errorC": -0.6000000000000014
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:49.429670Z",
+              "forecastC": 27.7,
+              "leadHours": 0.82,
+              "errorC": -0.3000000000000007
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:43.055449Z",
+              "forecastC": 27.7,
+              "leadHours": 0.38,
+              "errorC": -0.3000000000000007
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T21:00:00",
           "obsC": 29.0,
@@ -6546,6 +7582,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 1,
+          "n": 1,
+          "mae": 2.0,
+          "rmse": 2.0,
+          "bias": 2.0,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 2,
           "n": 2,
           "mae": 2.0,
@@ -6563,6 +7607,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 1,
+          "n": 1,
+          "mae": 5.0,
+          "rmse": 5.0,
+          "bias": -5.0,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 2,
           "n": 2,
@@ -6705,10 +7757,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 1.1000000000000014,
-          "rmse": 1.1000000000000014,
-          "bias": -1.1000000000000014,
+          "n": 4,
+          "mae": 1.4000000000000004,
+          "rmse": 1.4317821063276355,
+          "bias": -1.4000000000000004,
           "hitRate": 0.0
         },
         {
@@ -6718,10 +7770,48 @@
           "rmse": 1.6999999999999993,
           "bias": -1.6999999999999993,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 2.0,
+          "rmse": 2.0,
+          "bias": -2.0,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T22:00:00",
+          "obsC": 16.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:18.409355Z",
+              "forecastC": 14.0,
+              "leadHours": 2.68,
+              "errorC": -2.0
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.712011Z",
+              "forecastC": 14.0,
+              "leadHours": 2.03,
+              "errorC": -2.0
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:49.621398Z",
+              "forecastC": 14.3,
+              "leadHours": 0.82,
+              "errorC": -1.6999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:43.083456Z",
+              "forecastC": 14.3,
+              "leadHours": 0.38,
+              "errorC": -1.6999999999999993
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T21:00:00",
           "obsC": 17.0,
@@ -6761,6 +7851,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 1,
+          "n": 1,
+          "mae": 0.0,
+          "rmse": 0.0,
+          "bias": 0.0,
+          "hitRate": 1.0
+        },
+        {
           "leadHours": 2,
           "n": 2,
           "mae": 0.0,
@@ -6778,6 +7876,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 1,
+          "n": 1,
+          "mae": 11.0,
+          "rmse": 11.0,
+          "bias": -11.0,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 2,
           "n": 2,
@@ -6920,10 +8026,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 2.0,
-          "rmse": 2.0,
-          "bias": -2.0,
+          "n": 4,
+          "mae": 1.8000000000000007,
+          "rmse": 1.811077027627484,
+          "bias": -1.8000000000000007,
           "hitRate": 0.0
         },
         {
@@ -6933,10 +8039,48 @@
           "rmse": 1.6000000000000014,
           "bias": -1.6000000000000014,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 1.8999999999999986,
+          "rmse": 1.8999999999999986,
+          "bias": -1.8999999999999986,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T22:00:00",
+          "obsC": 22.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:18.415390Z",
+              "forecastC": 20.1,
+              "leadHours": 2.68,
+              "errorC": -1.8999999999999986
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.727165Z",
+              "forecastC": 20.1,
+              "leadHours": 2.03,
+              "errorC": -1.8999999999999986
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:49.824336Z",
+              "forecastC": 20.4,
+              "leadHours": 0.82,
+              "errorC": -1.6000000000000014
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:43.355527Z",
+              "forecastC": 20.4,
+              "leadHours": 0.38,
+              "errorC": -1.6000000000000014
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T21:00:00",
           "obsC": 22.0,
@@ -6976,6 +8120,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 1,
+          "n": 1,
+          "mae": 0.10000000000000142,
+          "rmse": 0.10000000000000142,
+          "bias": 0.10000000000000142,
+          "hitRate": 1.0
+        },
+        {
           "leadHours": 2,
           "n": 2,
           "mae": 0.10000000000000142,
@@ -6993,6 +8145,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 1,
+          "n": 1,
+          "mae": 5.899999999999999,
+          "rmse": 5.899999999999999,
+          "bias": -5.899999999999999,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 2,
           "n": 2,
@@ -7135,10 +8295,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 1.6000000000000014,
-          "rmse": 1.6000000000000014,
-          "bias": -1.6000000000000014,
+          "n": 4,
+          "mae": 2.3000000000000007,
+          "rmse": 2.404163056034262,
+          "bias": -2.3000000000000007,
           "hitRate": 0.0
         },
         {
@@ -7148,10 +8308,48 @@
           "rmse": 0.6999999999999993,
           "bias": -0.6999999999999993,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 3.0,
+          "rmse": 3.0,
+          "bias": -3.0,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T13:00:00",
+          "obsC": 21.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:19.307742Z",
+              "forecastC": 18.0,
+              "leadHours": 2.68,
+              "errorC": -3.0
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.803134Z",
+              "forecastC": 18.0,
+              "leadHours": 2.03,
+              "errorC": -3.0
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:49.830761Z",
+              "forecastC": 18.0,
+              "leadHours": 0.82,
+              "errorC": -3.0
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:43.401642Z",
+              "forecastC": 18.0,
+              "leadHours": 0.38,
+              "errorC": -3.0
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T12:00:00",
           "obsC": 20.0,
@@ -7191,6 +8389,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 10,
+          "n": 1,
+          "mae": 0.6999999999999993,
+          "rmse": 0.6999999999999993,
+          "bias": 0.6999999999999993,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 11,
           "n": 2,
           "mae": 0.6999999999999993,
@@ -7209,234 +8415,27 @@
       ],
       "extremeSkillByLeadMax": [
         {
+          "leadHours": 10,
+          "n": 1,
+          "mae": 1.1999999999999993,
+          "rmse": 1.1999999999999993,
+          "bias": -1.1999999999999993,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 11,
           "n": 2,
-          "mae": 1.3999999999999986,
-          "rmse": 1.3999999999999986,
-          "bias": -1.3999999999999986,
+          "mae": 2.3999999999999986,
+          "rmse": 2.3999999999999986,
+          "bias": -2.3999999999999986,
           "hitRate": 0.0
         },
         {
           "leadHours": 13,
-          "n": 2,
-          "mae": 0.6999999999999993,
-          "rmse": 0.6999999999999993,
-          "bias": -0.6999999999999993,
-          "hitRate": 0.0
-        }
-      ],
-      "timeToSkillMinHours": null,
-      "timeToSkillMaxHours": null,
-      "timing": {
-        "daysAnalyzed": 2,
-        "minBefore6amDays": 1,
-        "minAfter6pmDays": 1,
-        "minMidDayDays": 0,
-        "minMorningShare": 0.5,
-        "maxAfternoonShare": 0.5,
-        "minModeHour": 0,
-        "maxModeHour": 11,
-        "minLockModeHour": 7,
-        "maxLockModeHour": 12,
-        "minFirstHourHist": [
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "minLockHourHist": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1
-        ],
-        "maxFirstHourHist": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "maxLockHourHist": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          1,
-          0,
-          0,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ]
-      }
-    },
-    "MPMG": {
-      "stationId": "MPMG",
-      "cityName": "Panama City",
-      "skillByLead": [
-        {
-          "leadHours": 0,
-          "n": 2,
-          "mae": 1.3999999999999986,
-          "rmse": 1.3999999999999986,
-          "bias": -1.3999999999999986,
-          "hitRate": 0.0
-        },
-        {
-          "leadHours": 1,
           "n": 2,
           "mae": 1.6999999999999993,
           "rmse": 1.6999999999999993,
           "bias": -1.6999999999999993,
-          "hitRate": 0.0
-        }
-      ],
-      "timeToSkillHours": null,
-      "evolutionTargets": [
-        {
-          "validLocal": "2026-09-07T13:00:00",
-          "obsC": 30.0,
-          "points": [
-            {
-              "issuedAtUtc": "2026-09-07T16:18:19.471803Z",
-              "forecastC": 28.3,
-              "leadHours": 1.68,
-              "errorC": -1.6999999999999993
-            },
-            {
-              "issuedAtUtc": "2026-09-07T16:57:36.808182Z",
-              "forecastC": 28.3,
-              "leadHours": 1.03,
-              "errorC": -1.6999999999999993
-            }
-          ]
-        },
-        {
-          "validLocal": "2026-09-07T12:00:00",
-          "obsC": 30.0,
-          "points": [
-            {
-              "issuedAtUtc": "2026-09-07T16:18:19.471803Z",
-              "forecastC": 28.6,
-              "leadHours": 0.68,
-              "errorC": -1.3999999999999986
-            },
-            {
-              "issuedAtUtc": "2026-09-07T16:57:36.808182Z",
-              "forecastC": 28.6,
-              "leadHours": 0.03,
-              "errorC": -1.3999999999999986
-            }
-          ]
-        }
-      ],
-      "extremeSkillByLeadMin": [
-        {
-          "leadHours": 10,
-          "n": 2,
-          "mae": 0.3000000000000007,
-          "rmse": 0.3000000000000007,
-          "bias": 0.3000000000000007,
-          "hitRate": 1.0
-        },
-        {
-          "leadHours": 12,
-          "n": 2,
-          "mae": 0.3000000000000007,
-          "rmse": 0.3000000000000007,
-          "bias": 0.3000000000000007,
-          "hitRate": 1.0
-        }
-      ],
-      "extremeSkillByLeadMax": [
-        {
-          "leadHours": 10,
-          "n": 2,
-          "mae": 1.8999999999999986,
-          "rmse": 1.8999999999999986,
-          "bias": -1.8999999999999986,
-          "hitRate": 0.0
-        },
-        {
-          "leadHours": 12,
-          "n": 2,
-          "mae": 1.3999999999999986,
-          "rmse": 1.3999999999999986,
-          "bias": -1.3999999999999986,
           "hitRate": 0.0
         }
       ],
@@ -7450,7 +8449,7 @@
         "minMorningShare": 0.5,
         "maxAfternoonShare": 1.0,
         "minModeHour": 0,
-        "maxModeHour": 12,
+        "maxModeHour": 13,
         "minLockModeHour": 7,
         "maxLockModeHour": 13,
         "minFirstHourHist": [
@@ -7518,10 +8517,10 @@
           0,
           0,
           0,
-          1,
+          0,
           1,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -7546,7 +8545,276 @@
           0,
           0,
           1,
+          0,
           1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "MPMG": {
+      "stationId": "MPMG",
+      "cityName": "Panama City",
+      "skillByLead": [
+        {
+          "leadHours": 0,
+          "n": 4,
+          "mae": 2.1499999999999986,
+          "rmse": 2.277059507347139,
+          "bias": -2.1499999999999986,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 1,
+          "n": 2,
+          "mae": 1.6999999999999993,
+          "rmse": 1.6999999999999993,
+          "bias": -1.6999999999999993,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 2.8999999999999986,
+          "rmse": 2.8999999999999986,
+          "bias": -2.8999999999999986,
+          "hitRate": 0.0
+        }
+      ],
+      "timeToSkillHours": null,
+      "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T14:00:00",
+          "obsC": 31.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:19.471803Z",
+              "forecastC": 28.1,
+              "leadHours": 2.68,
+              "errorC": -2.8999999999999986
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.808182Z",
+              "forecastC": 28.1,
+              "leadHours": 2.03,
+              "errorC": -2.8999999999999986
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:49.863615Z",
+              "forecastC": 28.1,
+              "leadHours": 0.82,
+              "errorC": -2.8999999999999986
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:43.442859Z",
+              "forecastC": 28.1,
+              "leadHours": 0.38,
+              "errorC": -2.8999999999999986
+            }
+          ]
+        },
+        {
+          "validLocal": "2026-09-07T13:00:00",
+          "obsC": 30.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:19.471803Z",
+              "forecastC": 28.3,
+              "leadHours": 1.68,
+              "errorC": -1.6999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.808182Z",
+              "forecastC": 28.3,
+              "leadHours": 1.03,
+              "errorC": -1.6999999999999993
+            }
+          ]
+        },
+        {
+          "validLocal": "2026-09-07T12:00:00",
+          "obsC": 30.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:19.471803Z",
+              "forecastC": 28.6,
+              "leadHours": 0.68,
+              "errorC": -1.3999999999999986
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.808182Z",
+              "forecastC": 28.6,
+              "leadHours": 0.03,
+              "errorC": -1.3999999999999986
+            }
+          ]
+        }
+      ],
+      "extremeSkillByLeadMin": [
+        {
+          "leadHours": 9,
+          "n": 1,
+          "mae": 0.6999999999999993,
+          "rmse": 0.6999999999999993,
+          "bias": 0.6999999999999993,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 10,
+          "n": 2,
+          "mae": 0.3000000000000007,
+          "rmse": 0.3000000000000007,
+          "bias": 0.3000000000000007,
+          "hitRate": 1.0
+        },
+        {
+          "leadHours": 12,
+          "n": 2,
+          "mae": 0.3000000000000007,
+          "rmse": 0.3000000000000007,
+          "bias": 0.3000000000000007,
+          "hitRate": 1.0
+        }
+      ],
+      "extremeSkillByLeadMax": [
+        {
+          "leadHours": 9,
+          "n": 1,
+          "mae": 3.8000000000000007,
+          "rmse": 3.8000000000000007,
+          "bias": -3.8000000000000007,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 10,
+          "n": 2,
+          "mae": 2.8999999999999986,
+          "rmse": 2.8999999999999986,
+          "bias": -2.8999999999999986,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 12,
+          "n": 2,
+          "mae": 2.3999999999999986,
+          "rmse": 2.3999999999999986,
+          "bias": -2.3999999999999986,
+          "hitRate": 0.0
+        }
+      ],
+      "timeToSkillMinHours": null,
+      "timeToSkillMaxHours": null,
+      "timing": {
+        "daysAnalyzed": 2,
+        "minBefore6amDays": 1,
+        "minAfter6pmDays": 1,
+        "minMidDayDays": 0,
+        "minMorningShare": 0.5,
+        "maxAfternoonShare": 1.0,
+        "minModeHour": 0,
+        "maxModeHour": 13,
+        "minLockModeHour": 7,
+        "maxLockModeHour": 14,
+        "minFirstHourHist": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "minLockHourHist": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "maxFirstHourHist": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxLockHourHist": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
           0,
           0,
           0,
@@ -7566,9 +8834,9 @@
         {
           "leadHours": 0,
           "n": 4,
-          "mae": 3.5,
-          "rmse": 3.5,
-          "bias": 3.5,
+          "mae": 3.0,
+          "rmse": 3.0413812651491097,
+          "bias": 3.0,
           "hitRate": 0.0
         },
         {
@@ -7582,9 +8850,9 @@
         {
           "leadHours": 2,
           "n": 2,
-          "mae": 3.5,
-          "rmse": 3.5,
-          "bias": 3.5,
+          "mae": 2.5,
+          "rmse": 2.5,
+          "bias": 2.5,
           "hitRate": 0.0
         }
       ],
@@ -7592,31 +8860,31 @@
       "evolutionTargets": [
         {
           "validLocal": "2026-09-08T07:00:00",
-          "obsC": 4.0,
+          "obsC": 5.0,
           "points": [
             {
               "issuedAtUtc": "2026-09-07T16:18:19.567508Z",
               "forecastC": 7.5,
               "leadHours": 2.68,
-              "errorC": 3.5
+              "errorC": 2.5
             },
             {
               "issuedAtUtc": "2026-09-07T16:57:36.966853Z",
               "forecastC": 7.5,
               "leadHours": 2.03,
-              "errorC": 3.5
+              "errorC": 2.5
             },
             {
               "issuedAtUtc": "2026-09-07T18:10:49.867553Z",
               "forecastC": 7.5,
               "leadHours": 0.82,
-              "errorC": 3.5
+              "errorC": 2.5
             },
             {
               "issuedAtUtc": "2026-09-07T18:36:43.457739Z",
               "forecastC": 7.5,
               "leadHours": 0.38,
-              "errorC": 3.5
+              "errorC": 2.5
             }
           ]
         },
@@ -7659,6 +8927,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 16,
+          "n": 1,
+          "mae": 4.6,
+          "rmse": 4.6,
+          "bias": 4.6,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 17,
           "n": 2,
           "mae": 3.5,
@@ -7676,6 +8952,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 16,
+          "n": 1,
+          "mae": 2.0999999999999996,
+          "rmse": 2.0999999999999996,
+          "bias": 2.0999999999999996,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 17,
           "n": 2,
@@ -7818,10 +9102,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 1.0,
-          "rmse": 1.0,
-          "bias": -1.0,
+          "n": 4,
+          "mae": 1.25,
+          "rmse": 1.2747548783981961,
+          "bias": -1.25,
           "hitRate": 0.0
         },
         {
@@ -7831,10 +9115,48 @@
           "rmse": 1.1999999999999993,
           "bias": -1.1999999999999993,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 1.5,
+          "rmse": 1.5,
+          "bias": -1.5,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T22:00:00",
+          "obsC": 32.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:20.595400Z",
+              "forecastC": 30.5,
+              "leadHours": 2.68,
+              "errorC": -1.5
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:36.981113Z",
+              "forecastC": 30.5,
+              "leadHours": 2.03,
+              "errorC": -1.5
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:50.099211Z",
+              "forecastC": 30.5,
+              "leadHours": 0.82,
+              "errorC": -1.5
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:43.470493Z",
+              "forecastC": 30.5,
+              "leadHours": 0.38,
+              "errorC": -1.5
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T21:00:00",
           "obsC": 32.0,
@@ -7874,6 +9196,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 1,
+          "n": 1,
+          "mae": 1.3000000000000007,
+          "rmse": 1.3000000000000007,
+          "bias": -1.3000000000000007,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 2,
           "n": 2,
           "mae": 1.1000000000000014,
@@ -7891,6 +9221,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 1,
+          "n": 1,
+          "mae": 6.300000000000001,
+          "rmse": 6.300000000000001,
+          "bias": -6.300000000000001,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 2,
           "n": 2,
@@ -8034,9 +9372,9 @@
         {
           "leadHours": 0,
           "n": 4,
-          "mae": 1.8000000000000007,
-          "rmse": 1.8248287590894667,
-          "bias": -1.8000000000000007,
+          "mae": 1.3000000000000007,
+          "rmse": 1.3152946437965911,
+          "bias": -1.3000000000000007,
           "hitRate": 0.0
         },
         {
@@ -8050,9 +9388,9 @@
         {
           "leadHours": 2,
           "n": 2,
-          "mae": 2.1000000000000014,
-          "rmse": 2.1000000000000014,
-          "bias": -2.1000000000000014,
+          "mae": 1.1000000000000014,
+          "rmse": 1.1000000000000014,
+          "bias": -1.1000000000000014,
           "hitRate": 0.0
         }
       ],
@@ -8060,31 +9398,31 @@
       "evolutionTargets": [
         {
           "validLocal": "2026-09-08T00:00:00",
-          "obsC": 28.0,
+          "obsC": 27.0,
           "points": [
             {
               "issuedAtUtc": "2026-09-07T16:18:21.116070Z",
               "forecastC": 25.9,
               "leadHours": 2.68,
-              "errorC": -2.1000000000000014
+              "errorC": -1.1000000000000014
             },
             {
               "issuedAtUtc": "2026-09-07T16:57:37.037501Z",
               "forecastC": 25.9,
               "leadHours": 2.03,
-              "errorC": -2.1000000000000014
+              "errorC": -1.1000000000000014
             },
             {
               "issuedAtUtc": "2026-09-07T18:10:50.199357Z",
               "forecastC": 25.9,
               "leadHours": 0.82,
-              "errorC": -2.1000000000000014
+              "errorC": -1.1000000000000014
             },
             {
               "issuedAtUtc": "2026-09-07T18:36:43.722286Z",
               "forecastC": 25.9,
               "leadHours": 0.38,
-              "errorC": -2.1000000000000014
+              "errorC": -1.1000000000000014
             }
           ]
         },
@@ -8451,10 +9789,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.1999999999999993,
-          "rmse": 0.1999999999999993,
-          "bias": -0.1999999999999993,
+          "n": 4,
+          "mae": 0.27499999999999947,
+          "rmse": 0.28722813232690086,
+          "bias": 0.07500000000000018,
           "hitRate": 1.0
         },
         {
@@ -8464,10 +9802,48 @@
           "rmse": 0.1999999999999993,
           "bias": -0.1999999999999993,
           "hitRate": 1.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.1999999999999993,
+          "rmse": 0.1999999999999993,
+          "bias": -0.1999999999999993,
+          "hitRate": 1.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T04:00:00",
+          "obsC": 23.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:22.141427Z",
+              "forecastC": 22.8,
+              "leadHours": 2.68,
+              "errorC": -0.1999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:37.132409Z",
+              "forecastC": 22.8,
+              "leadHours": 2.03,
+              "errorC": -0.1999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:50.290696Z",
+              "forecastC": 23.3,
+              "leadHours": 0.82,
+              "errorC": 0.3000000000000007
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:43.770447Z",
+              "forecastC": 23.4,
+              "leadHours": 0.38,
+              "errorC": 0.3999999999999986
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-08T03:00:00",
           "obsC": 23.0,
@@ -8507,6 +9883,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 19,
+          "n": 1,
+          "mae": 0.3999999999999986,
+          "rmse": 0.3999999999999986,
+          "bias": 0.3999999999999986,
+          "hitRate": 1.0
+        },
+        {
           "leadHours": 20,
           "n": 2,
           "mae": 0.34999999999999964,
@@ -8524,6 +9908,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 19,
+          "n": 1,
+          "mae": 4.899999999999999,
+          "rmse": 4.899999999999999,
+          "bias": 4.899999999999999,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 20,
           "n": 2,
@@ -8552,8 +9944,8 @@
         "maxAfternoonShare": 0.3333333333333333,
         "minModeHour": 0,
         "maxModeHour": 0,
-        "minLockModeHour": 3,
-        "maxLockModeHour": 3,
+        "minLockModeHour": 4,
+        "maxLockModeHour": 4,
         "minFirstHourHist": [
           1,
           0,
@@ -8584,8 +9976,8 @@
           0,
           0,
           0,
-          1,
           0,
+          1,
           0,
           0,
           0,
@@ -8636,8 +10028,8 @@
           0,
           0,
           0,
-          1,
           0,
+          1,
           0,
           0,
           0,
@@ -8666,10 +10058,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.10000000000000142,
-          "rmse": 0.10000000000000142,
-          "bias": -0.10000000000000142,
+          "n": 4,
+          "mae": 0.1750000000000007,
+          "rmse": 0.1936491673103713,
+          "bias": -0.1750000000000007,
           "hitRate": 1.0
         },
         {
@@ -8679,10 +10071,48 @@
           "rmse": 0.5,
           "bias": -0.5,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.6999999999999993,
+          "rmse": 0.6999999999999993,
+          "bias": -0.6999999999999993,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T04:00:00",
+          "obsC": 20.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:22.948188Z",
+              "forecastC": 19.3,
+              "leadHours": 2.68,
+              "errorC": -0.6999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:37.192633Z",
+              "forecastC": 19.3,
+              "leadHours": 2.03,
+              "errorC": -0.6999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:50.321869Z",
+              "forecastC": 19.8,
+              "leadHours": 0.82,
+              "errorC": -0.1999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:43.823809Z",
+              "forecastC": 19.7,
+              "leadHours": 0.38,
+              "errorC": -0.3000000000000007
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-08T03:00:00",
           "obsC": 20.0,
@@ -8722,6 +10152,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 19,
+          "n": 1,
+          "mae": 0.3000000000000007,
+          "rmse": 0.3000000000000007,
+          "bias": -0.3000000000000007,
+          "hitRate": 1.0
+        },
+        {
           "leadHours": 20,
           "n": 2,
           "mae": 0.25,
@@ -8739,6 +10177,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 19,
+          "n": 1,
+          "mae": 7.5,
+          "rmse": 7.5,
+          "bias": 7.5,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 20,
           "n": 2,
@@ -8767,7 +10213,7 @@
         "maxAfternoonShare": 0.6666666666666666,
         "minModeHour": 2,
         "maxModeHour": 0,
-        "minLockModeHour": 3,
+        "minLockModeHour": 4,
         "maxLockModeHour": 16,
         "minFirstHourHist": [
           0,
@@ -8799,8 +10245,8 @@
           0,
           0,
           0,
-          1,
           0,
+          1,
           0,
           0,
           0,
@@ -8975,6 +10421,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 19,
+          "n": 1,
+          "mae": 0.1999999999999993,
+          "rmse": 0.1999999999999993,
+          "bias": 0.1999999999999993,
+          "hitRate": 1.0
+        },
+        {
           "leadHours": 20,
           "n": 2,
           "mae": 0.25,
@@ -8992,6 +10446,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 19,
+          "n": 1,
+          "mae": 3.3000000000000007,
+          "rmse": 3.3000000000000007,
+          "bias": 3.3000000000000007,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 20,
           "n": 2,
@@ -9020,7 +10482,7 @@
         "maxAfternoonShare": 0.6666666666666666,
         "minModeHour": 3,
         "maxModeHour": 15,
-        "minLockModeHour": 3,
+        "minLockModeHour": 4,
         "maxLockModeHour": 17,
         "minFirstHourHist": [
           0,
@@ -9052,8 +10514,8 @@
           0,
           0,
           0,
-          1,
           0,
+          1,
           0,
           0,
           1,
@@ -9134,7 +10596,7 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
+          "n": 4,
           "mae": 0.6000000000000014,
           "rmse": 0.6000000000000014,
           "bias": 0.6000000000000014,
@@ -9147,10 +10609,48 @@
           "rmse": 0.6000000000000014,
           "bias": 0.6000000000000014,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.6000000000000014,
+          "rmse": 0.6000000000000014,
+          "bias": 0.6000000000000014,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T03:00:00",
+          "obsC": 25.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:25.335472Z",
+              "forecastC": 25.6,
+              "leadHours": 2.68,
+              "errorC": 0.6000000000000014
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:37.313460Z",
+              "forecastC": 25.6,
+              "leadHours": 2.03,
+              "errorC": 0.6000000000000014
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:50.568690Z",
+              "forecastC": 25.6,
+              "leadHours": 0.82,
+              "errorC": 0.6000000000000014
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:43.908495Z",
+              "forecastC": 25.6,
+              "leadHours": 0.38,
+              "errorC": 0.6000000000000014
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-08T02:00:00",
           "obsC": 25.0,
@@ -9188,23 +10688,73 @@
           ]
         }
       ],
-      "extremeSkillByLeadMin": [],
-      "extremeSkillByLeadMax": [],
+      "extremeSkillByLeadMin": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 0.10000000000000142,
+          "rmse": 0.10000000000000142,
+          "bias": 0.10000000000000142,
+          "hitRate": 1.0
+        },
+        {
+          "leadHours": 21,
+          "n": 2,
+          "mae": 0.5,
+          "rmse": 0.5,
+          "bias": 0.5,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 23,
+          "n": 2,
+          "mae": 0.5,
+          "rmse": 0.5,
+          "bias": 0.5,
+          "hitRate": 0.0
+        }
+      ],
+      "extremeSkillByLeadMax": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 3.1000000000000014,
+          "rmse": 3.1000000000000014,
+          "bias": 3.1000000000000014,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 21,
+          "n": 2,
+          "mae": 3.5,
+          "rmse": 3.5,
+          "bias": 3.5,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 23,
+          "n": 2,
+          "mae": 3.5,
+          "rmse": 3.5,
+          "bias": 3.5,
+          "hitRate": 0.0
+        }
+      ],
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "timing": {
-        "daysAnalyzed": 2,
-        "minBefore6amDays": 1,
+        "daysAnalyzed": 3,
+        "minBefore6amDays": 2,
         "minAfter6pmDays": 1,
         "minMidDayDays": 0,
-        "minMorningShare": 0.5,
-        "maxAfternoonShare": 0.5,
-        "minModeHour": 1,
+        "minMorningShare": 0.6666666666666666,
+        "maxAfternoonShare": 0.3333333333333333,
+        "minModeHour": 0,
         "maxModeHour": 0,
         "minLockModeHour": 23,
-        "maxLockModeHour": 12,
+        "maxLockModeHour": 3,
         "minFirstHourHist": [
-          0,
+          1,
           1,
           0,
           0,
@@ -9233,7 +10783,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -9256,7 +10806,7 @@
           2
         ],
         "maxFirstHourHist": [
-          1,
+          2,
           0,
           0,
           0,
@@ -9285,7 +10835,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -9315,10 +10865,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.5999999999999996,
-          "rmse": 0.5999999999999996,
-          "bias": -0.5999999999999996,
+          "n": 4,
+          "mae": 0.75,
+          "rmse": 0.7648529270389178,
+          "bias": -0.75,
           "hitRate": 0.0
         },
         {
@@ -9328,10 +10878,48 @@
           "rmse": 1.0,
           "bias": -1.0,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.9000000000000004,
+          "rmse": 0.9000000000000004,
+          "bias": -0.9000000000000004,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T16:00:00",
+          "obsC": 13.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:26.415710Z",
+              "forecastC": 12.1,
+              "leadHours": 2.68,
+              "errorC": -0.9000000000000004
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:37.359987Z",
+              "forecastC": 12.1,
+              "leadHours": 2.03,
+              "errorC": -0.9000000000000004
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:50.683840Z",
+              "forecastC": 12.1,
+              "leadHours": 0.82,
+              "errorC": -0.9000000000000004
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:44.078940Z",
+              "forecastC": 12.1,
+              "leadHours": 0.38,
+              "errorC": -0.9000000000000004
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T15:00:00",
           "obsC": 13.0,
@@ -9371,6 +10959,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 7,
+          "n": 1,
+          "mae": 6.6,
+          "rmse": 6.6,
+          "bias": 6.6,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 8,
           "n": 2,
           "mae": 6.8,
@@ -9388,6 +10984,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 7,
+          "n": 1,
+          "mae": 1.3000000000000007,
+          "rmse": 1.3000000000000007,
+          "bias": -1.3000000000000007,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 8,
           "n": 2,
@@ -9512,8 +11116,8 @@
           0,
           0,
           0,
-          2,
-          0,
+          1,
+          1,
           0,
           0,
           0,
@@ -9530,10 +11134,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.5999999999999996,
-          "rmse": 0.5999999999999996,
-          "bias": 0.5999999999999996,
+          "n": 4,
+          "mae": 0.5499999999999998,
+          "rmse": 0.5522680508593629,
+          "bias": 0.5499999999999998,
           "hitRate": 0.0
         },
         {
@@ -9543,10 +11147,48 @@
           "rmse": 0.40000000000000036,
           "bias": 0.40000000000000036,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.5,
+          "rmse": 0.5,
+          "bias": 0.5,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-07T16:00:00",
+          "obsC": 13.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:26.474618Z",
+              "forecastC": 13.5,
+              "leadHours": 2.68,
+              "errorC": 0.5
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:37.423909Z",
+              "forecastC": 13.5,
+              "leadHours": 2.03,
+              "errorC": 0.5
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:50.789Z",
+              "forecastC": 13.5,
+              "leadHours": 0.82,
+              "errorC": 0.5
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:44.121242Z",
+              "forecastC": 13.5,
+              "leadHours": 0.38,
+              "errorC": 0.5
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-07T15:00:00",
           "obsC": 13.0,
@@ -9586,6 +11228,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 7,
+          "n": 1,
+          "mae": 0.8000000000000007,
+          "rmse": 0.8000000000000007,
+          "bias": 0.8000000000000007,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 8,
           "n": 2,
           "mae": 0.5999999999999996,
@@ -9603,6 +11253,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 7,
+          "n": 1,
+          "mae": 1.1999999999999993,
+          "rmse": 1.1999999999999993,
+          "bias": -1.1999999999999993,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 8,
           "n": 2,
@@ -9839,6 +11497,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 1,
+          "n": 1,
+          "mae": 0.8000000000000007,
+          "rmse": 0.8000000000000007,
+          "bias": -0.8000000000000007,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 2,
           "n": 2,
           "mae": 1.0,
@@ -9856,6 +11522,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 1,
+          "n": 1,
+          "mae": 4.800000000000001,
+          "rmse": 4.800000000000001,
+          "bias": -4.800000000000001,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 2,
           "n": 2,
@@ -9884,7 +11558,7 @@
         "maxAfternoonShare": 1.0,
         "minModeHour": 6,
         "maxModeHour": 14,
-        "minLockModeHour": 21,
+        "minLockModeHour": 22,
         "maxLockModeHour": 14,
         "minFirstHourHist": [
           0,
@@ -9934,8 +11608,8 @@
           0,
           0,
           0,
-          1,
           0,
+          1,
           1
         ],
         "maxFirstHourHist": [
@@ -9998,31 +11672,75 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 3,
-          "mae": 1.400000000000001,
-          "rmse": 1.4071247279470298,
-          "bias": -1.400000000000001,
+          "n": 5,
+          "mae": 1.4000000000000008,
+          "rmse": 1.4170391667134687,
+          "bias": -1.4000000000000008,
           "hitRate": 0.0
         },
         {
           "leadHours": 1,
-          "n": 2,
-          "mae": 1.450000000000001,
-          "rmse": 1.457737973711326,
-          "bias": -1.450000000000001,
+          "n": 3,
+          "mae": 1.5333333333333339,
+          "rmse": 1.5427248620541516,
+          "bias": -1.5333333333333339,
           "hitRate": 0.0
         },
         {
           "leadHours": 2,
+          "n": 2,
+          "mae": 1.6500000000000004,
+          "rmse": 1.650757401921918,
+          "bias": -1.6500000000000004,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 3,
           "n": 1,
-          "mae": 1.6000000000000014,
-          "rmse": 1.6000000000000014,
-          "bias": -1.6000000000000014,
+          "mae": 1.6999999999999993,
+          "rmse": 1.6999999999999993,
+          "bias": -1.6999999999999993,
           "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T01:00:00",
+          "obsC": 27.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:27.577171Z",
+              "forecastC": 25.3,
+              "leadHours": 3.18,
+              "errorC": -1.6999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:37.518285Z",
+              "forecastC": 25.3,
+              "leadHours": 2.53,
+              "errorC": -1.6999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:50.866706Z",
+              "forecastC": 25.3,
+              "leadHours": 1.32,
+              "errorC": -1.6999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:44.193790Z",
+              "forecastC": 25.3,
+              "leadHours": 0.88,
+              "errorC": -1.6999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T19:07:50.999536Z",
+              "forecastC": 25.9,
+              "leadHours": 0.37,
+              "errorC": -1.1000000000000014
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-08T00:00:00",
           "obsC": 27.0,
@@ -10227,10 +11945,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 1.6000000000000014,
-          "rmse": 1.6000000000000014,
-          "bias": -1.6000000000000014,
+          "n": 4,
+          "mae": 2.0500000000000007,
+          "rmse": 2.098809186181536,
+          "bias": -2.0500000000000007,
           "hitRate": 0.0
         },
         {
@@ -10240,10 +11958,48 @@
           "rmse": 1.1999999999999993,
           "bias": -1.1999999999999993,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 2.5,
+          "rmse": 2.5,
+          "bias": -2.5,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T03:00:00",
+          "obsC": 27.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:28.301500Z",
+              "forecastC": 24.5,
+              "leadHours": 2.68,
+              "errorC": -2.5
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:37.604788Z",
+              "forecastC": 24.5,
+              "leadHours": 2.03,
+              "errorC": -2.5
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:50.948394Z",
+              "forecastC": 24.5,
+              "leadHours": 0.82,
+              "errorC": -2.5
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:44.252121Z",
+              "forecastC": 24.5,
+              "leadHours": 0.38,
+              "errorC": -2.5
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-08T02:00:00",
           "obsC": 27.0,
@@ -10283,6 +12039,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 3.1999999999999993,
+          "rmse": 3.1999999999999993,
+          "bias": -3.1999999999999993,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 21,
           "n": 2,
           "mae": 3.1000000000000014,
@@ -10300,6 +12064,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 5.200000000000003,
+          "rmse": 5.200000000000003,
+          "bias": 5.200000000000003,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 21,
           "n": 2,
@@ -10536,6 +12308,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 0.6999999999999993,
+          "rmse": 0.6999999999999993,
+          "bias": -0.6999999999999993,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 21,
           "n": 2,
           "mae": 0.6999999999999993,
@@ -10553,6 +12333,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 4.399999999999999,
+          "rmse": 4.399999999999999,
+          "bias": 4.399999999999999,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 21,
           "n": 2,
@@ -10581,7 +12369,7 @@
         "maxAfternoonShare": 0.6666666666666666,
         "minModeHour": 0,
         "maxModeHour": 0,
-        "minLockModeHour": 2,
+        "minLockModeHour": 3,
         "maxLockModeHour": 1,
         "minFirstHourHist": [
           1,
@@ -10612,8 +12400,8 @@
         "minLockHourHist": [
           0,
           0,
-          1,
           0,
+          1,
           0,
           0,
           0,
@@ -10789,6 +12577,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 1.5999999999999996,
+          "rmse": 1.5999999999999996,
+          "bias": -1.5999999999999996,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 21,
           "n": 2,
           "mae": 1.9000000000000004,
@@ -10806,6 +12602,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 5.600000000000001,
+          "rmse": 5.600000000000001,
+          "bias": 5.600000000000001,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 21,
           "n": 2,
@@ -10865,8 +12669,8 @@
         "minLockHourHist": [
           0,
           0,
-          1,
           0,
+          1,
           0,
           0,
           0,
@@ -10917,8 +12721,8 @@
         "maxLockHourHist": [
           0,
           0,
-          1,
           0,
+          1,
           0,
           0,
           0,
@@ -11042,6 +12846,14 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 2.3999999999999986,
+          "rmse": 2.3999999999999986,
+          "bias": -2.3999999999999986,
+          "hitRate": 0.0
+        },
+        {
           "leadHours": 21,
           "n": 2,
           "mae": 2.3000000000000007,
@@ -11059,6 +12871,14 @@
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 4.700000000000003,
+          "rmse": 4.700000000000003,
+          "bias": 4.700000000000003,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 21,
           "n": 2,
@@ -11087,7 +12907,7 @@
         "maxAfternoonShare": 0.6666666666666666,
         "minModeHour": 0,
         "maxModeHour": 0,
-        "minLockModeHour": 2,
+        "minLockModeHour": 3,
         "maxLockModeHour": 0,
         "minFirstHourHist": [
           1,
@@ -11118,8 +12938,8 @@
         "minLockHourHist": [
           0,
           0,
-          1,
           0,
+          1,
           0,
           0,
           0,
@@ -11201,10 +13021,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 1.0,
-          "rmse": 1.0,
-          "bias": -1.0,
+          "n": 4,
+          "mae": 1.25,
+          "rmse": 1.2747548783981961,
+          "bias": -1.25,
           "hitRate": 0.0
         },
         {
@@ -11214,10 +13034,48 @@
           "rmse": 1.3000000000000007,
           "bias": -1.3000000000000007,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 1.5,
+          "rmse": 1.5,
+          "bias": -1.5,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T03:00:00",
+          "obsC": 28.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:29.321249Z",
+              "forecastC": 26.5,
+              "leadHours": 2.68,
+              "errorC": -1.5
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:37.851481Z",
+              "forecastC": 26.5,
+              "leadHours": 2.03,
+              "errorC": -1.5
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:51.335024Z",
+              "forecastC": 26.5,
+              "leadHours": 0.82,
+              "errorC": -1.5
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:44.518283Z",
+              "forecastC": 26.5,
+              "leadHours": 0.38,
+              "errorC": -1.5
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-08T02:00:00",
           "obsC": 28.0,
@@ -11255,23 +13113,73 @@
           ]
         }
       ],
-      "extremeSkillByLeadMin": [],
-      "extremeSkillByLeadMax": [],
+      "extremeSkillByLeadMin": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 2.0,
+          "rmse": 2.0,
+          "bias": -2.0,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 21,
+          "n": 2,
+          "mae": 2.8000000000000007,
+          "rmse": 2.8000000000000007,
+          "bias": -2.8000000000000007,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 23,
+          "n": 2,
+          "mae": 2.8000000000000007,
+          "rmse": 2.8000000000000007,
+          "bias": -2.8000000000000007,
+          "hitRate": 0.0
+        }
+      ],
+      "extremeSkillByLeadMax": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 5.0,
+          "rmse": 5.0,
+          "bias": 5.0,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 21,
+          "n": 2,
+          "mae": 6.0,
+          "rmse": 6.0,
+          "bias": 6.0,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 23,
+          "n": 2,
+          "mae": 6.0,
+          "rmse": 6.0,
+          "bias": 6.0,
+          "hitRate": 0.0
+        }
+      ],
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "timing": {
-        "daysAnalyzed": 2,
-        "minBefore6amDays": 1,
+        "daysAnalyzed": 3,
+        "minBefore6amDays": 2,
         "minAfter6pmDays": 0,
         "minMidDayDays": 1,
-        "minMorningShare": 0.5,
-        "maxAfternoonShare": 1.0,
+        "minMorningShare": 0.6666666666666666,
+        "maxAfternoonShare": 0.6666666666666666,
         "minModeHour": 0,
         "maxModeHour": 15,
-        "minLockModeHour": 7,
-        "maxLockModeHour": 17,
+        "minLockModeHour": 3,
+        "maxLockModeHour": 3,
         "minFirstHourHist": [
-          1,
+          2,
           0,
           0,
           0,
@@ -11300,7 +13208,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -11323,7 +13231,7 @@
           0
         ],
         "maxFirstHourHist": [
-          0,
+          1,
           0,
           0,
           0,
@@ -11352,7 +13260,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -11382,7 +13290,7 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
+          "n": 4,
           "mae": 0.3000000000000007,
           "rmse": 0.3000000000000007,
           "bias": -0.3000000000000007,
@@ -11395,10 +13303,48 @@
           "rmse": 0.10000000000000142,
           "bias": 0.10000000000000142,
           "hitRate": 1.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.3000000000000007,
+          "rmse": 0.3000000000000007,
+          "bias": -0.3000000000000007,
+          "hitRate": 1.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T03:00:00",
+          "obsC": 23.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:29.348124Z",
+              "forecastC": 22.7,
+              "leadHours": 2.68,
+              "errorC": -0.3000000000000007
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:37.868742Z",
+              "forecastC": 22.7,
+              "leadHours": 2.03,
+              "errorC": -0.3000000000000007
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:51.440960Z",
+              "forecastC": 22.7,
+              "leadHours": 0.82,
+              "errorC": -0.3000000000000007
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:44.556490Z",
+              "forecastC": 22.7,
+              "leadHours": 0.38,
+              "errorC": -0.3000000000000007
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-08T02:00:00",
           "obsC": 23.0,
@@ -11436,25 +13382,75 @@
           ]
         }
       ],
-      "extremeSkillByLeadMin": [],
-      "extremeSkillByLeadMax": [],
+      "extremeSkillByLeadMin": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 7.9,
+          "rmse": 7.9,
+          "bias": -7.9,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 21,
+          "n": 2,
+          "mae": 6.399999999999999,
+          "rmse": 6.399999999999999,
+          "bias": -6.399999999999999,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 23,
+          "n": 2,
+          "mae": 6.399999999999999,
+          "rmse": 6.399999999999999,
+          "bias": -6.399999999999999,
+          "hitRate": 0.0
+        }
+      ],
+      "extremeSkillByLeadMax": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 0.10000000000000142,
+          "rmse": 0.10000000000000142,
+          "bias": -0.10000000000000142,
+          "hitRate": 1.0
+        },
+        {
+          "leadHours": 21,
+          "n": 2,
+          "mae": 0.3000000000000007,
+          "rmse": 0.3000000000000007,
+          "bias": 0.3000000000000007,
+          "hitRate": 1.0
+        },
+        {
+          "leadHours": 23,
+          "n": 2,
+          "mae": 0.3000000000000007,
+          "rmse": 0.3000000000000007,
+          "bias": 0.3000000000000007,
+          "hitRate": 1.0
+        }
+      ],
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "timing": {
-        "daysAnalyzed": 2,
-        "minBefore6amDays": 1,
+        "daysAnalyzed": 3,
+        "minBefore6amDays": 2,
         "minAfter6pmDays": 1,
         "minMidDayDays": 0,
-        "minMorningShare": 0.5,
-        "maxAfternoonShare": 1.0,
-        "minModeHour": 3,
-        "maxModeHour": 12,
-        "minLockModeHour": 6,
-        "maxLockModeHour": 15,
+        "minMorningShare": 0.6666666666666666,
+        "maxAfternoonShare": 0.6666666666666666,
+        "minModeHour": 2,
+        "maxModeHour": 0,
+        "minLockModeHour": 3,
+        "maxLockModeHour": 1,
         "minFirstHourHist": [
           0,
           0,
-          0,
+          1,
           1,
           0,
           0,
@@ -11481,7 +13477,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           1,
@@ -11504,7 +13500,7 @@
           1
         ],
         "maxFirstHourHist": [
-          0,
+          1,
           0,
           0,
           0,
@@ -11531,7 +13527,7 @@
         ],
         "maxLockHourHist": [
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -11563,10 +13559,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.6999999999999993,
-          "rmse": 0.6999999999999993,
-          "bias": 0.6999999999999993,
+          "n": 4,
+          "mae": 0.6500000000000004,
+          "rmse": 0.6519202405202652,
+          "bias": 0.6500000000000004,
           "hitRate": 0.0
         },
         {
@@ -11576,10 +13572,48 @@
           "rmse": 0.3000000000000007,
           "bias": 0.3000000000000007,
           "hitRate": 1.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.6000000000000014,
+          "rmse": 0.6000000000000014,
+          "bias": 0.6000000000000014,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T03:00:00",
+          "obsC": 24.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:29.460664Z",
+              "forecastC": 24.6,
+              "leadHours": 2.68,
+              "errorC": 0.6000000000000014
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:37.966818Z",
+              "forecastC": 24.6,
+              "leadHours": 2.03,
+              "errorC": 0.6000000000000014
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:51.495625Z",
+              "forecastC": 24.6,
+              "leadHours": 0.82,
+              "errorC": 0.6000000000000014
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:44.613725Z",
+              "forecastC": 24.6,
+              "leadHours": 0.38,
+              "errorC": 0.6000000000000014
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-08T02:00:00",
           "obsC": 24.0,
@@ -11617,23 +13651,73 @@
           ]
         }
       ],
-      "extremeSkillByLeadMin": [],
-      "extremeSkillByLeadMax": [],
+      "extremeSkillByLeadMin": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 0.10000000000000142,
+          "rmse": 0.10000000000000142,
+          "bias": -0.10000000000000142,
+          "hitRate": 1.0
+        },
+        {
+          "leadHours": 21,
+          "n": 2,
+          "mae": 0.3000000000000007,
+          "rmse": 0.3000000000000007,
+          "bias": -0.3000000000000007,
+          "hitRate": 1.0
+        },
+        {
+          "leadHours": 23,
+          "n": 2,
+          "mae": 0.3000000000000007,
+          "rmse": 0.3000000000000007,
+          "bias": -0.3000000000000007,
+          "hitRate": 1.0
+        }
+      ],
+      "extremeSkillByLeadMax": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 9.700000000000003,
+          "rmse": 9.700000000000003,
+          "bias": 9.700000000000003,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 21,
+          "n": 2,
+          "mae": 9.5,
+          "rmse": 9.5,
+          "bias": 9.5,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 23,
+          "n": 2,
+          "mae": 9.5,
+          "rmse": 9.5,
+          "bias": 9.5,
+          "hitRate": 0.0
+        }
+      ],
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "timing": {
-        "daysAnalyzed": 2,
-        "minBefore6amDays": 1,
+        "daysAnalyzed": 3,
+        "minBefore6amDays": 2,
         "minAfter6pmDays": 1,
         "minMidDayDays": 0,
-        "minMorningShare": 0.5,
-        "maxAfternoonShare": 1.0,
-        "minModeHour": 4,
+        "minMorningShare": 0.6666666666666666,
+        "maxAfternoonShare": 0.6666666666666666,
+        "minModeHour": 0,
         "maxModeHour": 15,
-        "minLockModeHour": 6,
-        "maxLockModeHour": 16,
+        "minLockModeHour": 3,
+        "maxLockModeHour": 3,
         "minFirstHourHist": [
-          0,
+          1,
           0,
           0,
           0,
@@ -11662,7 +13746,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           1,
@@ -11685,7 +13769,7 @@
           1
         ],
         "maxFirstHourHist": [
-          0,
+          1,
           0,
           0,
           0,
@@ -11714,7 +13798,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -11744,11 +13828,11 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.0,
-          "rmse": 0.0,
-          "bias": 0.0,
-          "hitRate": 1.0
+          "n": 4,
+          "mae": 0.4499999999999993,
+          "rmse": 0.6363961030678917,
+          "bias": 0.4499999999999993,
+          "hitRate": 0.5
         },
         {
           "leadHours": 1,
@@ -11757,10 +13841,48 @@
           "rmse": 0.1999999999999993,
           "bias": 0.1999999999999993,
           "hitRate": 1.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.8999999999999986,
+          "rmse": 0.8999999999999986,
+          "bias": 0.8999999999999986,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T03:00:00",
+          "obsC": 22.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:29.805755Z",
+              "forecastC": 22.9,
+              "leadHours": 2.68,
+              "errorC": 0.8999999999999986
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:38.010437Z",
+              "forecastC": 22.9,
+              "leadHours": 2.03,
+              "errorC": 0.8999999999999986
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:51.706709Z",
+              "forecastC": 22.9,
+              "leadHours": 0.82,
+              "errorC": 0.8999999999999986
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:44.641897Z",
+              "forecastC": 22.9,
+              "leadHours": 0.38,
+              "errorC": 0.8999999999999986
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-08T02:00:00",
           "obsC": 23.0,
@@ -11798,26 +13920,76 @@
           ]
         }
       ],
-      "extremeSkillByLeadMin": [],
-      "extremeSkillByLeadMax": [],
+      "extremeSkillByLeadMin": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 2.3000000000000007,
+          "rmse": 2.3000000000000007,
+          "bias": -2.3000000000000007,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 21,
+          "n": 2,
+          "mae": 1.8999999999999986,
+          "rmse": 1.8999999999999986,
+          "bias": -1.8999999999999986,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 23,
+          "n": 2,
+          "mae": 1.8999999999999986,
+          "rmse": 1.8999999999999986,
+          "bias": -1.8999999999999986,
+          "hitRate": 0.0
+        }
+      ],
+      "extremeSkillByLeadMax": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 0.6000000000000014,
+          "rmse": 0.6000000000000014,
+          "bias": 0.6000000000000014,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 21,
+          "n": 2,
+          "mae": 2.0,
+          "rmse": 2.0,
+          "bias": 2.0,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 23,
+          "n": 2,
+          "mae": 2.0,
+          "rmse": 2.0,
+          "bias": 2.0,
+          "hitRate": 0.0
+        }
+      ],
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "timing": {
-        "daysAnalyzed": 2,
-        "minBefore6amDays": 1,
+        "daysAnalyzed": 3,
+        "minBefore6amDays": 2,
         "minAfter6pmDays": 1,
         "minMidDayDays": 0,
-        "minMorningShare": 0.5,
-        "maxAfternoonShare": 1.0,
+        "minMorningShare": 0.6666666666666666,
+        "maxAfternoonShare": 0.6666666666666666,
         "minModeHour": 2,
-        "maxModeHour": 13,
-        "minLockModeHour": 6,
-        "maxLockModeHour": 15,
+        "maxModeHour": 0,
+        "minLockModeHour": 3,
+        "maxLockModeHour": 2,
         "minFirstHourHist": [
           0,
           0,
           1,
-          0,
+          1,
           0,
           0,
           0,
@@ -11843,7 +14015,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           1,
@@ -11866,7 +14038,7 @@
           1
         ],
         "maxFirstHourHist": [
-          0,
+          1,
           0,
           0,
           0,
@@ -11894,7 +14066,7 @@
         "maxLockHourHist": [
           0,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -11926,10 +14098,10 @@
         {
           "leadHours": 0,
           "n": 4,
-          "mae": 0.3500000000000014,
-          "rmse": 0.4301162633521325,
-          "bias": -0.3500000000000014,
-          "hitRate": 0.5
+          "mae": 0.25,
+          "rmse": 0.29154759474226427,
+          "bias": 0.14999999999999858,
+          "hitRate": 1.0
         },
         {
           "leadHours": 1,
@@ -11942,41 +14114,41 @@
         {
           "leadHours": 2,
           "n": 2,
-          "mae": 0.6000000000000014,
-          "rmse": 0.6000000000000014,
-          "bias": -0.6000000000000014,
-          "hitRate": 0.0
+          "mae": 0.3999999999999986,
+          "rmse": 0.3999999999999986,
+          "bias": 0.3999999999999986,
+          "hitRate": 1.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
         {
           "validLocal": "2026-09-08T03:00:00",
-          "obsC": 25.0,
+          "obsC": 24.0,
           "points": [
             {
               "issuedAtUtc": "2026-09-07T16:18:30.298777Z",
               "forecastC": 24.4,
               "leadHours": 2.68,
-              "errorC": -0.6000000000000014
+              "errorC": 0.3999999999999986
             },
             {
               "issuedAtUtc": "2026-09-07T16:57:38.021831Z",
               "forecastC": 24.4,
               "leadHours": 2.03,
-              "errorC": -0.6000000000000014
+              "errorC": 0.3999999999999986
             },
             {
               "issuedAtUtc": "2026-09-07T18:10:51.843538Z",
               "forecastC": 24.4,
               "leadHours": 0.82,
-              "errorC": -0.6000000000000014
+              "errorC": 0.3999999999999986
             },
             {
               "issuedAtUtc": "2026-09-07T18:36:44.786757Z",
               "forecastC": 24.4,
               "leadHours": 0.38,
-              "errorC": -0.6000000000000014
+              "errorC": 0.3999999999999986
             }
           ]
         },
@@ -12019,23 +14191,39 @@
       ],
       "extremeSkillByLeadMin": [
         {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 0.3999999999999986,
+          "rmse": 0.3999999999999986,
+          "bias": 0.3999999999999986,
+          "hitRate": 1.0
+        },
+        {
           "leadHours": 21,
           "n": 2,
-          "mae": 0.8999999999999986,
-          "rmse": 0.8999999999999986,
-          "bias": -0.8999999999999986,
-          "hitRate": 0.0
+          "mae": 0.10000000000000142,
+          "rmse": 0.10000000000000142,
+          "bias": 0.10000000000000142,
+          "hitRate": 1.0
         },
         {
           "leadHours": 23,
           "n": 2,
-          "mae": 0.8999999999999986,
-          "rmse": 0.8999999999999986,
-          "bias": -0.8999999999999986,
-          "hitRate": 0.0
+          "mae": 0.10000000000000142,
+          "rmse": 0.10000000000000142,
+          "bias": 0.10000000000000142,
+          "hitRate": 1.0
         }
       ],
       "extremeSkillByLeadMax": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 4.399999999999999,
+          "rmse": 4.399999999999999,
+          "bias": 4.399999999999999,
+          "hitRate": 0.0
+        },
         {
           "leadHours": 21,
           "n": 2,
@@ -12062,15 +14250,15 @@
         "minMidDayDays": 0,
         "minMorningShare": 0.6666666666666666,
         "maxAfternoonShare": 0.6666666666666666,
-        "minModeHour": 0,
+        "minModeHour": 1,
         "maxModeHour": 12,
-        "minLockModeHour": 2,
+        "minLockModeHour": 3,
         "maxLockModeHour": 2,
         "minFirstHourHist": [
-          1,
+          0,
           1,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -12095,8 +14283,8 @@
         "minLockHourHist": [
           0,
           0,
-          1,
           0,
+          1,
           0,
           0,
           1,
@@ -12178,10 +14366,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 0.1999999999999993,
-          "rmse": 0.1999999999999993,
-          "bias": -0.1999999999999993,
+          "n": 4,
+          "mae": 0.15000000000000036,
+          "rmse": 0.15811388300841897,
+          "bias": -0.15000000000000036,
           "hitRate": 1.0
         },
         {
@@ -12191,10 +14379,48 @@
           "rmse": 0.1999999999999993,
           "bias": 0.1999999999999993,
           "hitRate": 1.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.10000000000000142,
+          "rmse": 0.10000000000000142,
+          "bias": -0.10000000000000142,
+          "hitRate": 1.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T03:00:00",
+          "obsC": 20.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:30.378512Z",
+              "forecastC": 19.9,
+              "leadHours": 2.68,
+              "errorC": -0.10000000000000142
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:38.099754Z",
+              "forecastC": 19.9,
+              "leadHours": 2.03,
+              "errorC": -0.10000000000000142
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:51.972412Z",
+              "forecastC": 19.9,
+              "leadHours": 0.82,
+              "errorC": -0.10000000000000142
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:44.857384Z",
+              "forecastC": 19.9,
+              "leadHours": 0.38,
+              "errorC": -0.10000000000000142
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-08T02:00:00",
           "obsC": 20.0,
@@ -12232,25 +14458,75 @@
           ]
         }
       ],
-      "extremeSkillByLeadMin": [],
-      "extremeSkillByLeadMax": [],
+      "extremeSkillByLeadMin": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 0.1999999999999993,
+          "rmse": 0.1999999999999993,
+          "bias": -0.1999999999999993,
+          "hitRate": 1.0
+        },
+        {
+          "leadHours": 21,
+          "n": 2,
+          "mae": 0.10000000000000142,
+          "rmse": 0.10000000000000142,
+          "bias": -0.10000000000000142,
+          "hitRate": 1.0
+        },
+        {
+          "leadHours": 23,
+          "n": 2,
+          "mae": 0.10000000000000142,
+          "rmse": 0.10000000000000142,
+          "bias": -0.10000000000000142,
+          "hitRate": 1.0
+        }
+      ],
+      "extremeSkillByLeadMax": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 5.600000000000001,
+          "rmse": 5.600000000000001,
+          "bias": 5.600000000000001,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 21,
+          "n": 2,
+          "mae": 5.899999999999999,
+          "rmse": 5.899999999999999,
+          "bias": 5.899999999999999,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 23,
+          "n": 2,
+          "mae": 5.899999999999999,
+          "rmse": 5.899999999999999,
+          "bias": 5.899999999999999,
+          "hitRate": 0.0
+        }
+      ],
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "timing": {
-        "daysAnalyzed": 2,
-        "minBefore6amDays": 1,
+        "daysAnalyzed": 3,
+        "minBefore6amDays": 2,
         "minAfter6pmDays": 1,
         "minMidDayDays": 0,
-        "minMorningShare": 0.5,
-        "maxAfternoonShare": 1.0,
-        "minModeHour": 5,
-        "maxModeHour": 12,
-        "minLockModeHour": 6,
+        "minMorningShare": 0.6666666666666666,
+        "maxAfternoonShare": 0.6666666666666666,
+        "minModeHour": 2,
+        "maxModeHour": 0,
+        "minLockModeHour": 3,
         "maxLockModeHour": 17,
         "minFirstHourHist": [
           0,
           0,
-          0,
+          1,
           0,
           0,
           1,
@@ -12277,7 +14553,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           1,
@@ -12300,7 +14576,7 @@
           1
         ],
         "maxFirstHourHist": [
-          0,
+          1,
           0,
           0,
           0,
@@ -12326,7 +14602,7 @@
           0
         ],
         "maxLockHourHist": [
-          0,
+          1,
           0,
           0,
           0,
@@ -12359,10 +14635,10 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 1.5,
-          "rmse": 1.5,
-          "bias": -1.5,
+          "n": 4,
+          "mae": 1.5999999999999996,
+          "rmse": 1.6031219541881392,
+          "bias": -1.5999999999999996,
           "hitRate": 0.0
         },
         {
@@ -12372,10 +14648,48 @@
           "rmse": 1.0,
           "bias": -1.0,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 1.6999999999999993,
+          "rmse": 1.6999999999999993,
+          "bias": -1.6999999999999993,
+          "hitRate": 0.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T03:00:00",
+          "obsC": 30.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:30.500626Z",
+              "forecastC": 28.3,
+              "leadHours": 2.68,
+              "errorC": -1.6999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:38.201515Z",
+              "forecastC": 28.3,
+              "leadHours": 2.03,
+              "errorC": -1.6999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:52.111112Z",
+              "forecastC": 28.3,
+              "leadHours": 0.82,
+              "errorC": -1.6999999999999993
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:44.918936Z",
+              "forecastC": 28.3,
+              "leadHours": 0.38,
+              "errorC": -1.6999999999999993
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-08T02:00:00",
           "obsC": 30.0,
@@ -12413,25 +14727,75 @@
           ]
         }
       ],
-      "extremeSkillByLeadMin": [],
-      "extremeSkillByLeadMax": [],
+      "extremeSkillByLeadMin": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 2.3000000000000007,
+          "rmse": 2.3000000000000007,
+          "bias": -2.3000000000000007,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 21,
+          "n": 2,
+          "mae": 3.0,
+          "rmse": 3.0,
+          "bias": -3.0,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 23,
+          "n": 2,
+          "mae": 3.0,
+          "rmse": 3.0,
+          "bias": -3.0,
+          "hitRate": 0.0
+        }
+      ],
+      "extremeSkillByLeadMax": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 5.399999999999999,
+          "rmse": 5.399999999999999,
+          "bias": 5.399999999999999,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 21,
+          "n": 2,
+          "mae": 5.600000000000001,
+          "rmse": 5.600000000000001,
+          "bias": 5.600000000000001,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 23,
+          "n": 2,
+          "mae": 5.600000000000001,
+          "rmse": 5.600000000000001,
+          "bias": 5.600000000000001,
+          "hitRate": 0.0
+        }
+      ],
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "timing": {
-        "daysAnalyzed": 2,
-        "minBefore6amDays": 0,
+        "daysAnalyzed": 3,
+        "minBefore6amDays": 1,
         "minAfter6pmDays": 1,
         "minMidDayDays": 1,
-        "minMorningShare": 0.0,
-        "maxAfternoonShare": 1.0,
-        "minModeHour": 6,
-        "maxModeHour": 14,
-        "minLockModeHour": 7,
-        "maxLockModeHour": 16,
+        "minMorningShare": 0.3333333333333333,
+        "maxAfternoonShare": 0.6666666666666666,
+        "minModeHour": 2,
+        "maxModeHour": 0,
+        "minLockModeHour": 3,
+        "maxLockModeHour": 1,
         "minFirstHourHist": [
           0,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -12458,7 +14822,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -12481,7 +14845,7 @@
           1
         ],
         "maxFirstHourHist": [
-          0,
+          1,
           0,
           0,
           0,
@@ -12508,7 +14872,7 @@
         ],
         "maxLockHourHist": [
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -12540,11 +14904,11 @@
       "skillByLead": [
         {
           "leadHours": 0,
-          "n": 2,
-          "mae": 1.8000000000000007,
-          "rmse": 1.8000000000000007,
-          "bias": -1.8000000000000007,
-          "hitRate": 0.0
+          "n": 4,
+          "mae": 0.9500000000000011,
+          "rmse": 1.2747548783981968,
+          "bias": -0.8499999999999996,
+          "hitRate": 0.5
         },
         {
           "leadHours": 1,
@@ -12553,10 +14917,48 @@
           "rmse": 1.8999999999999986,
           "bias": -1.8999999999999986,
           "hitRate": 0.0
+        },
+        {
+          "leadHours": 2,
+          "n": 2,
+          "mae": 0.10000000000000142,
+          "rmse": 0.10000000000000142,
+          "bias": 0.10000000000000142,
+          "hitRate": 1.0
         }
       ],
       "timeToSkillHours": null,
       "evolutionTargets": [
+        {
+          "validLocal": "2026-09-08T03:00:00",
+          "obsC": 27.0,
+          "points": [
+            {
+              "issuedAtUtc": "2026-09-07T16:18:30.502361Z",
+              "forecastC": 27.1,
+              "leadHours": 2.68,
+              "errorC": 0.10000000000000142
+            },
+            {
+              "issuedAtUtc": "2026-09-07T16:57:38.218304Z",
+              "forecastC": 27.1,
+              "leadHours": 2.03,
+              "errorC": 0.10000000000000142
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:10:52.152438Z",
+              "forecastC": 27.1,
+              "leadHours": 0.82,
+              "errorC": 0.10000000000000142
+            },
+            {
+              "issuedAtUtc": "2026-09-07T18:36:44.933495Z",
+              "forecastC": 27.1,
+              "leadHours": 0.38,
+              "errorC": 0.10000000000000142
+            }
+          ]
+        },
         {
           "validLocal": "2026-09-08T02:00:00",
           "obsC": 29.0,
@@ -12594,26 +14996,76 @@
           ]
         }
       ],
-      "extremeSkillByLeadMin": [],
-      "extremeSkillByLeadMax": [],
+      "extremeSkillByLeadMin": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 3.6999999999999993,
+          "rmse": 3.6999999999999993,
+          "bias": -3.6999999999999993,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 21,
+          "n": 2,
+          "mae": 2.8000000000000007,
+          "rmse": 2.8000000000000007,
+          "bias": -2.8000000000000007,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 23,
+          "n": 2,
+          "mae": 2.8000000000000007,
+          "rmse": 2.8000000000000007,
+          "bias": -2.8000000000000007,
+          "hitRate": 0.0
+        }
+      ],
+      "extremeSkillByLeadMax": [
+        {
+          "leadHours": 20,
+          "n": 1,
+          "mae": 0.3000000000000007,
+          "rmse": 0.3000000000000007,
+          "bias": -0.3000000000000007,
+          "hitRate": 1.0
+        },
+        {
+          "leadHours": 21,
+          "n": 2,
+          "mae": 2.3999999999999986,
+          "rmse": 2.3999999999999986,
+          "bias": 2.3999999999999986,
+          "hitRate": 0.0
+        },
+        {
+          "leadHours": 23,
+          "n": 2,
+          "mae": 2.3999999999999986,
+          "rmse": 2.3999999999999986,
+          "bias": 2.3999999999999986,
+          "hitRate": 0.0
+        }
+      ],
       "timeToSkillMinHours": null,
       "timeToSkillMaxHours": null,
       "timing": {
-        "daysAnalyzed": 2,
-        "minBefore6amDays": 1,
+        "daysAnalyzed": 3,
+        "minBefore6amDays": 2,
         "minAfter6pmDays": 1,
         "minMidDayDays": 0,
-        "minMorningShare": 0.5,
-        "maxAfternoonShare": 1.0,
-        "minModeHour": 4,
-        "maxModeHour": 16,
-        "minLockModeHour": 8,
+        "minMorningShare": 0.6666666666666666,
+        "maxAfternoonShare": 0.6666666666666666,
+        "minModeHour": 3,
+        "maxModeHour": 0,
+        "minLockModeHour": 3,
         "maxLockModeHour": 17,
         "minFirstHourHist": [
           0,
           0,
           0,
-          0,
+          1,
           1,
           0,
           0,
@@ -12639,7 +15091,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0,
           0,
           0,
@@ -12662,7 +15114,7 @@
           1
         ],
         "maxFirstHourHist": [
-          0,
+          1,
           0,
           0,
           0,
@@ -12690,7 +15142,7 @@
         "maxLockHourHist": [
           0,
           0,
-          0,
+          1,
           0,
           0,
           0,
