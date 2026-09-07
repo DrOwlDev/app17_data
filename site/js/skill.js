@@ -32,6 +32,25 @@
     return skillDoc && skillDoc.toleranceC != null ? skillDoc.toleranceC : TOL;
   }
 
+  const TIPS = {
+    pairs:
+      'Number of forecast↔observed hour pairs matched within ±30 minutes for this station.',
+    hitOverall:
+      'Overall hourly hit rate: share of pairs with |forecast − observed| ≤ tolerance (°C).',
+    lHourly:
+      'Hourly time-to-skill L: earliest lead (hours before valid time) where shorter leads stay good (hit ≥ 80% or MAE ≤ 0.4°C). Smaller is better for earlier entries.',
+    lMin:
+      'Lmin: time-to-skill for forecast daily minimum vs observed daily minimum (lead = hours before local EOD). Prefer small values on Low markets.',
+    lMax:
+      'Lmax: time-to-skill for forecast daily maximum vs observed daily maximum (lead = hours before local EOD). Prefer small values on High markets.',
+    minTiming:
+      'Last ≤14 observed days: count of days with first daily min before 06:00 local / at or after 18:00 local.',
+    bucketHit:
+      'Share of snapshots where floored °C of forecast day min (and max) matches floored °C of observed extremes — closer to Polymarket outcome buckets.',
+    status:
+      'When skill.json was built, hit tolerance °C, pairing window minutes, and extrema-timing lookback days.',
+  };
+
   function renderSummary() {
     summaryBody.innerHTML = '';
     for (const s of skillDoc.stations || []) {
@@ -117,29 +136,43 @@
       return;
     }
     statsEl.innerHTML =
-      '<div class="stat"><div class="k">Pairs</div><div class="v">' +
+      '<div class="stat" title="' +
+      TIPS.pairs +
+      '"><div class="k">Pairs</div><div class="v">' +
       (s.pairCount || 0) +
       '</div></div>' +
-      '<div class="stat"><div class="k">Hit @' +
+      '<div class="stat" title="' +
+      TIPS.hitOverall +
+      '"><div class="k">Hit @' +
       tol() +
       '°C</div><div class="v">' +
       pct(s.overallHitRate) +
       '</div></div>' +
-      '<div class="stat"><div class="k">L hourly</div><div class="v">' +
+      '<div class="stat" title="' +
+      TIPS.lHourly +
+      '"><div class="k">L hourly</div><div class="v">' +
       (s.timeToSkillHours == null ? '—' : s.timeToSkillHours + 'h') +
       '</div></div>' +
-      '<div class="stat"><div class="k">L<sub>min</sub></div><div class="v">' +
+      '<div class="stat" title="' +
+      TIPS.lMin +
+      '"><div class="k">L<sub>min</sub></div><div class="v">' +
       (s.timeToSkillMinHours == null ? '—' : s.timeToSkillMinHours + 'h') +
       '</div></div>' +
-      '<div class="stat"><div class="k">L<sub>max</sub></div><div class="v">' +
+      '<div class="stat" title="' +
+      TIPS.lMax +
+      '"><div class="k">L<sub>max</sub></div><div class="v">' +
       (s.timeToSkillMaxHours == null ? '—' : s.timeToSkillMaxHours + 'h') +
       '</div></div>' +
-      '<div class="stat"><div class="k">Min &lt;6am / &gt;6pm</div><div class="v" style="font-size:1rem">' +
+      '<div class="stat" title="' +
+      TIPS.minTiming +
+      '"><div class="k">Min &lt;6am / &gt;6pm</div><div class="v" style="font-size:1rem">' +
       (s.minBefore6amDays != null ? s.minBefore6amDays : '—') +
       ' / ' +
       (s.minAfter6pmDays != null ? s.minAfter6pmDays : '—') +
       '</div></div>' +
-      '<div class="stat"><div class="k">Bucket hit min/max</div><div class="v" style="font-size:1rem">' +
+      '<div class="stat" title="' +
+      TIPS.bucketHit +
+      '"><div class="k">Bucket hit min/max</div><div class="v" style="font-size:1rem">' +
       pct(s.minBucketHitRate) +
       ' / ' +
       pct(s.maxBucketHitRate) +
@@ -320,6 +353,11 @@
       (t.maxModeHour != null ? t.maxModeHour + 'h' : '—') +
       ' lock ' +
       (t.maxLockModeHour != null ? t.maxLockModeHour + 'h' : '—');
+    timingCaption.title =
+      'daysAnalyzed = complete local observed days in the lookback window. ' +
+      'min before 6am / after 6pm / mid = first occurrence hour of daily min. ' +
+      'mode min/max = most common first-occurrence hour. ' +
+      'lock = most common last hour when a new daily extreme was set.';
 
     if (timingChart) timingChart.destroy();
     timingChart = new Chart(document.getElementById('timingChart'), {
@@ -401,6 +439,11 @@
       '°C · ±' +
       band +
       '°C band shaded';
+    evoCaption.title =
+      'validLocal = city-local valid time being forecast. observed = matched station temperature. ' +
+      'Shaded band is the ±' +
+      band +
+      '°C hit window around observed.';
     const labels = t.points.map((p) =>
       p.issuedAtUtc.replace('T', ' ').slice(0, 16)
     );
@@ -475,7 +518,9 @@
       if (!res.ok) throw new Error('HTTP ' + res.status);
       skillDoc = await res.json();
       statusEl.innerHTML =
-        '<p class="muted">Generated ' +
+        '<p class="muted tip" title="' +
+        TIPS.status +
+        '">Generated ' +
         (skillDoc.generatedAt || '') +
         ' · tolerance ' +
         tol() +

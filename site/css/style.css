@@ -136,5 +136,20 @@ canvas { width: 100% !important; height: 100% !important; }
 }
 .stat .k { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; }
 .stat .v { font-size: 1.15rem; font-weight: 700; letter-spacing: -0.02em; }
+.stat[title],
+th[title],
+.tip,
+h2.tip,
+label.tip {
+  cursor: help;
+}
+th[title] {
+  text-decoration: underline dotted rgba(91, 101, 112, 0.55);
+  text-underline-offset: 0.18em;
+}
+.stat[title]:hover,
+.card h2.tip:hover {
+  border-color: #b8c4d4;
+}
 
 .error { color: var(--bad); padding: 0.75rem; background: #fdecec; border-radius: 8px; }
