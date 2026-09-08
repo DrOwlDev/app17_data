@@ -1,0 +1,2 @@
+local_time,temp_c,data_source,collected_at_utc
+2026-09-09T00:00:00,25.0,https://www.weather.gov/wrh/timeseries?site=zspd,2026-09-08T16:09:57.905346Z

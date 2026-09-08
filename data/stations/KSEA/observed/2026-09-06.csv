@@ -21,5 +21,5 @@ local_time,temp_c,data_source,collected_at_utc
 2026-09-06T19:00:00,20.60,https://www.weather.gov/wrh/timeseries?site=ksea,2026-09-08T11:37:53.428526Z
 2026-09-06T20:00:00,20.0,https://www.weather.gov/wrh/timeseries?site=ksea,2026-09-08T11:37:53.428526Z
 2026-09-06T21:00:00,18.30,https://www.weather.gov/wrh/timeseries?site=ksea,2026-09-08T11:37:53.428526Z
-2026-09-06T22:00:00,17.80,https://www.weather.gov/wrh/timeseries?site=ksea,2026-09-08T11:37:53.428526Z
-2026-09-06T23:00:00,16.10,https://www.weather.gov/wrh/timeseries?site=ksea,2026-09-08T11:37:53.428526Z
+2026-09-06T22:00:00,17.80,https://www.weather.gov/wrh/timeseries?site=ksea,2026-09-08T16:09:57.905346Z
+2026-09-06T23:00:00,16.10,https://www.weather.gov/wrh/timeseries?site=ksea,2026-09-08T16:09:57.905346Z
