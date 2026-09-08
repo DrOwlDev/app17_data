@@ -1,0 +1,5 @@
+local_time,temp_c,data_source,collected_at_utc
+2026-09-09T00:00:00,28.0,https://www.weather.gov/wrh/timeseries?site=LLBG,2026-09-08T22:25:19.277467Z
+2026-09-09T00:20:00,27.0,https://www.weather.gov/wrh/timeseries?site=LLBG,2026-09-08T22:25:19.277467Z
+2026-09-09T01:00:00,27.0,https://www.weather.gov/wrh/timeseries?site=LLBG,2026-09-08T22:25:19.277467Z
+2026-09-09T01:20:00,26.0,https://www.weather.gov/wrh/timeseries?site=LLBG,2026-09-08T22:25:19.277467Z

@@ -1,0 +1,2 @@
+local_time,temp_c,data_source,collected_at_utc
+2026-09-09T00:00:00,26.0,https://www.weather.gov/wrh/timeseries?site=lemd,2026-09-08T22:25:19.277467Z
