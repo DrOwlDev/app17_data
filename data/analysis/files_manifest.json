@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-08T01:04:51.276330Z",
+  "generatedAt": "2026-09-08T06:19:50.712006Z",
   "stationCount": 51,
-  "fileCount": 651,
+  "fileCount": 714,
   "stations": [
     {
       "stationId": "CYYZ",
@@ -13,7 +13,7 @@
           "path": "stations/CYYZ/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 157
+          "bytes": 208
         },
         {
           "path": "stations/CYYZ/forecasts/20260907T1618Z.csv",
@@ -64,6 +64,12 @@
           "bytes": 6168
         },
         {
+          "path": "stations/CYYZ/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 6168
+        },
+        {
           "path": "stations/CYYZ/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -79,7 +85,13 @@
           "path": "stations/CYYZ/observed/2026-09-07.csv",
           "name": "2026-09-07.csv",
           "kind": "observed",
-          "bytes": 2189
+          "bytes": 2495
+        },
+        {
+          "path": "stations/CYYZ/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 353
         }
       ]
     },
@@ -93,7 +105,7 @@
           "path": "stations/EDDM/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 206
+          "bytes": 207
         },
         {
           "path": "stations/EDDM/forecasts/20260907T1618Z.csv",
@@ -144,6 +156,12 @@
           "bytes": 5733
         },
         {
+          "path": "stations/EDDM/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5719
+        },
+        {
           "path": "stations/EDDM/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -165,7 +183,7 @@
           "path": "stations/EDDM/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 761
+          "bytes": 1781
         }
       ]
     },
@@ -179,7 +197,7 @@
           "path": "stations/EFHK/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 206
+          "bytes": 207
         },
         {
           "path": "stations/EFHK/forecasts/20260907T1618Z.csv",
@@ -230,6 +248,12 @@
           "bytes": 5738
         },
         {
+          "path": "stations/EFHK/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5730
+        },
+        {
           "path": "stations/EFHK/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -251,7 +275,7 @@
           "path": "stations/EFHK/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 965
+          "bytes": 1985
         }
       ]
     },
@@ -265,7 +289,7 @@
           "path": "stations/EGLC/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 208
+          "bytes": 209
         },
         {
           "path": "stations/EGLC/forecasts/20260907T1618Z.csv",
@@ -316,6 +340,12 @@
           "bytes": 5739
         },
         {
+          "path": "stations/EGLC/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5739
+        },
+        {
           "path": "stations/EGLC/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -337,7 +367,7 @@
           "path": "stations/EGLC/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 557
+          "bytes": 1577
         }
       ]
     },
@@ -351,7 +381,7 @@
           "path": "stations/EHAM/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 208
+          "bytes": 209
         },
         {
           "path": "stations/EHAM/forecasts/20260907T1618Z.csv",
@@ -402,6 +432,12 @@
           "bytes": 5735
         },
         {
+          "path": "stations/EHAM/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5735
+        },
+        {
           "path": "stations/EHAM/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -423,7 +459,7 @@
           "path": "stations/EHAM/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 761
+          "bytes": 1781
         }
       ]
     },
@@ -437,7 +473,7 @@
           "path": "stations/EPWA/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 207
+          "bytes": 208
         },
         {
           "path": "stations/EPWA/forecasts/20260907T1618Z.csv",
@@ -488,6 +524,12 @@
           "bytes": 5733
         },
         {
+          "path": "stations/EPWA/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5731
+        },
+        {
           "path": "stations/EPWA/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -509,7 +551,7 @@
           "path": "stations/EPWA/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 761
+          "bytes": 1781
         }
       ]
     },
@@ -523,7 +565,7 @@
           "path": "stations/FACT/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 208
+          "bytes": 209
         },
         {
           "path": "stations/FACT/forecasts/20260907T1618Z.csv",
@@ -574,6 +616,12 @@
           "bytes": 5737
         },
         {
+          "path": "stations/FACT/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5738
+        },
+        {
           "path": "stations/FACT/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -595,7 +643,7 @@
           "path": "stations/FACT/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 353
+          "bytes": 1067
         }
       ]
     },
@@ -660,6 +708,12 @@
           "bytes": 6095
         },
         {
+          "path": "stations/HKO/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 6092
+        },
+        {
           "path": "stations/HKO/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -675,7 +729,7 @@
           "path": "stations/HKO/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 52548
+          "bytes": 84206
         }
       ]
     },
@@ -689,7 +743,7 @@
           "path": "stations/KATL/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 161
+          "bytes": 214
         },
         {
           "path": "stations/KATL/forecasts/20260907T1618Z.csv",
@@ -740,6 +794,12 @@
           "bytes": 5523
         },
         {
+          "path": "stations/KATL/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5522
+        },
+        {
           "path": "stations/KATL/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -755,7 +815,13 @@
           "path": "stations/KATL/observed/2026-09-07.csv",
           "name": "2026-09-07.csv",
           "kind": "observed",
-          "bytes": 2725
+          "bytes": 2930
+        },
+        {
+          "path": "stations/KATL/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 356
         }
       ]
     },
@@ -769,7 +835,7 @@
           "path": "stations/KAUS/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 160
+          "bytes": 212
         },
         {
           "path": "stations/KAUS/forecasts/20260907T1618Z.csv",
@@ -820,6 +886,12 @@
           "bytes": 5521
         },
         {
+          "path": "stations/KAUS/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5520
+        },
+        {
           "path": "stations/KAUS/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -835,7 +907,13 @@
           "path": "stations/KAUS/observed/2026-09-07.csv",
           "name": "2026-09-07.csv",
           "kind": "observed",
-          "bytes": 2209
+          "bytes": 2518
+        },
+        {
+          "path": "stations/KAUS/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 252
         }
       ]
     },
@@ -900,6 +978,12 @@
           "bytes": 5522
         },
         {
+          "path": "stations/KBKF/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5523
+        },
+        {
           "path": "stations/KBKF/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -921,7 +1005,7 @@
           "path": "stations/KBKF/observed/2026-09-07.csv",
           "name": "2026-09-07.csv",
           "kind": "observed",
-          "bytes": 2000
+          "bytes": 2515
         }
       ]
     },
@@ -935,7 +1019,7 @@
           "path": "stations/KDAL/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 161
+          "bytes": 214
         },
         {
           "path": "stations/KDAL/forecasts/20260907T1618Z.csv",
@@ -986,6 +1070,12 @@
           "bytes": 5519
         },
         {
+          "path": "stations/KDAL/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5519
+        },
+        {
           "path": "stations/KDAL/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -1001,7 +1091,13 @@
           "path": "stations/KDAL/observed/2026-09-07.csv",
           "name": "2026-09-07.csv",
           "kind": "observed",
-          "bytes": 2209
+          "bytes": 2517
+        },
+        {
+          "path": "stations/KDAL/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 253
         }
       ]
     },
@@ -1015,7 +1111,7 @@
           "path": "stations/KHOU/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 160
+          "bytes": 213
         },
         {
           "path": "stations/KHOU/forecasts/20260907T1618Z.csv",
@@ -1066,6 +1162,12 @@
           "bytes": 5523
         },
         {
+          "path": "stations/KHOU/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5524
+        },
+        {
           "path": "stations/KHOU/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -1081,7 +1183,13 @@
           "path": "stations/KHOU/observed/2026-09-07.csv",
           "name": "2026-09-07.csv",
           "kind": "observed",
-          "bytes": 2415
+          "bytes": 2723
+        },
+        {
+          "path": "stations/KHOU/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 253
         }
       ]
     },
@@ -1146,6 +1254,12 @@
           "bytes": 5522
         },
         {
+          "path": "stations/KLAX/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5524
+        },
+        {
           "path": "stations/KLAX/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -1167,7 +1281,7 @@
           "path": "stations/KLAX/observed/2026-09-07.csv",
           "name": "2026-09-07.csv",
           "kind": "observed",
-          "bytes": 2002
+          "bytes": 2517
         }
       ]
     },
@@ -1181,7 +1295,7 @@
           "path": "stations/KLGA/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 161
+          "bytes": 214
         },
         {
           "path": "stations/KLGA/forecasts/20260907T1618Z.csv",
@@ -1232,6 +1346,12 @@
           "bytes": 5521
         },
         {
+          "path": "stations/KLGA/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5522
+        },
+        {
           "path": "stations/KLGA/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -1247,7 +1367,13 @@
           "path": "stations/KLGA/observed/2026-09-07.csv",
           "name": "2026-09-07.csv",
           "kind": "observed",
-          "bytes": 2308
+          "bytes": 2513
+        },
+        {
+          "path": "stations/KLGA/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 356
         }
       ]
     },
@@ -1261,7 +1387,7 @@
           "path": "stations/KMIA/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 159
+          "bytes": 212
         },
         {
           "path": "stations/KMIA/forecasts/20260907T1618Z.csv",
@@ -1312,6 +1438,12 @@
           "bytes": 5524
         },
         {
+          "path": "stations/KMIA/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5524
+        },
+        {
           "path": "stations/KMIA/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -1327,7 +1459,13 @@
           "path": "stations/KMIA/observed/2026-09-07.csv",
           "name": "2026-09-07.csv",
           "kind": "observed",
-          "bytes": 2926
+          "bytes": 3132
+        },
+        {
+          "path": "stations/KMIA/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 356
         }
       ]
     },
@@ -1341,7 +1479,7 @@
           "path": "stations/KORD/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 161
+          "bytes": 212
         },
         {
           "path": "stations/KORD/forecasts/20260907T1618Z.csv",
@@ -1392,6 +1530,12 @@
           "bytes": 5519
         },
         {
+          "path": "stations/KORD/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5519
+        },
+        {
           "path": "stations/KORD/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -1407,7 +1551,13 @@
           "path": "stations/KORD/observed/2026-09-07.csv",
           "name": "2026-09-07.csv",
           "kind": "observed",
-          "bytes": 2208
+          "bytes": 2517
+        },
+        {
+          "path": "stations/KORD/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 251
         }
       ]
     },
@@ -1472,6 +1622,12 @@
           "bytes": 5521
         },
         {
+          "path": "stations/KSEA/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5522
+        },
+        {
           "path": "stations/KSEA/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -1493,7 +1649,7 @@
           "path": "stations/KSEA/observed/2026-09-07.csv",
           "name": "2026-09-07.csv",
           "kind": "observed",
-          "bytes": 2512
+          "bytes": 3027
         }
       ]
     },
@@ -1558,6 +1714,12 @@
           "bytes": 5516
         },
         {
+          "path": "stations/KSFO/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5516
+        },
+        {
           "path": "stations/KSFO/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -1579,7 +1741,7 @@
           "path": "stations/KSFO/observed/2026-09-07.csv",
           "name": "2026-09-07.csv",
           "kind": "observed",
-          "bytes": 2001
+          "bytes": 2515
         }
       ]
     },
@@ -1593,7 +1755,7 @@
           "path": "stations/LEMD/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 208
+          "bytes": 209
         },
         {
           "path": "stations/LEMD/forecasts/20260907T1618Z.csv",
@@ -1644,6 +1806,12 @@
           "bytes": 5736
         },
         {
+          "path": "stations/LEMD/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5734
+        },
+        {
           "path": "stations/LEMD/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -1665,7 +1833,7 @@
           "path": "stations/LEMD/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 761
+          "bytes": 1781
         }
       ]
     },
@@ -1679,7 +1847,7 @@
           "path": "stations/LFPB/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 208
+          "bytes": 209
         },
         {
           "path": "stations/LFPB/forecasts/20260907T1618Z.csv",
@@ -1730,6 +1898,12 @@
           "bytes": 5733
         },
         {
+          "path": "stations/LFPB/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5732
+        },
+        {
           "path": "stations/LFPB/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -1751,7 +1925,7 @@
           "path": "stations/LFPB/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 761
+          "bytes": 1781
         }
       ]
     },
@@ -1765,7 +1939,7 @@
           "path": "stations/LIMC/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 208
+          "bytes": 209
         },
         {
           "path": "stations/LIMC/forecasts/20260907T1618Z.csv",
@@ -1816,6 +1990,12 @@
           "bytes": 5735
         },
         {
+          "path": "stations/LIMC/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5732
+        },
+        {
           "path": "stations/LIMC/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -1837,7 +2017,7 @@
           "path": "stations/LIMC/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 761
+          "bytes": 1781
         }
       ]
     },
@@ -1851,7 +2031,7 @@
           "path": "stations/LLBG/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 208
+          "bytes": 209
         },
         {
           "path": "stations/LLBG/forecasts/20260907T1618Z.csv",
@@ -1902,6 +2082,12 @@
           "bytes": 5741
         },
         {
+          "path": "stations/LLBG/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5733
+        },
+        {
           "path": "stations/LLBG/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -1923,7 +2109,7 @@
           "path": "stations/LLBG/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 965
+          "bytes": 1985
         }
       ]
     },
@@ -1937,7 +2123,7 @@
           "path": "stations/LTAC/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 208
+          "bytes": 209
         },
         {
           "path": "stations/LTAC/forecasts/20260907T1618Z.csv",
@@ -1988,6 +2174,12 @@
           "bytes": 5735
         },
         {
+          "path": "stations/LTAC/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5733
+        },
+        {
           "path": "stations/LTAC/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -2009,7 +2201,7 @@
           "path": "stations/LTAC/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 965
+          "bytes": 1985
         }
       ]
     },
@@ -2023,7 +2215,7 @@
           "path": "stations/LTFM/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 208
+          "bytes": 209
         },
         {
           "path": "stations/LTFM/forecasts/20260907T1618Z.csv",
@@ -2074,6 +2266,12 @@
           "bytes": 5734
         },
         {
+          "path": "stations/LTFM/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5735
+        },
+        {
           "path": "stations/LTFM/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -2095,7 +2293,7 @@
           "path": "stations/LTFM/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 965
+          "bytes": 1985
         }
       ]
     },
@@ -2109,7 +2307,7 @@
           "path": "stations/MMMX/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 208
+          "bytes": 259
         },
         {
           "path": "stations/MMMX/forecasts/20260907T1618Z.csv",
@@ -2160,6 +2358,12 @@
           "bytes": 5733
         },
         {
+          "path": "stations/MMMX/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5734
+        },
+        {
           "path": "stations/MMMX/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -2181,7 +2385,13 @@
           "path": "stations/MMMX/observed/2026-09-07.csv",
           "name": "2026-09-07.csv",
           "kind": "observed",
-          "bytes": 3209
+          "bytes": 3821
+        },
+        {
+          "path": "stations/MMMX/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 149
         }
       ]
     },
@@ -2195,7 +2405,7 @@
           "path": "stations/MPMG/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 157
+          "bytes": 208
         },
         {
           "path": "stations/MPMG/forecasts/20260907T1618Z.csv",
@@ -2246,6 +2456,12 @@
           "bytes": 5733
         },
         {
+          "path": "stations/MPMG/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5736
+        },
+        {
           "path": "stations/MPMG/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -2261,7 +2477,13 @@
           "path": "stations/MPMG/observed/2026-09-07.csv",
           "name": "2026-09-07.csv",
           "kind": "observed",
-          "bytes": 2291
+          "bytes": 2597
+        },
+        {
+          "path": "stations/MPMG/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 251
         }
       ]
     },
@@ -2326,6 +2548,12 @@
           "bytes": 5701
         },
         {
+          "path": "stations/NZWN/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5702
+        },
+        {
           "path": "stations/NZWN/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -2347,7 +2575,7 @@
           "path": "stations/NZWN/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 2783
+          "bytes": 3803
         }
       ]
     },
@@ -2361,7 +2589,7 @@
           "path": "stations/OEJN/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 208
+          "bytes": 209
         },
         {
           "path": "stations/OEJN/forecasts/20260907T1618Z.csv",
@@ -2412,6 +2640,12 @@
           "bytes": 5737
         },
         {
+          "path": "stations/OEJN/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5738
+        },
+        {
           "path": "stations/OEJN/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -2433,7 +2667,7 @@
           "path": "stations/OEJN/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 557
+          "bytes": 1067
         }
       ]
     },
@@ -2498,6 +2732,12 @@
           "bytes": 5738
         },
         {
+          "path": "stations/OPKC/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5739
+        },
+        {
           "path": "stations/OPKC/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -2519,7 +2759,7 @@
           "path": "stations/OPKC/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 1373
+          "bytes": 2393
         }
       ]
     },
@@ -2584,6 +2824,12 @@
           "bytes": 5734
         },
         {
+          "path": "stations/RCSS/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5735
+        },
+        {
           "path": "stations/RCSS/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -2605,7 +2851,7 @@
           "path": "stations/RCSS/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 1379
+          "bytes": 2822
         }
       ]
     },
@@ -2670,6 +2916,12 @@
           "bytes": 5735
         },
         {
+          "path": "stations/RJTT/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5740
+        },
+        {
           "path": "stations/RJTT/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -2691,7 +2943,7 @@
           "path": "stations/RJTT/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 2087
+          "bytes": 3209
         }
       ]
     },
@@ -2756,6 +3008,12 @@
           "bytes": 5737
         },
         {
+          "path": "stations/RKPK/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5734
+        },
+        {
           "path": "stations/RKPK/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -2777,7 +3035,7 @@
           "path": "stations/RKPK/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 1169
+          "bytes": 1679
         }
       ]
     },
@@ -2842,6 +3100,12 @@
           "bytes": 5735
         },
         {
+          "path": "stations/RKSI/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5738
+        },
+        {
           "path": "stations/RKSI/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -2863,7 +3127,7 @@
           "path": "stations/RKSI/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 2189
+          "bytes": 3209
         }
       ]
     },
@@ -2928,6 +3192,12 @@
           "bytes": 5738
         },
         {
+          "path": "stations/RPLL/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5739
+        },
+        {
           "path": "stations/RPLL/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -2949,7 +3219,7 @@
           "path": "stations/RPLL/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 1067
+          "bytes": 1577
         }
       ]
     },
@@ -2963,7 +3233,7 @@
           "path": "stations/SAEZ/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 155
+          "bytes": 205
         },
         {
           "path": "stations/SAEZ/forecasts/20260907T1618Z.csv",
@@ -3014,6 +3284,12 @@
           "bytes": 5701
         },
         {
+          "path": "stations/SAEZ/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5704
+        },
+        {
           "path": "stations/SAEZ/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -3029,7 +3305,13 @@
           "path": "stations/SAEZ/observed/2026-09-07.csv",
           "name": "2026-09-07.csv",
           "kind": "observed",
-          "bytes": 2380
+          "bytes": 2481
+        },
+        {
+          "path": "stations/SAEZ/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 454
         }
       ]
     },
@@ -3043,7 +3325,7 @@
           "path": "stations/SBGR/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 157
+          "bytes": 208
         },
         {
           "path": "stations/SBGR/forecasts/20260907T1618Z.csv",
@@ -3094,6 +3376,12 @@
           "bytes": 5735
         },
         {
+          "path": "stations/SBGR/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5734
+        },
+        {
           "path": "stations/SBGR/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -3109,7 +3397,13 @@
           "path": "stations/SBGR/observed/2026-09-07.csv",
           "name": "2026-09-07.csv",
           "kind": "observed",
-          "bytes": 2393
+          "bytes": 2495
+        },
+        {
+          "path": "stations/SBGR/observed/2026-09-08.csv",
+          "name": "2026-09-08.csv",
+          "kind": "observed",
+          "bytes": 455
         }
       ]
     },
@@ -3123,7 +3417,7 @@
           "path": "stations/UUWW/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 205
+          "bytes": 206
         },
         {
           "path": "stations/UUWW/forecasts/20260907T1618Z.csv",
@@ -3174,6 +3468,12 @@
           "bytes": 5718
         },
         {
+          "path": "stations/UUWW/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5719
+        },
+        {
           "path": "stations/UUWW/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -3195,7 +3495,7 @@
           "path": "stations/UUWW/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 956
+          "bytes": 1966
         }
       ]
     },
@@ -3260,6 +3560,12 @@
           "bytes": 5736
         },
         {
+          "path": "stations/VILK/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5735
+        },
+        {
           "path": "stations/VILK/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -3281,7 +3587,7 @@
           "path": "stations/VILK/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 1475
+          "bytes": 2495
         }
       ]
     },
@@ -3346,6 +3652,12 @@
           "bytes": 5737
         },
         {
+          "path": "stations/WMKK/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5736
+        },
+        {
           "path": "stations/WMKK/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -3367,7 +3679,7 @@
           "path": "stations/WMKK/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 1883
+          "bytes": 3005
         }
       ]
     },
@@ -3432,6 +3744,12 @@
           "bytes": 5740
         },
         {
+          "path": "stations/WSSS/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5740
+        },
+        {
           "path": "stations/WSSS/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -3453,7 +3771,7 @@
           "path": "stations/WSSS/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 1985
+          "bytes": 3005
         }
       ]
     },
@@ -3518,6 +3836,12 @@
           "bytes": 5739
         },
         {
+          "path": "stations/ZBAA/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5739
+        },
+        {
           "path": "stations/ZBAA/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -3539,7 +3863,7 @@
           "path": "stations/ZBAA/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 1883
+          "bytes": 3005
         }
       ]
     },
@@ -3604,6 +3928,12 @@
           "bytes": 5736
         },
         {
+          "path": "stations/ZGGG/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5736
+        },
+        {
           "path": "stations/ZGGG/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -3625,7 +3955,7 @@
           "path": "stations/ZGGG/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 1883
+          "bytes": 3005
         }
       ]
     },
@@ -3639,7 +3969,7 @@
           "path": "stations/ZGSZ/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 208
+          "bytes": 209
         },
         {
           "path": "stations/ZGSZ/forecasts/20260907T1618Z.csv",
@@ -3690,6 +4020,12 @@
           "bytes": 5735
         },
         {
+          "path": "stations/ZGSZ/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5737
+        },
+        {
           "path": "stations/ZGSZ/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -3711,7 +4047,7 @@
           "path": "stations/ZGSZ/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 965
+          "bytes": 1577
         }
       ]
     },
@@ -3725,7 +4061,7 @@
           "path": "stations/ZHCC/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 208
+          "bytes": 209
         },
         {
           "path": "stations/ZHCC/forecasts/20260907T1618Z.csv",
@@ -3776,6 +4112,12 @@
           "bytes": 5739
         },
         {
+          "path": "stations/ZHCC/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5739
+        },
+        {
           "path": "stations/ZHCC/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -3797,7 +4139,7 @@
           "path": "stations/ZHCC/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 965
+          "bytes": 1577
         }
       ]
     },
@@ -3811,7 +4153,7 @@
           "path": "stations/ZHHH/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 208
+          "bytes": 209
         },
         {
           "path": "stations/ZHHH/forecasts/20260907T1618Z.csv",
@@ -3862,6 +4204,12 @@
           "bytes": 5735
         },
         {
+          "path": "stations/ZHHH/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5735
+        },
+        {
           "path": "stations/ZHHH/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -3883,7 +4231,7 @@
           "path": "stations/ZHHH/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 965
+          "bytes": 1577
         }
       ]
     },
@@ -3897,7 +4245,7 @@
           "path": "stations/ZSJN/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 208
+          "bytes": 209
         },
         {
           "path": "stations/ZSJN/forecasts/20260907T1618Z.csv",
@@ -3948,6 +4296,12 @@
           "bytes": 5737
         },
         {
+          "path": "stations/ZSJN/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5737
+        },
+        {
           "path": "stations/ZSJN/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -3969,7 +4323,7 @@
           "path": "stations/ZSJN/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 1037
+          "bytes": 1587
         }
       ]
     },
@@ -4034,6 +4388,12 @@
           "bytes": 5739
         },
         {
+          "path": "stations/ZSPD/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5739
+        },
+        {
           "path": "stations/ZSPD/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -4055,7 +4415,7 @@
           "path": "stations/ZSPD/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 1883
+          "bytes": 3005
         }
       ]
     },
@@ -4069,7 +4429,7 @@
           "path": "stations/ZSQD/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 208
+          "bytes": 209
         },
         {
           "path": "stations/ZSQD/forecasts/20260907T1618Z.csv",
@@ -4120,6 +4480,12 @@
           "bytes": 5733
         },
         {
+          "path": "stations/ZSQD/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5733
+        },
+        {
           "path": "stations/ZSQD/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -4141,7 +4507,7 @@
           "path": "stations/ZSQD/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 965
+          "bytes": 1577
         }
       ]
     },
@@ -4155,7 +4521,7 @@
           "path": "stations/ZUCK/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 208
+          "bytes": 209
         },
         {
           "path": "stations/ZUCK/forecasts/20260907T1618Z.csv",
@@ -4206,6 +4572,12 @@
           "bytes": 5735
         },
         {
+          "path": "stations/ZUCK/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5735
+        },
+        {
           "path": "stations/ZUCK/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -4227,7 +4599,7 @@
           "path": "stations/ZUCK/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 965
+          "bytes": 1577
         }
       ]
     },
@@ -4241,7 +4613,7 @@
           "path": "stations/ZUUU/daily_extremes.csv",
           "name": "daily_extremes.csv",
           "kind": "daily_extremes",
-          "bytes": 208
+          "bytes": 209
         },
         {
           "path": "stations/ZUUU/forecasts/20260907T1618Z.csv",
@@ -4292,6 +4664,12 @@
           "bytes": 5735
         },
         {
+          "path": "stations/ZUUU/forecasts/20260908T0619Z.csv",
+          "name": "20260908T0619Z.csv",
+          "kind": "forecast",
+          "bytes": 5736
+        },
+        {
           "path": "stations/ZUUU/meta.json",
           "name": "meta.json",
           "kind": "meta",
@@ -4313,7 +4691,7 @@
           "path": "stations/ZUUU/observed/2026-09-08.csv",
           "name": "2026-09-08.csv",
           "kind": "observed",
-          "bytes": 965
+          "bytes": 1577
         }
       ]
     }
