@@ -1,0 +1,7 @@
+{
+  "stationId": "LFPB",
+  "cityName": "Paris",
+  "timeZone": "Europe/Paris",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=lfpb",
+  "sourceKind": "wrh"
+}

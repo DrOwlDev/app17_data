@@ -1,0 +1,7 @@
+{
+  "stationId": "ZHHH",
+  "cityName": "Wuhan",
+  "timeZone": "Asia/Shanghai",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=zhhh",
+  "sourceKind": "wrh"
+}

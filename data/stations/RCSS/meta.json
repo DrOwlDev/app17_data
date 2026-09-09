@@ -1,0 +1,8 @@
+{
+  "stationId": "RCSS",
+  "cityName": "Taipei",
+  "timeZone": "Asia/Taipei",
+  "resolutionUrl": "https://www.wunderground.com/history/daily/tw/taipei/RCSS",
+  "sourceKind": "wu",
+  "countryCode": "TW"
+}

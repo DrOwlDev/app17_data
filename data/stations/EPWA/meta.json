@@ -1,0 +1,7 @@
+{
+  "stationId": "EPWA",
+  "cityName": "Warsaw",
+  "timeZone": "Europe/Warsaw",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=epwa",
+  "sourceKind": "wrh"
+}

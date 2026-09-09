@@ -1,0 +1,7 @@
+{
+  "stationId": "NZWN",
+  "cityName": "Wellington",
+  "timeZone": "Pacific/Auckland",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=nzwn",
+  "sourceKind": "wrh"
+}

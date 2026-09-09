@@ -1,0 +1,7 @@
+{
+  "stationId": "CYYZ",
+  "cityName": "Toronto",
+  "timeZone": "America/Toronto",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=cyyz",
+  "sourceKind": "wrh"
+}

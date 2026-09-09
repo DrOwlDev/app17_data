@@ -1,0 +1,7 @@
+{
+  "stationId": "RPLL",
+  "cityName": "Manila",
+  "timeZone": "Asia/Manila",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=rpll",
+  "sourceKind": "wrh"
+}

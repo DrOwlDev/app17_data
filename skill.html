@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Temperature Archive — Polymarket forecast skill</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="brand">app17_data · Temperature Archive</div>
+    <nav class="nav">
+      <a href="index.html">Files</a>
+      <a class="active" href="skill.html">Forecast skill</a>
+      <a
+        class="btn-run"
+        href="https://github.com/DrOwlDev/app17_data/actions/workflows/collect-archive.yml"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Open the GitHub Actions collect-archive workflow so you can Run workflow and refresh station data."
+      >Run data job</a>
+    </nav>
+  </header>
+  <main>
+    <h1 title="Skill metrics for Polymarket Low/High daily temperature markets: how early forecast extremes are trustworthy.">Polymarket edge: how early is the forecast good?</h1>
+    <p class="lede">
+      Markets settle on resolution-source <strong title="Low markets settle on the day’s observed minimum temperature from the resolution source.">daily min (Low)</strong> or <strong title="High markets settle on the day’s observed maximum temperature from the resolution source.">daily max (High)</strong>.
+      Hourly forecasts are paired within ±30 minutes.
+      <strong title="A forecast hour counts as a hit when |forecast − observed| ≤ 0.4°C at the matched valid time.">Hit</strong> = |forecast − observed| ≤ <strong>0.4°C</strong>.
+      <strong title="L is hourly time-to-skill; Lmin / Lmax are the same idea for forecast day min / max vs observed extremes. Smaller means you can trust Yes/No earlier.">L / L<sub>min</sub> / L<sub>max</sub></strong> = hours-before where forecasts stay good enough
+      (hit ≥ 80% or MAE ≤ 0.4°C) — smaller is better for earlier Polymarket entries.
+      Also: 14-day extrema timing (min before 6am vs after 6pm) and lock-hour histograms.
+      Tip: HKO settlement Absolute can differ from the live hkoc curve — don’t treat chart as settlement for HK.
+    </p>
+
+    <div class="controls">
+      <label class="tip" title="Pick a chartable archive station. Summary row click also selects it.">Station
+        <select id="station"></select>
+      </label>
+      <label class="tip" title="A past valid local time that has several forecast snapshots. Chart shows how forecasts evolved toward that hour vs the observed temperature (±0.4°C band).">Evolution target
+        <select id="target"></select>
+      </label>
+    </div>
+    <div id="status"></div>
+
+    <div class="stat-row" id="stats"></div>
+
+    <div class="grid two">
+      <section class="card">
+        <h2 class="tip" title="Mean absolute error (MAE) and hit rate of hourly forecasts at each lead hour before valid time. Orange dashed line marks L (hourly time-to-skill) when available.">Hourly skill vs lead time</h2>
+        <div class="chart-wrap"><canvas id="skillChart"></canvas></div>
+      </section>
+      <section class="card">
+        <h2 class="tip" title="For one target valid time: each point is a forecast snapshot issued earlier. Solid line = forecast; dashed = observed; green band = ±0.4°C hit window.">Target-time forecast evolution</h2>
+        <p id="evoCaption" class="muted"></p>
+        <div class="chart-wrap"><canvas id="evoChart"></canvas></div>
+      </section>
+    </div>
+
+    <div class="grid two" style="margin-top:1rem">
+      <section class="card">
+        <h2 class="tip" title="For each forecast snapshot issued before local end-of-day: compute that day’s forecast min and max from the hourly series, compare to observed day min/max. X-axis is hours before local midnight EOD. Hit = |fc − obs| ≤ 0.4°C.">Daily extreme skill vs lead (before EOD)</h2>
+        <p class="muted">Forecast day min/max from each snapshot vs observed day extremes.</p>
+        <div class="chart-wrap"><canvas id="extremeChart"></canvas></div>
+      </section>
+      <section class="card">
+        <h2 class="tip" title="Last up to 14 complete local days of observed data. Bars: hour when the daily min/max first occurred, and lock hour (last hour a new extreme was set). Useful for when Low/High outcomes tend to lock.">14-day extrema timing (local hour)</h2>
+        <p id="timingCaption" class="muted"></p>
+        <div class="chart-wrap"><canvas id="timingChart"></canvas></div>
+      </section>
+    </div>
+
+    <section class="card" style="margin-top:1rem">
+      <h2 class="tip" title="One row per station with archive skill. Hover each column header for definitions. Click a station id to open its charts above.">All stations summary</h2>
+      <div style="overflow:auto">
+        <table>
+          <thead>
+            <tr>
+              <th title="Archive station id (WRH site, ICAO, or HKO). Click to load charts for this station.">Station</th>
+              <th title="City name parsed from the Polymarket temperature market title.">City</th>
+              <th title="Number of forecast↔observed hour pairs matched within ±30 minutes used for hourly skill.">Pairs</th>
+              <th title="Share of hourly pairs with lead ≈ 6 hours where |forecast − observed| ≤ 0.4°C.">Hit@6h</th>
+              <th title="Hourly time-to-skill L: earliest lead (hours before valid time) where skill for all shorter leads stays good (hit ≥ 80% or MAE ≤ 0.4°C). Smaller is better.">L</th>
+              <th title="Lmin: same as L but for forecast daily minimum vs observed daily minimum, with lead measured in hours before local EOD. Prefer small Lmin for Low markets.">L<sub>min</sub></th>
+              <th title="Lmax: same as L but for forecast daily maximum vs observed daily maximum, hours before local EOD. Prefer small Lmax for High markets.">L<sub>max</sub></th>
+              <th title="Share of forecast snapshots where |forecast day min − observed day min| ≤ 0.4°C (any lead before EOD).">Min hit</th>
+              <th title="Share of forecast snapshots where |forecast day max − observed day max| ≤ 0.4°C (any lead before EOD).">Max hit</th>
+              <th title="In the last ≤14 complete observed days: count of days whose first daily minimum occurred before 06:00 local.">Min&lt;6am</th>
+              <th title="In the last ≤14 complete observed days: count of days whose first daily minimum occurred at or after 18:00 local.">Min&gt;6pm</th>
+              <th title="Share of the last ≤14 days where the first daily maximum fell in the afternoon (12:00–17:59 local).">Max PM share</th>
+              <th title="Most common forecast API/source among paired hourly rows for this station (e.g. api.weather.gov, Open-Meteo, HKO OCF).">Source</th>
+            </tr>
+          </thead>
+          <tbody id="summaryBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <script src="js/skill.js"></script>
+</body>
+</html>

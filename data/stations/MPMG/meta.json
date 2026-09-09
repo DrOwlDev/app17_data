@@ -1,0 +1,7 @@
+{
+  "stationId": "MPMG",
+  "cityName": "Panama City",
+  "timeZone": "America/Panama",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=mpmg",
+  "sourceKind": "wrh"
+}

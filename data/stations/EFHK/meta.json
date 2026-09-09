@@ -1,0 +1,7 @@
+{
+  "stationId": "EFHK",
+  "cityName": "Helsinki",
+  "timeZone": "Europe/Helsinki",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=efhk",
+  "sourceKind": "wrh"
+}

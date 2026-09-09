@@ -1,0 +1,7 @@
+{
+  "stationId": "ZSPD",
+  "cityName": "Shanghai",
+  "timeZone": "Asia/Shanghai",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=zspd",
+  "sourceKind": "wrh"
+}

@@ -1,0 +1,7 @@
+{
+  "stationId": "SBGR",
+  "cityName": "Sao Paulo",
+  "timeZone": "America/Sao_Paulo",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=sbgr",
+  "sourceKind": "wrh"
+}

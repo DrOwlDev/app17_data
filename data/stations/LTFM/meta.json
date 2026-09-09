@@ -1,0 +1,7 @@
+{
+  "stationId": "LTFM",
+  "cityName": "Istanbul",
+  "timeZone": "Europe/Istanbul",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=LTFM",
+  "sourceKind": "wrh"
+}

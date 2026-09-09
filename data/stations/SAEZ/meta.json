@@ -1,0 +1,7 @@
+{
+  "stationId": "SAEZ",
+  "cityName": "Buenos Aires",
+  "timeZone": "America/Argentina/Buenos_Aires",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=saez",
+  "sourceKind": "wrh"
+}

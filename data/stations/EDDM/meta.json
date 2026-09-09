@@ -1,0 +1,7 @@
+{
+  "stationId": "EDDM",
+  "cityName": "Munich",
+  "timeZone": "Europe/Berlin",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=eddm",
+  "sourceKind": "wrh"
+}

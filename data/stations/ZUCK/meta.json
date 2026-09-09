@@ -1,0 +1,7 @@
+{
+  "stationId": "ZUCK",
+  "cityName": "Chongqing",
+  "timeZone": "Asia/Shanghai",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=zuck",
+  "sourceKind": "wrh"
+}

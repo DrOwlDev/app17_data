@@ -1,0 +1,7 @@
+{
+  "stationId": "KMIA",
+  "cityName": "Miami",
+  "timeZone": "America/New_York",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=kmia",
+  "sourceKind": "wrh"
+}

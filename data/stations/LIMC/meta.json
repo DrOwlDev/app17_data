@@ -1,0 +1,7 @@
+{
+  "stationId": "LIMC",
+  "cityName": "Milan",
+  "timeZone": "Europe/Rome",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=limc",
+  "sourceKind": "wrh"
+}

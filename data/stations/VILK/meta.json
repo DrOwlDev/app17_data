@@ -1,0 +1,7 @@
+{
+  "stationId": "VILK",
+  "cityName": "Lucknow",
+  "timeZone": "Asia/Kolkata",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=vilk",
+  "sourceKind": "wrh"
+}

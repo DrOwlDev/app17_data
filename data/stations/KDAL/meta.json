@@ -1,0 +1,7 @@
+{
+  "stationId": "KDAL",
+  "cityName": "Dallas",
+  "timeZone": "America/Chicago",
+  "resolutionUrl": "https://www.weather.gov/wrh/timeseries?site=kdal",
+  "sourceKind": "wrh"
+}
