@@ -40,10 +40,10 @@ local_time,temp_c,data_source,collected_at_utc
 2026-09-07T19:00:00,16.0,https://www.weather.gov/wrh/timeseries?site=efhk,2026-09-09T00:27:07.278817Z
 2026-09-07T19:20:00,15.0,https://www.weather.gov/wrh/timeseries?site=efhk,2026-09-09T00:27:07.278817Z
 2026-09-07T20:00:00,16.0,https://www.weather.gov/wrh/timeseries?site=efhk,2026-09-09T00:27:07.278817Z
-2026-09-07T20:20:00,16.0,https://www.weather.gov/wrh/timeseries?site=efhk,2026-09-09T00:27:07.278817Z
-2026-09-07T21:00:00,16.0,https://www.weather.gov/wrh/timeseries?site=efhk,2026-09-09T00:27:07.278817Z
-2026-09-07T21:20:00,15.0,https://www.weather.gov/wrh/timeseries?site=efhk,2026-09-09T00:27:07.278817Z
-2026-09-07T22:00:00,15.0,https://www.weather.gov/wrh/timeseries?site=efhk,2026-09-09T00:27:07.278817Z
-2026-09-07T22:20:00,15.0,https://www.weather.gov/wrh/timeseries?site=efhk,2026-09-09T00:27:07.278817Z
-2026-09-07T23:00:00,14.0,https://www.weather.gov/wrh/timeseries?site=efhk,2026-09-09T00:27:07.278817Z
-2026-09-07T23:20:00,14.0,https://www.weather.gov/wrh/timeseries?site=efhk,2026-09-09T00:27:07.278817Z
+2026-09-07T20:20:00,16.0,https://www.weather.gov/wrh/timeseries?site=efhk,2026-09-09T05:03:29.455344Z
+2026-09-07T21:00:00,16.0,https://www.weather.gov/wrh/timeseries?site=efhk,2026-09-09T05:03:29.455344Z
+2026-09-07T21:20:00,15.0,https://www.weather.gov/wrh/timeseries?site=efhk,2026-09-09T05:03:29.455344Z
+2026-09-07T22:00:00,15.0,https://www.weather.gov/wrh/timeseries?site=efhk,2026-09-09T05:03:29.455344Z
+2026-09-07T22:20:00,15.0,https://www.weather.gov/wrh/timeseries?site=efhk,2026-09-09T05:03:29.455344Z
+2026-09-07T23:00:00,14.0,https://www.weather.gov/wrh/timeseries?site=efhk,2026-09-09T05:03:29.455344Z
+2026-09-07T23:20:00,14.0,https://www.weather.gov/wrh/timeseries?site=efhk,2026-09-09T05:03:29.455344Z
